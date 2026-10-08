@@ -1,0 +1,4 @@
+interface:
+  display_name: "Shotloom AI Director"
+  short_description: "Portable direction, review and iteration for AI production"
+  default_prompt: "Use $shotloom to continue the requested production task with my approved directing method, preserve creative locks, and state any unavailable evidence or tools."

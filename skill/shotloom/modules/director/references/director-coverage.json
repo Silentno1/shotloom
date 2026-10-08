@@ -1,0 +1,3242 @@
+{
+  "schema_version": 1,
+  "revision": "director-contract-20261003",
+  "purpose": "题材与叙事机制的研究路线，不是导演排名或生产授权；查到候选不表示已核其全部方法。",
+  "selection_policy": {
+    "automatic_selection": false,
+    "automatic_style_lock": false,
+    "ranked": false,
+    "medium_independent": true,
+    "source": "导演来源与方法假设见具体档案；旧档案的证据等级不因被题材引用而升级。"
+  },
+  "topics": [
+    {
+      "id": "romance",
+      "label": "爱情与亲密关系",
+      "aliases": [
+        "言情",
+        "爱情",
+        "恋爱",
+        "romance"
+      ],
+      "decision": "关系靠什么变化：互动喜感、亲近的细节，还是欲望与责任冲突？",
+      "branches": [
+        {
+          "id": "light",
+          "label": "轻甜/浪漫喜剧",
+          "aliases": [
+            "甜宠",
+            "轻甜",
+            "浪漫喜剧",
+            "爱情喜剧",
+            "romcom"
+          ],
+          "options": [
+            {
+              "profile_id": "nora-ephron",
+              "why": "对白、误解与回应推动双方接近。",
+              "method_cards": [
+                "nora-ephron-method-1"
+              ],
+              "reference_boundary": "这些方法卡只证明卡内 source_fact；本路线拍法是可比较的创作迁移，不证明该导演精通本分支全部题材。"
+            },
+            {
+              "profile_id": "nancy-meyers",
+              "why": "生活共处和成熟人物边界转变。",
+              "method_cards": [
+                "nancy-meyers-method-1"
+              ],
+              "reference_boundary": "这些方法卡只证明卡内 source_fact；本路线拍法是可比较的创作迁移，不证明该导演精通本分支全部题材。"
+            },
+            {
+              "profile_id": "naoko-yamada",
+              "why": "细小身体行动呈现试探，不强塞笑点。",
+              "method_cards": [
+                "naoko-yamada-method-1"
+              ],
+              "reference_boundary": "这些方法卡只证明卡内 source_fact；本路线拍法是可比较的创作迁移，不证明该导演精通本分支全部题材。"
+            }
+          ],
+          "limits": "甜度来自具体互惠行动；不能以强迫、羞辱或单方失去能动性默认代表甜。",
+          "execution_facets": [
+            {
+              "id": "light-facet-1",
+              "term": "轻甜",
+              "decision": "亲近是否通过主动回应增长",
+              "execute": "可选方法示例（不是必须执行的镜头链）：共享小任务中展示主动靠近、回应与边界；不以幼态撒娇代替关系。",
+              "basis": "authored_production_design_not_director_quote",
+              "acceptance": "适用时，对照本片已批准的观众体验、故事事实和可观察关系验收；不以复现本卡示例判通过，未采用该选项不构成缺陷。",
+              "role": "conditional_method_option",
+              "when": "仅当已批准的本场内容确实涉及「亲近是否通过主动回应增长」时；题材标签本身不激活这项方法。",
+              "countercase": "若本场不存在上述处境，或已有另一种有效表达，跳过此选项；不得新增事件、人物、冲突或固定镜头来凑本卡。"
+            },
+            {
+              "id": "light-facet-2",
+              "term": "浪漫喜剧",
+              "decision": "误会是否改变双方行动",
+              "execute": "可选方法示例（不是必须执行的镜头链）：铺垫误读、现场回应和纠正的后果；笑点不抹掉严重伤害。",
+              "basis": "authored_production_design_not_director_quote",
+              "acceptance": "适用时，对照本片已批准的观众体验、故事事实和可观察关系验收；不以复现本卡示例判通过，未采用该选项不构成缺陷。",
+              "role": "conditional_method_option",
+              "when": "仅当已批准的本场内容确实涉及「误会是否改变双方行动」时；题材标签本身不激活这项方法。",
+              "countercase": "若本场不存在上述处境，或已有另一种有效表达，跳过此选项；不得新增事件、人物、冲突或固定镜头来凑本卡。"
+            }
+          ]
+        },
+        {
+          "id": "youth-love",
+          "label": "青春暗恋",
+          "aliases": [
+            "暗恋",
+            "青春爱情",
+            "青春恋爱"
+          ],
+          "options": [
+            {
+              "profile_id": "naoko-yamada",
+              "why": "研究身体试探与接近/回避。",
+              "method_cards": [
+                "naoko-yamada-method-1"
+              ],
+              "reference_boundary": "这些方法卡只证明卡内 source_fact；本路线拍法是可比较的创作迁移，不证明该导演精通本分支全部题材。"
+            },
+            {
+              "profile_id": "makoto-shinkai",
+              "why": "距离、错过与相遇条件形成阻力。",
+              "method_cards": [
+                "makoto-shinkai-method-1"
+              ],
+              "reference_boundary": "这些方法卡只证明卡内 source_fact；本路线拍法是可比较的创作迁移，不证明该导演精通本分支全部题材。"
+            }
+          ],
+          "limits": "具体作品/段落和本剧适配仍须核实；此处只是候选研究路线。",
+          "execution_facets": [
+            {
+              "id": "youth-love-facet-1",
+              "term": "青春恋爱",
+              "decision": "同伴压力如何影响表达",
+              "execute": "可让目光先检查已有旁人，再看向对方，并按对方实际回应调整；没有旁人时可用接近距离、停顿或任务回应表达试探。",
+              "basis": "authored_production_design_not_director_quote",
+              "acceptance": "适用时，对照本片已批准的观众体验、故事事实和可观察关系验收；不以复现本卡示例判通过，未采用该选项不构成缺陷。",
+              "role": "conditional_method_option",
+              "when": "剧本已建立同伴在场及表达顾虑，且本场需要表现这项压力时。",
+              "countercase": "私下直白表达、没有同伴压力或主动大胆接近都可成立；不新增围观者或强加害羞。"
+            }
+          ]
+        },
+        {
+          "id": "adult",
+          "label": "成年关系/婚姻",
+          "aliases": [
+            "成熟爱情",
+            "婚姻",
+            "婚恋",
+            "婚姻关系"
+          ],
+          "options": [
+            {
+              "profile_id": "richard-linklater",
+              "why": "对话中立场和时间经验的改变。",
+              "method_cards": [
+                "richard-linklater-method-1"
+              ],
+              "reference_boundary": "这些方法卡只证明卡内 source_fact；本路线拍法是可比较的创作迁移，不证明该导演精通本分支全部题材。"
+            },
+            {
+              "profile_id": "ang-lee",
+              "why": "欲望与礼法、家庭义务相冲突。",
+              "method_cards": [
+                "ang-lee-method-1"
+              ],
+              "reference_boundary": "这些方法卡只证明卡内 source_fact；本路线拍法是可比较的创作迁移，不证明该导演精通本分支全部题材。"
+            },
+            {
+              "profile_id": "asghar-farhadi",
+              "why": "关系中的信息差与道德困境。",
+              "method_cards": [
+                "asghar-farhadi-method-1"
+              ],
+              "reference_boundary": "这些方法卡只证明卡内 source_fact；本路线拍法是可比较的创作迁移，不证明该导演精通本分支全部题材。"
+            }
+          ],
+          "limits": "具体作品/段落和本剧适配仍须核实；此处只是候选研究路线。",
+          "execution_facets": [
+            {
+              "id": "adult-facet-1",
+              "term": "成熟爱情",
+              "decision": "欲望与既有生活如何冲突",
+              "execute": "可选方法示例（不是必须执行的镜头链）：保留工作、家庭或独处边界，关系推进表现为具体让步。",
+              "basis": "authored_production_design_not_director_quote",
+              "acceptance": "适用时，对照本片已批准的观众体验、故事事实和可观察关系验收；不以复现本卡示例判通过，未采用该选项不构成缺陷。",
+              "role": "conditional_method_option",
+              "when": "仅当已批准的本场内容确实涉及「欲望与既有生活如何冲突」时；题材标签本身不激活这项方法。",
+              "countercase": "若本场不存在上述处境，或已有另一种有效表达，跳过此选项；不得新增事件、人物、冲突或固定镜头来凑本卡。"
+            },
+            {
+              "id": "adult-facet-2",
+              "term": "婚姻关系",
+              "decision": "旧有分工是否正在改变",
+              "execute": "可通过已有家务、经济或照护协商呈现分工与责任；其他婚姻场景从其实际亲密、失落、合作或选择设计。",
+              "basis": "authored_production_design_not_director_quote",
+              "acceptance": "适用时，对照本片已批准的观众体验、故事事实和可观察关系验收；不以复现本卡示例判通过，未采用该选项不构成缺陷。",
+              "role": "conditional_method_option",
+              "when": "本场已存在分工或资源不平等，且它是当前关系冲突时。",
+              "countercase": "平等合作、共同悲伤、重逢或没有分工矛盾的婚姻戏不需要制造不平等，也可呈现重新发现彼此。"
+            }
+          ]
+        },
+        {
+          "id": "intimate",
+          "label": "克制/平等亲密",
+          "aliases": [
+            "细腻爱情",
+            "女性爱情",
+            "克制亲密"
+          ],
+          "options": [
+            {
+              "profile_id": "celine-sciamma",
+              "why": "互相观察、回应与选择。",
+              "method_cards": [
+                "celine-sciamma-method-1"
+              ],
+              "reference_boundary": "这些方法卡只证明卡内 source_fact；本路线拍法是可比较的创作迁移，不证明该导演精通本分支全部题材。"
+            },
+            {
+              "profile_id": "ang-lee",
+              "why": "未说出的欲望通过行为泄露。",
+              "method_cards": [
+                "ang-lee-method-1"
+              ],
+              "reference_boundary": "这些方法卡只证明卡内 source_fact；本路线拍法是可比较的创作迁移，不证明该导演精通本分支全部题材。"
+            }
+          ],
+          "limits": "具体作品/段落和本剧适配仍须核实；此处只是候选研究路线。",
+          "execution_facets": [
+            {
+              "id": "intimate-facet-1",
+              "term": "克制亲密",
+              "decision": "双方能否主动观看和回应",
+              "execute": "可选方法示例（不是必须执行的镜头链）：让观察、允许接近、退开和回应相互发生；克制不等于静止凝视。",
+              "basis": "authored_production_design_not_director_quote",
+              "acceptance": "适用时，对照本片已批准的观众体验、故事事实和可观察关系验收；不以复现本卡示例判通过，未采用该选项不构成缺陷。",
+              "role": "conditional_method_option",
+              "when": "仅当已批准的本场内容确实涉及「双方能否主动观看和回应」时；题材标签本身不激活这项方法。",
+              "countercase": "若本场不存在上述处境，或已有另一种有效表达，跳过此选项；不得新增事件、人物、冲突或固定镜头来凑本卡。"
+            }
+          ]
+        },
+        {
+          "id": "tragic",
+          "label": "悲恋/情感悬疑",
+          "aliases": [
+            "虐恋",
+            "悲恋",
+            "爱情悬疑"
+          ],
+          "options": [
+            {
+              "profile_id": "wong-karwai",
+              "why": "研究错过、记忆和主观时间。",
+              "method_cards": [
+                "wong-karwai-method-1"
+              ],
+              "reference_boundary": "这些方法卡只证明卡内 source_fact；本路线拍法是可比较的创作迁移，不证明该导演精通本分支全部题材。"
+            },
+            {
+              "profile_id": "park-chanwook",
+              "why": "研究欲望、怀疑与信息控制。",
+              "method_cards": [
+                "park-chanwook-method-1"
+              ],
+              "reference_boundary": "这些方法卡只证明卡内 source_fact；本路线拍法是可比较的创作迁移，不证明该导演精通本分支全部题材。"
+            }
+          ],
+          "limits": "悲剧与悬疑不能自动绑在一起；也不能把虐待浪漫化或用风格掩盖因果。",
+          "execution_facets": [
+            {
+              "id": "tragic-facet-1",
+              "term": "虐恋",
+              "decision": "伤害与依恋是否各有代价",
+              "execute": "可选方法示例（不是必须执行的镜头链）：靠近和回避皆有触发，痛苦后行为改变；不靠连续哭泣证明深情。",
+              "basis": "authored_production_design_not_director_quote",
+              "acceptance": "适用时，对照本片已批准的观众体验、故事事实和可观察关系验收；不以复现本卡示例判通过，未采用该选项不构成缺陷。",
+              "role": "conditional_method_option",
+              "when": "仅当已批准的本场内容确实涉及「伤害与依恋是否各有代价」时；题材标签本身不激活这项方法。",
+              "countercase": "若本场不存在上述处境，或已有另一种有效表达，跳过此选项；不得新增事件、人物、冲突或固定镜头来凑本卡。"
+            },
+            {
+              "id": "tragic-facet-2",
+              "term": "爱情悬疑",
+              "decision": "亲密是否改变证据可信度",
+              "execute": "可选方法示例（不是必须执行的镜头链）：同一线索分别改变信任和推断，观众信息权限可追踪；不是两条无关支线。",
+              "basis": "authored_production_design_not_director_quote",
+              "acceptance": "适用时，对照本片已批准的观众体验、故事事实和可观察关系验收；不以复现本卡示例判通过，未采用该选项不构成缺陷。",
+              "role": "conditional_method_option",
+              "when": "仅当已批准的本场内容确实涉及「亲密是否改变证据可信度」时；题材标签本身不激活这项方法。",
+              "countercase": "若本场不存在上述处境，或已有另一种有效表达，跳过此选项；不得新增事件、人物、冲突或固定镜头来凑本卡。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "youth",
+      "label": "青春成长与群像",
+      "aliases": [
+        "青春",
+        "成长",
+        "校园",
+        "友情",
+        "youth"
+      ],
+      "decision": "成长发生在家庭、同伴还是自我认识？要观察过程还是集中一个转折？",
+      "branches": [
+        {
+          "id": "family-growth",
+          "label": "家庭中的成长",
+          "aliases": [
+            "亲子成长",
+            "母女",
+            "代际冲突"
+          ],
+          "options": [
+            {
+              "profile_id": "greta-gerwig",
+              "why": "复杂母女关系和自我形象冲突。",
+              "method_cards": [
+                "greta-gerwig-method-1"
+              ],
+              "reference_boundary": "这些方法卡只证明卡内 source_fact；本路线拍法是可比较的创作迁移，不证明该导演精通本分支全部题材。"
+            },
+            {
+              "profile_id": "richard-linklater",
+              "why": "生活时间积累与行为变化。",
+              "method_cards": [
+                "richard-linklater-method-1"
+              ],
+              "reference_boundary": "这些方法卡只证明卡内 source_fact；本路线拍法是可比较的创作迁移，不证明该导演精通本分支全部题材。"
+            }
+          ],
+          "limits": "具体作品/段落和本剧适配仍须核实；此处只是候选研究路线。",
+          "execution_facets": [
+            {
+              "id": "family-growth-facet-1",
+              "term": "代际冲突",
+              "decision": "价值差异怎样进入日常行动",
+              "execute": "可选方法示例（不是必须执行的镜头链）：双方为同一件事争取不同结果，保留各自理由；不把长辈写成障碍道具。",
+              "basis": "authored_production_design_not_director_quote",
+              "acceptance": "适用时，对照本片已批准的观众体验、故事事实和可观察关系验收；不以复现本卡示例判通过，未采用该选项不构成缺陷。",
+              "role": "conditional_method_option",
+              "when": "仅当已批准的本场内容确实涉及「价值差异怎样进入日常行动」时；题材标签本身不激活这项方法。",
+              "countercase": "若本场不存在上述处境，或已有另一种有效表达，跳过此选项；不得新增事件、人物、冲突或固定镜头来凑本卡。"
+            }
+          ]
+        },
+        {
+          "id": "peer",
+          "label": "校园/友情/群像",
+          "aliases": [
+            "校园群像",
+            "青春群像",
+            "同伴",
+            "校园",
+            "友情"
+          ],
+          "options": [
+            {
+              "profile_id": "naoko-yamada",
+              "why": "接近、疏离与人物能动性。",
+              "method_cards": [
+                "naoko-yamada-method-1"
+              ],
+              "reference_boundary": "这些方法卡只证明卡内 source_fact；本路线拍法是可比较的创作迁移，不证明该导演精通本分支全部题材。"
+            },
+            {
+              "profile_id": "edward-yang",
+              "why": "研究家庭、同伴与社会多线联系。",
+              "method_cards": [
+                "edward-yang-method-1"
+              ],
+              "reference_boundary": "这些方法卡只证明卡内 source_fact；本路线拍法是可比较的创作迁移，不证明该导演精通本分支全部题材。"
+            }
+          ],
+          "limits": "具体作品/段落和本剧适配仍须核实；此处只是候选研究路线。",
+          "execution_facets": [
+            {
+              "id": "peer-facet-1",
+              "term": "校园",
+              "decision": "规则如何限制当事人的选择",
+              "execute": "可选方法示例（不是必须执行的镜头链）：课堂、走廊与同伴空间有不同表达权限；不只校服加空景。",
+              "basis": "authored_production_design_not_director_quote",
+              "acceptance": "适用时，对照本片已批准的观众体验、故事事实和可观察关系验收；不以复现本卡示例判通过，未采用该选项不构成缺陷。",
+              "role": "conditional_method_option",
+              "when": "仅当已批准的本场内容确实涉及「规则如何限制当事人的选择」时；题材标签本身不激活这项方法。",
+              "countercase": "若本场不存在上述处境，或已有另一种有效表达，跳过此选项；不得新增事件、人物、冲突或固定镜头来凑本卡。"
+            },
+            {
+              "id": "peer-facet-2",
+              "term": "友情",
+              "decision": "互助是否伴随立场差异",
+              "execute": "可选方法示例（不是必须执行的镜头链）：共享任务中展示支持、拒绝与修复，让伙伴具有独立目标。",
+              "basis": "authored_production_design_not_director_quote",
+              "acceptance": "适用时，对照本片已批准的观众体验、故事事实和可观察关系验收；不以复现本卡示例判通过，未采用该选项不构成缺陷。",
+              "role": "conditional_method_option",
+              "when": "仅当已批准的本场内容确实涉及「互助是否伴随立场差异」时；题材标签本身不激活这项方法。",
+              "countercase": "若本场不存在上述处境，或已有另一种有效表达，跳过此选项；不得新增事件、人物、冲突或固定镜头来凑本卡。"
+            },
+            {
+              "id": "peer-facet-3",
+              "term": "青春群像",
+              "decision": "不同成长线是否相互作用",
+              "execute": "可选方法示例（不是必须执行的镜头链）：每个角色的决定改变至少另一人的处境；不轮流展示青春表情。",
+              "basis": "authored_production_design_not_director_quote",
+              "acceptance": "适用时，对照本片已批准的观众体验、故事事实和可观察关系验收；不以复现本卡示例判通过，未采用该选项不构成缺陷。",
+              "role": "conditional_method_option",
+              "when": "仅当已批准的本场内容确实涉及「不同成长线是否相互作用」时；题材标签本身不激活这项方法。",
+              "countercase": "若本场不存在上述处境，或已有另一种有效表达，跳过此选项；不得新增事件、人物、冲突或固定镜头来凑本卡。"
+            }
+          ]
+        },
+        {
+          "id": "departure",
+          "label": "毕业与离开",
+          "aliases": [
+            "毕业",
+            "成人礼",
+            "个人成长"
+          ],
+          "options": [
+            {
+              "profile_id": "greta-gerwig",
+              "why": "想离开又依恋的矛盾行动。",
+              "method_cards": [
+                "greta-gerwig-method-1"
+              ],
+              "reference_boundary": "这些方法卡只证明卡内 source_fact；本路线拍法是可比较的创作迁移，不证明该导演精通本分支全部题材。"
+            },
+            {
+              "profile_id": "makoto-shinkai",
+              "why": "距离与记忆的重新理解。",
+              "method_cards": [
+                "makoto-shinkai-method-1"
+              ],
+              "reference_boundary": "这些方法卡只证明卡内 source_fact；本路线拍法是可比较的创作迁移，不证明该导演精通本分支全部题材。"
+            }
+          ],
+          "limits": "具体作品/段落和本剧适配仍须核实；此处只是候选研究路线。",
+          "execution_facets": [
+            {
+              "id": "departure-facet-1",
+              "term": "个人成长",
+              "decision": "能力或判断发生什么可见变化",
+              "execute": "可对照相似处境中的不同选择，也可通过一次新决定、关系回应、失败后的认识或经批准的叙述体现变化。",
+              "basis": "authored_production_design_not_director_quote",
+              "acceptance": "适用时，对照本片已批准的观众体验、故事事实和可观察关系验收；不以复现本卡示例判通过，未采用该选项不构成缺陷。",
+              "role": "conditional_method_option",
+              "when": "本片需要让观众感知人物能力、判断或自我理解的变化时。",
+              "countercase": "不必重复同一道难题；渐变、退步、未完成的成长和开放结尾均按本片目标判断。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "family-life",
+      "label": "家庭与生活现实",
+      "aliases": [
+        "家庭",
+        "生活流",
+        "乡土",
+        "年代",
+        "family"
+      ],
+      "decision": "戏来自日常关系变化还是时代/社会压力？勿把生活流当无事件。",
+      "branches": [
+        {
+          "id": "domestic",
+          "label": "家庭日常",
+          "aliases": [
+            "家庭伦理",
+            "日常生活",
+            "亲子"
+          ],
+          "options": [
+            {
+              "profile_id": "hirokazu-koreeda",
+              "why": "研究共处行为与家庭角色。",
+              "method_cards": [
+                "hirokazu-koreeda-method-1"
+              ],
+              "reference_boundary": "这些方法卡只证明卡内 source_fact；本路线拍法是可比较的创作迁移，不证明该导演精通本分支全部题材。"
+            },
+            {
+              "profile_id": "yasujiro-ozu",
+              "why": "研究家庭空间与代际关系。",
+              "method_cards": [
+                "yasujiro-ozu-method-1"
+              ],
+              "reference_boundary": "这些方法卡只证明卡内 source_fact；本路线拍法是可比较的创作迁移，不证明该导演精通本分支全部题材。"
+            },
+            {
+              "profile_id": "ang-lee",
+              "why": "餐桌等共同活动中的隐性冲突。",
+              "method_cards": [
+                "ang-lee-method-1"
+              ],
+              "reference_boundary": "这些方法卡只证明卡内 source_fact；本路线拍法是可比较的创作迁移，不证明该导演精通本分支全部题材。"
+            }
+          ],
+          "limits": "具体作品/段落和本剧适配仍须核实；此处只是候选研究路线。",
+          "execution_facets": [
+            {
+              "id": "domestic-facet-1",
+              "term": "家庭伦理",
+              "decision": "责任与自主权如何冲突",
+              "execute": "可选方法示例（不是必须执行的镜头链）：同框呈现提出要求与承受要求者，后果在后场延续；不由配乐判善恶。",
+              "basis": "authored_production_design_not_director_quote",
+              "acceptance": "适用时，对照本片已批准的观众体验、故事事实和可观察关系验收；不以复现本卡示例判通过，未采用该选项不构成缺陷。",
+              "role": "conditional_method_option",
+              "when": "仅当已批准的本场内容确实涉及「责任与自主权如何冲突」时；题材标签本身不激活这项方法。",
+              "countercase": "若本场不存在上述处境，或已有另一种有效表达，跳过此选项；不得新增事件、人物、冲突或固定镜头来凑本卡。"
+            },
+            {
+              "id": "domestic-facet-2",
+              "term": "亲子",
+              "decision": "照护与控制如何区分",
+              "execute": "可选方法示例（不是必须执行的镜头链）：允许孩子回应或拒绝，父母行为根据回应调整；不只拍牺牲独白。",
+              "basis": "authored_production_design_not_director_quote",
+              "acceptance": "适用时，对照本片已批准的观众体验、故事事实和可观察关系验收；不以复现本卡示例判通过，未采用该选项不构成缺陷。",
+              "role": "conditional_method_option",
+              "when": "仅当已批准的本场内容确实涉及「照护与控制如何区分」时；题材标签本身不激活这项方法。",
+              "countercase": "若本场不存在上述处境，或已有另一种有效表达，跳过此选项；不得新增事件、人物、冲突或固定镜头来凑本卡。"
+            }
+          ]
+        },
+        {
+          "id": "period",
+          "label": "年代生活/长期关系",
+          "aliases": [
+            "年代生活",
+            "家庭年代"
+          ],
+          "options": [
+            {
+              "profile_id": "kong-sheng",
+              "why": "可研究长线群像；《父母爱情》等需另核来源与片段。",
+              "method_cards": [
+                "kong-sheng-method-1",
+                "kong-sheng-method-2"
+              ],
+              "reference_boundary": "这些方法卡只证明卡内 source_fact；本路线拍法是可比较的创作迁移，不证明该导演精通本分支全部题材。"
+            },
+            {
+              "profile_id": "xin-shuang",
+              "why": "具体年代的人物行为与后果，非年代符号堆砌。",
+              "method_cards": [
+                "xin-shuang-method-1"
+              ],
+              "reference_boundary": "这些方法卡只证明卡内 source_fact；本路线拍法是可比较的创作迁移，不证明该导演精通本分支全部题材。"
+            },
+            {
+              "profile_id": "terrence-malick",
+              "why": "研究家庭记忆与主观时间的抒情路线；并非所有年代戏都适合低事件密度。",
+              "method_cards": [
+                "terrence-malick-method-1"
+              ],
+              "reference_boundary": "这些方法卡只证明卡内 source_fact；本路线拍法是可比较的创作迁移，不证明该导演精通本分支全部题材。"
+            }
+          ],
+          "limits": "具体作品/段落和本剧适配仍须核实；此处只是候选研究路线。",
+          "execution_facets": [
+            {
+              "id": "period-facet-1",
+              "term": "年代生活",
+              "decision": "时间变迁如何改变家庭实践",
+              "execute": "可选方法示例（不是必须执行的镜头链）：同一物件或日常任务跨时期发生用途变化；时代标志不能代替关系演变。",
+              "basis": "authored_production_design_not_director_quote",
+              "acceptance": "适用时，对照本片已批准的观众体验、故事事实和可观察关系验收；不以复现本卡示例判通过，未采用该选项不构成缺陷。",
+              "role": "conditional_method_option",
+              "when": "仅当已批准的本场内容确实涉及「时间变迁如何改变家庭实践」时；题材标签本身不激活这项方法。",
+              "countercase": "若本场不存在上述处境，或已有另一种有效表达，跳过此选项；不得新增事件、人物、冲突或固定镜头来凑本卡。"
+            }
+          ]
+        },
+        {
+          "id": "rural",
+          "label": "乡土与社会变迁",
+          "aliases": [
+            "乡村",
+            "农村",
+            "乡土现实",
+            "乡土"
+          ],
+          "options": [
+            {
+              "profile_id": "kong-sheng",
+              "why": "乡土群像方向的研究入口，相关剧与联合署名需补核。",
+              "method_cards": [
+                "kong-sheng-method-1",
+                "kong-sheng-method-2"
+              ],
+              "reference_boundary": "这些方法卡只证明卡内 source_fact；本路线拍法是可比较的创作迁移，不证明该导演精通本分支全部题材。"
+            },
+            {
+              "profile_id": "lee-changdong",
+              "why": "研究个体生活与社会挤压。",
+              "method_cards": [
+                "lee-changdong-method-1"
+              ],
+              "reference_boundary": "这些方法卡只证明卡内 source_fact；本路线拍法是可比较的创作迁移，不证明该导演精通本分支全部题材。"
+            }
+          ],
+          "limits": "不是把城市戏换农村布景；地域语言、劳动与制度另查，候选路线不代表已有充分乡土专项证据。",
+          "execution_facets": [
+            {
+              "id": "rural-facet-1",
+              "term": "乡土",
+              "decision": "地方生活规则如何形成关系",
+              "execute": "可选方法示例（不是必须执行的镜头链）：劳动、空间距离与语言差异进入行动；不靠方言或贫穷符号代替人。",
+              "basis": "authored_production_design_not_director_quote",
+              "acceptance": "适用时，对照本片已批准的观众体验、故事事实和可观察关系验收；不以复现本卡示例判通过，未采用该选项不构成缺陷。",
+              "role": "conditional_method_option",
+              "when": "仅当已批准的本场内容确实涉及「地方生活规则如何形成关系」时；题材标签本身不激活这项方法。",
+              "countercase": "若本场不存在上述处境，或已有另一种有效表达，跳过此选项；不得新增事件、人物、冲突或固定镜头来凑本卡。"
+            }
+          ]
+        },
+        {
+          "id": "elder-care",
+          "label": "养老/照护与自主权",
+          "aliases": [
+            "养老",
+            "养老照护",
+            "老年生活"
+          ],
+          "options": [
+            {
+              "profile_id": "michael-haneke",
+              "why": "《爱》照护动作、居所收缩与人物自主权。",
+              "method_cards": [
+                "michael-haneke-method-1"
+              ],
+              "reference_boundary": "这些方法卡只证明卡内 source_fact；本路线拍法是可比较的创作迁移，不证明该导演精通本分支全部题材。"
+            },
+            {
+              "profile_id": "yasujiro-ozu",
+              "why": "低机位与关系剪辑可迁移至代际相处；不是照护专业指南。",
+              "method_cards": [
+                "yasujiro-ozu-method-1"
+              ],
+              "reference_boundary": "这些方法卡只证明卡内 source_fact；本路线拍法是可比较的创作迁移，不证明该导演精通本分支全部题材。"
+            }
+          ],
+          "limits": "养老包括健康晚年、自主选择与照护；不能全部写成病痛或催泪。",
+          "execution_facets": [
+            {
+              "id": "elder-care-facet-1",
+              "term": "养老",
+              "decision": "老年人的自主权是否仍可见",
+              "execute": "可选方法示例（不是必须执行的镜头链）：健康生活、决策参与与照护需求分开；具体帮助先有征询和身体难度，不能只剩病床。",
+              "basis": "authored_production_design_not_director_quote",
+              "acceptance": "适用时，对照本片已批准的观众体验、故事事实和可观察关系验收；不以复现本卡示例判通过，未采用该选项不构成缺陷。",
+              "role": "conditional_method_option",
+              "when": "仅当已批准的本场内容确实涉及「老年人的自主权是否仍可见」时；题材标签本身不激活这项方法。",
+              "countercase": "若本场不存在上述处境，或已有另一种有效表达，跳过此选项；不得新增事件、人物、冲突或固定镜头来凑本卡。"
+            }
+          ]
+        },
+        {
+          "id": "urban",
+          "label": "都市生活/日常资源压力",
+          "aliases": [
+            "都市生活",
+            "都市日常"
+          ],
+          "options": [
+            {
+              "profile_id": "nancy-meyers",
+              "why": "成年人物的共处边界与关系行动。",
+              "method_cards": [
+                "nancy-meyers-method-1"
+              ],
+              "reference_boundary": "这些方法卡只证明卡内 source_fact；本路线拍法是可比较的创作迁移，不证明该导演精通本分支全部题材。"
+            },
+            {
+              "profile_id": "asghar-farhadi",
+              "why": "家庭局部信息与道德选择。",
+              "method_cards": [
+                "asghar-farhadi-method-1"
+              ],
+              "reference_boundary": "这些方法卡只证明卡内 source_fact；本路线拍法是可比较的创作迁移，不证明该导演精通本分支全部题材。"
+            }
+          ],
+          "limits": "都市不是滤镜或豪宅；生活成本、居住和劳动时间应真正限制人物选择。",
+          "execution_facets": [
+            {
+              "id": "urban-facet-1",
+              "term": "都市生活",
+              "decision": "生活资源是否真实约束人物",
+              "execute": "可选方法示例（不是必须执行的镜头链）：通勤、租住或劳动时间改变会面与决定；高级都市布景不是冲突。",
+              "basis": "authored_production_design_not_director_quote",
+              "acceptance": "适用时，对照本片已批准的观众体验、故事事实和可观察关系验收；不以复现本卡示例判通过，未采用该选项不构成缺陷。",
+              "role": "conditional_method_option",
+              "when": "仅当已批准的本场内容确实涉及「生活资源是否真实约束人物」时；题材标签本身不激活这项方法。",
+              "countercase": "若本场不存在上述处境，或已有另一种有效表达，跳过此选项；不得新增事件、人物、冲突或固定镜头来凑本卡。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "professional",
+      "label": "职业与社会",
+      "aliases": [
+        "职场",
+        "职业",
+        "社会",
+        "现实主义",
+        "professional"
+      ],
+      "decision": "核心是任务过程、制度伦理、竞争，还是个人与时代？",
+      "branches": [
+        {
+          "id": "work-business",
+          "label": "职场/商业竞争",
+          "aliases": [
+            "商战",
+            "职场竞争",
+            "创业",
+            "职场"
+          ],
+          "options": [
+            {
+              "profile_id": "jiang-wei",
+              "why": "《猎场》为研究起点，人物内在与职业选择；职场方法另补证。",
+              "method_cards": [
+                "jiang-wei-method-1",
+                "jiang-wei-method-2"
+              ],
+              "reference_boundary": "这些方法卡只证明卡内 source_fact；本路线拍法是可比较的创作迁移，不证明该导演精通本分支全部题材。"
+            },
+            {
+              "profile_id": "david-fincher",
+              "why": "研究机构流程和精确的信息组织。",
+              "method_cards": [
+                "david-fincher-method-1"
+              ],
+              "reference_boundary": "这些方法卡只证明卡内 source_fact；本路线拍法是可比较的创作迁移，不证明该导演精通本分支全部题材。"
+            }
+          ],
+          "limits": "具体作品/段落和本剧适配仍须核实；此处只是候选研究路线。",
+          "execution_facets": [
+            {
+              "id": "work-business-facet-1",
+              "term": "职场",
+              "decision": "职业目标与接触权限是什么",
+              "execute": "可选方法示例（不是必须执行的镜头链）：展示材料、分工、交付与问责；会议术语不替代真实工作结果。",
+              "basis": "authored_production_design_not_director_quote",
+              "acceptance": "适用时，对照本片已批准的观众体验、故事事实和可观察关系验收；不以复现本卡示例判通过，未采用该选项不构成缺陷。",
+              "role": "conditional_method_option",
+              "when": "仅当已批准的本场内容确实涉及「职业目标与接触权限是什么」时；题材标签本身不激活这项方法。",
+              "countercase": "若本场不存在上述处境，或已有另一种有效表达，跳过此选项；不得新增事件、人物、冲突或固定镜头来凑本卡。"
+            },
+            {
+              "id": "work-business-facet-2",
+              "term": "商战",
+              "decision": "双方交换什么资源承担什么风险",
+              "execute": "可选方法示例（不是必须执行的镜头链）：信息取得、谈判筹码与决策后果连起来；不靠神秘电话宣布获胜。",
+              "basis": "authored_production_design_not_director_quote",
+              "acceptance": "适用时，对照本片已批准的观众体验、故事事实和可观察关系验收；不以复现本卡示例判通过，未采用该选项不构成缺陷。",
+              "role": "conditional_method_option",
+              "when": "仅当已批准的本场内容确实涉及「双方交换什么资源承担什么风险」时；题材标签本身不激活这项方法。",
+              "countercase": "若本场不存在上述处境，或已有另一种有效表达，跳过此选项；不得新增事件、人物、冲突或固定镜头来凑本卡。"
+            }
+          ]
+        },
+        {
+          "id": "medicine",
+          "label": "医疗职业",
+          "aliases": [
+            "医疗",
+            "医生"
+          ],
+          "options": [
+            {
+              "profile_id": "zheng-xiaolong",
+              "why": "《急诊科医生》联合执导，专业动作与生活习惯。",
+              "method_cards": [
+                "zheng-xiaolong-method-1",
+                "zheng-xiaolong-method-2"
+              ],
+              "reference_boundary": "这些方法卡只证明卡内 source_fact；本路线拍法是可比较的创作迁移，不证明该导演精通本分支全部题材。"
+            },
+            {
+              "profile_id": "sidney-lumet",
+              "why": "制度压力和群体判断的迁移候选，不是医学资料来源。",
+              "method_cards": [
+                "sidney-lumet-method-1"
+              ],
+              "reference_boundary": "这些方法卡只证明卡内 source_fact；本路线拍法是可比较的创作迁移，不证明该导演精通本分支全部题材。"
+            }
+          ],
+          "limits": "须另核医疗流程和领域事实；不得把影视方法当医疗规范。",
+          "execution_facets": [
+            {
+              "id": "medicine-facet-1",
+              "term": "医疗",
+              "decision": "任务时效与伦理判断如何并存",
+              "execute": "可选方法示例（不是必须执行的镜头链）：操作、观察、判断与交接各有承担者；专业动作和知识另核，不直接照搬影视。",
+              "basis": "authored_production_design_not_director_quote",
+              "acceptance": "适用时，对照本片已批准的观众体验、故事事实和可观察关系验收；不以复现本卡示例判通过，未采用该选项不构成缺陷。",
+              "role": "conditional_method_option",
+              "when": "仅当已批准的本场内容确实涉及「任务时效与伦理判断如何并存」时；题材标签本身不激活这项方法。",
+              "countercase": "若本场不存在上述处境，或已有另一种有效表达，跳过此选项；不得新增事件、人物、冲突或固定镜头来凑本卡。"
+            }
+          ]
+        },
+        {
+          "id": "law-news",
+          "label": "法律/新闻/公共机构",
+          "aliases": [
+            "法律",
+            "律政",
+            "新闻",
+            "媒体"
+          ],
+          "options": [
+            {
+              "profile_id": "sidney-lumet",
+              "why": "研究群体论辩、制度与个体责任。",
+              "method_cards": [
+                "sidney-lumet-method-1"
+              ],
+              "reference_boundary": "这些方法卡只证明卡内 source_fact；本路线拍法是可比较的创作迁移，不证明该导演精通本分支全部题材。"
+            },
+            {
+              "profile_id": "paul-greengrass",
+              "why": "研究有限消息传递与机构反应。",
+              "method_cards": [
+                "paul-greengrass-method-1"
+              ],
+              "reference_boundary": "这些方法卡只证明卡内 source_fact；本路线拍法是可比较的创作迁移，不证明该导演精通本分支全部题材。"
+            }
+          ],
+          "limits": "不同国家、时代、职业规范独立核查；不能靠制服与术语证明真实。",
+          "execution_facets": [
+            {
+              "id": "law-news-facet-1",
+              "term": "法律",
+              "decision": "事实、主张与证明标准是否区分",
+              "execute": "可选方法示例（不是必须执行的镜头链）：证据呈现及质疑各有回应，裁定前保留程序与责任；不把雄辩当胜诉事实。",
+              "basis": "authored_production_design_not_director_quote",
+              "acceptance": "适用时，对照本片已批准的观众体验、故事事实和可观察关系验收；不以复现本卡示例判通过，未采用该选项不构成缺陷。",
+              "role": "conditional_method_option",
+              "when": "仅当已批准的本场内容确实涉及「事实、主张与证明标准是否区分」时；题材标签本身不激活这项方法。",
+              "countercase": "若本场不存在上述处境，或已有另一种有效表达，跳过此选项；不得新增事件、人物、冲突或固定镜头来凑本卡。"
+            },
+            {
+              "id": "law-news-facet-2",
+              "term": "新闻",
+              "decision": "来源核实如何改变报道选择",
+              "execute": "可选方法示例（不是必须执行的镜头链）：采集、交叉核查、编辑判断和被报道者后果可追踪；不把记者旁白当全知。",
+              "basis": "authored_production_design_not_director_quote",
+              "acceptance": "适用时，对照本片已批准的观众体验、故事事实和可观察关系验收；不以复现本卡示例判通过，未采用该选项不构成缺陷。",
+              "role": "conditional_method_option",
+              "when": "仅当已批准的本场内容确实涉及「来源核实如何改变报道选择」时；题材标签本身不激活这项方法。",
+              "countercase": "若本场不存在上述处境，或已有另一种有效表达，跳过此选项；不得新增事件、人物、冲突或固定镜头来凑本卡。"
+            }
+          ]
+        },
+        {
+          "id": "social-biography",
+          "label": "社会问题/人物传记",
+          "aliases": [
+            "社会问题",
+            "传记",
+            "人物传记",
+            "社会议题"
+          ],
+          "options": [
+            {
+              "profile_id": "bong-joon-ho",
+              "why": "阶层关系与空间后果的研究方向。",
+              "method_cards": [
+                "bong-joon-ho-method-1"
+              ],
+              "reference_boundary": "这些方法卡只证明卡内 source_fact；本路线拍法是可比较的创作迁移，不证明该导演精通本分支全部题材。"
+            },
+            {
+              "profile_id": "lee-changdong",
+              "why": "个体困境与社会压力。",
+              "method_cards": [
+                "lee-changdong-method-1"
+              ],
+              "reference_boundary": "这些方法卡只证明卡内 source_fact；本路线拍法是可比较的创作迁移，不证明该导演精通本分支全部题材。"
+            },
+            {
+              "profile_id": "ang-lee",
+              "why": "个体欲望与家庭文化冲突。",
+              "method_cards": [
+                "ang-lee-method-1"
+              ],
+              "reference_boundary": "这些方法卡只证明卡内 source_fact；本路线拍法是可比较的创作迁移，不证明该导演精通本分支全部题材。"
+            },
+            {
+              "profile_id": "martin-scorsese",
+              "why": "研究人物兴衰、主观叙述与社会关系；旁白不能替代实际行动。",
+              "method_cards": [
+                "martin-scorsese-method-1"
+              ],
+              "reference_boundary": "这些方法卡只证明卡内 source_fact；本路线拍法是可比较的创作迁移，不证明该导演精通本分支全部题材。"
+            }
+          ],
+          "limits": "真实人物与事件需独立事实依据；题材路线不授权虚构其经历。",
+          "execution_facets": [
+            {
+              "id": "social-biography-facet-1",
+              "term": "社会议题",
+              "decision": "制度压力如何通过人物行动发生",
+              "execute": "可选方法示例（不是必须执行的镜头链）：从资源、权限与后果表现结构影响，不将人物降成观点传声筒。",
+              "basis": "authored_production_design_not_director_quote",
+              "acceptance": "适用时，对照本片已批准的观众体验、故事事实和可观察关系验收；不以复现本卡示例判通过，未采用该选项不构成缺陷。",
+              "role": "conditional_method_option",
+              "when": "仅当已批准的本场内容确实涉及「制度压力如何通过人物行动发生」时；题材标签本身不激活这项方法。",
+              "countercase": "若本场不存在上述处境，或已有另一种有效表达，跳过此选项；不得新增事件、人物、冲突或固定镜头来凑本卡。"
+            },
+            {
+              "id": "social-biography-facet-2",
+              "term": "人物传记",
+              "decision": "事实节点与人物内在如何区分",
+              "execute": "可选方法示例（不是必须执行的镜头链）：保留已核事件与戏剧化推测的界限；选择关键决定而非履历蒙太奇。",
+              "basis": "authored_production_design_not_director_quote",
+              "acceptance": "适用时，对照本片已批准的观众体验、故事事实和可观察关系验收；不以复现本卡示例判通过，未采用该选项不构成缺陷。",
+              "role": "conditional_method_option",
+              "when": "仅当已批准的本场内容确实涉及「事实节点与人物内在如何区分」时；题材标签本身不激活这项方法。",
+              "countercase": "若本场不存在上述处境，或已有另一种有效表达，跳过此选项；不得新增事件、人物、冲突或固定镜头来凑本卡。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "crime-spy",
+      "label": "悬疑犯罪与谍战",
+      "aliases": [
+        "悬疑",
+        "犯罪",
+        "谍战",
+        "推理",
+        "crime"
+      ],
+      "decision": "观众跟谁知道信息？追查事实、体验怀疑，还是看人隐藏身份？",
+      "branches": [
+        {
+          "id": "deduction",
+          "label": "推理/刑侦程序",
+          "aliases": [
+            "刑侦",
+            "侦探",
+            "程序悬疑"
+          ],
+          "options": [
+            {
+              "profile_id": "david-fincher",
+              "why": "证据链、流程与角色认知。",
+              "method_cards": [
+                "david-fincher-method-1"
+              ],
+              "reference_boundary": "这些方法卡只证明卡内 source_fact；本路线拍法是可比较的创作迁移，不证明该导演精通本分支全部题材。"
+            },
+            {
+              "profile_id": "bong-joon-ho",
+              "why": "调查与社会环境互相制约。",
+              "method_cards": [
+                "bong-joon-ho-method-1"
+              ],
+              "reference_boundary": "这些方法卡只证明卡内 source_fact；本路线拍法是可比较的创作迁移，不证明该导演精通本分支全部题材。"
+            }
+          ],
+          "limits": "具体作品/段落和本剧适配仍须核实；此处只是候选研究路线。",
+          "execution_facets": [
+            {
+              "id": "deduction-facet-1",
+              "term": "刑侦",
+              "decision": "调查程序如何带来新认识",
+              "execute": "可选方法示例（不是必须执行的镜头链）：发现、检验、排除和下一步行动衔接；程序事实另核，不能全靠灵光一闪。",
+              "basis": "authored_production_design_not_director_quote",
+              "acceptance": "适用时，对照本片已批准的观众体验、故事事实和可观察关系验收；不以复现本卡示例判通过，未采用该选项不构成缺陷。",
+              "role": "conditional_method_option",
+              "when": "仅当已批准的本场内容确实涉及「调查程序如何带来新认识」时；题材标签本身不激活这项方法。",
+              "countercase": "若本场不存在上述处境，或已有另一种有效表达，跳过此选项；不得新增事件、人物、冲突或固定镜头来凑本卡。"
+            }
+          ]
+        },
+        {
+          "id": "psychological",
+          "label": "心理悬疑",
+          "aliases": [
+            "心理悬疑",
+            "心理惊悚",
+            "犯罪心理"
+          ],
+          "options": [
+            {
+              "profile_id": "alfred-hitchcock",
+              "why": "观众知情程度与角色危险的关系。",
+              "method_cards": [
+                "alfred-hitchcock-method-1"
+              ],
+              "reference_boundary": "这些方法卡只证明卡内 source_fact；本路线拍法是可比较的创作迁移，不证明该导演精通本分支全部题材。"
+            },
+            {
+              "profile_id": "park-chanwook",
+              "why": "欲望改变观察与判断。",
+              "method_cards": [
+                "park-chanwook-method-1"
+              ],
+              "reference_boundary": "这些方法卡只证明卡内 source_fact；本路线拍法是可比较的创作迁移，不证明该导演精通本分支全部题材。"
+            },
+            {
+              "profile_id": "david-lynch",
+              "why": "主观不确定的研究入口，不替代解谜因果。",
+              "method_cards": [
+                "david-lynch-method-1"
+              ],
+              "reference_boundary": "这些方法卡只证明卡内 source_fact；本路线拍法是可比较的创作迁移，不证明该导演精通本分支全部题材。"
+            }
+          ],
+          "limits": "具体作品/段落和本剧适配仍须核实；此处只是候选研究路线。",
+          "execution_facets": [
+            {
+              "id": "psychological-facet-1",
+              "term": "犯罪心理",
+              "decision": "心理判断有何可见依据",
+              "execute": "可选方法示例（不是必须执行的镜头链）：通过行为与证据提出可被反驳的判断；不能读脸定罪或把精神疾病等同犯罪。",
+              "basis": "authored_production_design_not_director_quote",
+              "acceptance": "适用时，对照本片已批准的观众体验、故事事实和可观察关系验收；不以复现本卡示例判通过，未采用该选项不构成缺陷。",
+              "role": "conditional_method_option",
+              "when": "仅当已批准的本场内容确实涉及「心理判断有何可见依据」时；题材标签本身不激活这项方法。",
+              "countercase": "若本场不存在上述处境，或已有另一种有效表达，跳过此选项；不得新增事件、人物、冲突或固定镜头来凑本卡。"
+            }
+          ]
+        },
+        {
+          "id": "undercover",
+          "label": "卧底/谍战",
+          "aliases": [
+            "卧底",
+            "间谍",
+            "潜伏",
+            "情报博弈"
+          ],
+          "options": [
+            {
+              "profile_id": "jiang-wei",
+              "why": "公开身份与隐蔽目的中的人物戏。",
+              "method_cards": [
+                "jiang-wei-method-1",
+                "jiang-wei-method-2"
+              ],
+              "reference_boundary": "这些方法卡只证明卡内 source_fact；本路线拍法是可比较的创作迁移，不证明该导演精通本分支全部题材。"
+            },
+            {
+              "profile_id": "kathryn-bigelow",
+              "why": "任务过程、信息与决策压力。",
+              "method_cards": [
+                "kathryn-bigelow-method-1"
+              ],
+              "reference_boundary": "这些方法卡只证明卡内 source_fact；本路线拍法是可比较的创作迁移，不证明该导演精通本分支全部题材。"
+            }
+          ],
+          "limits": "具体作品/段落和本剧适配仍须核实；此处只是候选研究路线。",
+          "execution_facets": [
+            {
+              "id": "undercover-facet-1",
+              "term": "卧底",
+              "decision": "公开身份与秘密任务何时碰撞",
+              "execute": "可选方法示例（不是必须执行的镜头链）：同一句话面向不同听者有不同风险；掩饰动作必须对应具体暴露可能。",
+              "basis": "authored_production_design_not_director_quote",
+              "acceptance": "适用时，对照本片已批准的观众体验、故事事实和可观察关系验收；不以复现本卡示例判通过，未采用该选项不构成缺陷。",
+              "role": "conditional_method_option",
+              "when": "仅当已批准的本场内容确实涉及「公开身份与秘密任务何时碰撞」时；题材标签本身不激活这项方法。",
+              "countercase": "若本场不存在上述处境，或已有另一种有效表达，跳过此选项；不得新增事件、人物、冲突或固定镜头来凑本卡。"
+            },
+            {
+              "id": "undercover-facet-2",
+              "term": "情报博弈",
+              "decision": "消息在谁手里何时传递",
+              "execute": "分别标记人物所知与观众所知，按已批准视点选择限知、观众先知或交叉呈现；消息的取得与行动后果保持可追踪。",
+              "basis": "authored_production_design_not_director_quote",
+              "acceptance": "适用时，对照本片已批准的观众体验、故事事实和可观察关系验收；不以复现本卡示例判通过，未采用该选项不构成缺陷。",
+              "role": "conditional_method_option",
+              "when": "本场的信息取得、误读或传递决定行动，且需明确观众与各人物的知情范围时。",
+              "countercase": "观众先知道危险而角色不知可以形成悬念；角色不能凭空知道，不等于镜头不能向观众展示。"
+            }
+          ]
+        },
+        {
+          "id": "political",
+          "label": "政治/制度惊悚",
+          "aliases": [
+            "政治惊悚",
+            "制度悬疑"
+          ],
+          "options": [
+            {
+              "profile_id": "sidney-lumet",
+              "why": "机构判断与个人责任冲突。",
+              "method_cards": [
+                "sidney-lumet-method-1"
+              ],
+              "reference_boundary": "这些方法卡只证明卡内 source_fact；本路线拍法是可比较的创作迁移，不证明该导演精通本分支全部题材。"
+            },
+            {
+              "profile_id": "paul-greengrass",
+              "why": "多机构有限信息和并行反应。",
+              "method_cards": [
+                "paul-greengrass-method-1"
+              ],
+              "reference_boundary": "这些方法卡只证明卡内 source_fact；本路线拍法是可比较的创作迁移，不证明该导演精通本分支全部题材。"
+            }
+          ],
+          "limits": "具体作品/段落和本剧适配仍须核实；此处只是候选研究路线。",
+          "execution_facets": [
+            {
+              "id": "political-facet-1",
+              "term": "政治惊悚",
+              "decision": "个人决定如何触动机构压力",
+              "execute": "可选方法示例（不是必须执行的镜头链）：许可链、监视和资源调动留下可见证据；不以阴暗办公室代替权力运作。",
+              "basis": "authored_production_design_not_director_quote",
+              "acceptance": "适用时，对照本片已批准的观众体验、故事事实和可观察关系验收；不以复现本卡示例判通过，未采用该选项不构成缺陷。",
+              "role": "conditional_method_option",
+              "when": "仅当已批准的本场内容确实涉及「个人决定如何触动机构压力」时；题材标签本身不激活这项方法。",
+              "countercase": "若本场不存在上述处境，或已有另一种有效表达，跳过此选项；不得新增事件、人物、冲突或固定镜头来凑本卡。"
+            }
+          ]
+        },
+        {
+          "id": "ensemble-mystery",
+          "label": "人物群像悬疑",
+          "aliases": [
+            "生活悬疑",
+            "年代悬疑",
+            "人物群像悬疑"
+          ],
+          "options": [
+            {
+              "profile_id": "xin-shuang",
+              "why": "不默认阴暗色彩，悬疑围绕人的经历。",
+              "method_cards": [
+                "xin-shuang-method-1"
+              ],
+              "reference_boundary": "这些方法卡只证明卡内 source_fact；本路线拍法是可比较的创作迁移，不证明该导演精通本分支全部题材。"
+            },
+            {
+              "profile_id": "asghar-farhadi",
+              "why": "关系与信息缺口引发道德困境。",
+              "method_cards": [
+                "asghar-farhadi-method-1"
+              ],
+              "reference_boundary": "这些方法卡只证明卡内 source_fact；本路线拍法是可比较的创作迁移，不证明该导演精通本分支全部题材。"
+            }
+          ],
+          "limits": "具体作品/段落和本剧适配仍须核实；此处只是候选研究路线。",
+          "execution_facets": [
+            {
+              "id": "ensemble-mystery-facet-1",
+              "term": "人物群像悬疑",
+              "decision": "每人的秘密如何改变共同事件",
+              "execute": "可选方法示例（不是必须执行的镜头链）：为各人标记所知、所隐瞒和当前诉求，多线交接有因果；不靠随机轮流出场。",
+              "basis": "authored_production_design_not_director_quote",
+              "acceptance": "适用时，对照本片已批准的观众体验、故事事实和可观察关系验收；不以复现本卡示例判通过，未采用该选项不构成缺陷。",
+              "role": "conditional_method_option",
+              "when": "仅当已批准的本场内容确实涉及「每人的秘密如何改变共同事件」时；题材标签本身不激活这项方法。",
+              "countercase": "若本场不存在上述处境，或已有另一种有效表达，跳过此选项；不得新增事件、人物、冲突或固定镜头来凑本卡。"
+            }
+          ]
+        },
+        {
+          "id": "classic-mystery",
+          "label": "本格推理/公平线索",
+          "aliases": [
+            "本格推理",
+            "本格",
+            "公平推理"
+          ],
+          "options": [
+            {
+              "profile_id": "rian-johnson",
+              "why": "《利刃出鞘》的侦探表演与嫌疑人戒备；公平线索规则为本技能设计。",
+              "method_cards": [
+                "rian-johnson-method-1"
+              ],
+              "reference_boundary": "这些方法卡只证明卡内 source_fact；本路线拍法是可比较的创作迁移，不证明该导演精通本分支全部题材。"
+            },
+            {
+              "profile_id": "alfred-hitchcock",
+              "why": "作为观众信息调度的比较方向，不把悬念与解谜视为同一任务。",
+              "method_cards": [
+                "alfred-hitchcock-method-1"
+              ],
+              "reference_boundary": "这些方法卡只证明卡内 source_fact；本路线拍法是可比较的创作迁移，不证明该导演精通本分支全部题材。"
+            }
+          ],
+          "limits": "本格需要线索、推断、排除与回收；不是随意隐去证据，也不声称原片穷尽所有本格类型。",
+          "execution_facets": [
+            {
+              "id": "classic-mystery-facet-1",
+              "term": "本格推理",
+              "decision": "观众能否回溯推断链",
+              "execute": "可选方法示例（不是必须执行的镜头链）：列线索首次可见、误读、排除和回收；解答不得依赖此前完全未提供的决定性事实。",
+              "basis": "authored_production_design_not_director_quote",
+              "acceptance": "适用时，对照本片已批准的观众体验、故事事实和可观察关系验收；不以复现本卡示例判通过，未采用该选项不构成缺陷。",
+              "role": "conditional_method_option",
+              "when": "仅当已批准的本场内容确实涉及「观众能否回溯推断链」时；题材标签本身不激活这项方法。",
+              "countercase": "若本场不存在上述处境，或已有另一种有效表达，跳过此选项；不得新增事件、人物、冲突或固定镜头来凑本卡。"
+            }
+          ]
+        },
+        {
+          "id": "manhunt",
+          "label": "追凶/追查与失误代价",
+          "aliases": [
+            "追凶",
+            "追查凶手"
+          ],
+          "options": [
+            {
+              "profile_id": "bong-joon-ho",
+              "why": "《杀人回忆》的调查失败、搭档立场变化与地理连续。",
+              "method_cards": [
+                "bong-joon-ho-method-1"
+              ],
+              "reference_boundary": "这些方法卡只证明卡内 source_fact；本路线拍法是可比较的创作迁移，不证明该导演精通本分支全部题材。"
+            },
+            {
+              "profile_id": "david-fincher",
+              "why": "可比较程序性信息组织；不可拿配乐访谈证明所有办案镜头。",
+              "method_cards": [
+                "david-fincher-method-1"
+              ],
+              "reference_boundary": "这些方法卡只证明卡内 source_fact；本路线拍法是可比较的创作迁移，不证明该导演精通本分支全部题材。"
+            }
+          ],
+          "limits": "追凶的目标定位、时效和失败后果区别于封闭嫌疑人圈的本格解谜；不照搬原作未破案结局。",
+          "execution_facets": [
+            {
+              "id": "manhunt-facet-1",
+              "term": "追凶",
+              "decision": "追查失败付出什么时效代价",
+              "execute": "可选方法示例（不是必须执行的镜头链）：更新目标位置、线索可信度、追赶路线与失败后果；追逐不等于追查。",
+              "basis": "authored_production_design_not_director_quote",
+              "acceptance": "适用时，对照本片已批准的观众体验、故事事实和可观察关系验收；不以复现本卡示例判通过，未采用该选项不构成缺陷。",
+              "role": "conditional_method_option",
+              "when": "仅当已批准的本场内容确实涉及「追查失败付出什么时效代价」时；题材标签本身不激活这项方法。",
+              "countercase": "若本场不存在上述处境，或已有另一种有效表达，跳过此选项；不得新增事件、人物、冲突或固定镜头来凑本卡。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "war",
+      "label": "战争与军事",
+      "aliases": [
+        "战争",
+        "军事",
+        "军旅",
+        "war"
+      ],
+      "decision": "要呈现个体生存、集体成长、指挥选择还是战役结构？",
+      "branches": [
+        {
+          "id": "individual",
+          "label": "现代战场/个体生存",
+          "aliases": [
+            "现代战争",
+            "战场求生",
+            "拆弹",
+            "战争中的个体",
+            "战场生存"
+          ],
+          "options": [
+            {
+              "profile_id": "kathryn-bigelow",
+              "why": "任务操作、威胁距离与感官压力。",
+              "method_cards": [
+                "kathryn-bigelow-method-1"
+              ],
+              "reference_boundary": "这些方法卡只证明卡内 source_fact；本路线拍法是可比较的创作迁移，不证明该导演精通本分支全部题材。"
+            },
+            {
+              "profile_id": "sam-mendes",
+              "why": "连续任务体验的研究方向；具体战争片镜头须补证。",
+              "method_cards": [
+                "sam-mendes-method-1",
+                "sam-mendes-method-2"
+              ],
+              "reference_boundary": "这些方法卡只证明卡内 source_fact；本路线拍法是可比较的创作迁移，不证明该导演精通本分支全部题材。"
+            }
+          ],
+          "limits": "具体作品/段落和本剧适配仍须核实；此处只是候选研究路线。",
+          "execution_facets": [
+            {
+              "id": "individual-facet-1",
+              "term": "战争中的个体",
+              "decision": "有限所知怎样决定求生",
+              "execute": "可选方法示例（不是必须执行的镜头链）：视点绑定当事人可见可听范围，恐惧表现为任务选择与失误；不把士兵拍成全知。",
+              "basis": "authored_production_design_not_director_quote",
+              "acceptance": "适用时，对照本片已批准的观众体验、故事事实和可观察关系验收；不以复现本卡示例判通过，未采用该选项不构成缺陷。",
+              "role": "conditional_method_option",
+              "when": "仅当已批准的本场内容确实涉及「有限所知怎样决定求生」时；题材标签本身不激活这项方法。",
+              "countercase": "若本场不存在上述处境，或已有另一种有效表达，跳过此选项；不得新增事件、人物、冲突或固定镜头来凑本卡。"
+            },
+            {
+              "id": "individual-facet-2",
+              "term": "战场生存",
+              "decision": "路线与资源怎样收紧",
+              "execute": "可选方法示例（不是必须执行的镜头链）：遮蔽、暴露、体力和救援机会逐次改变，关键危险有地理来路。",
+              "basis": "authored_production_design_not_director_quote",
+              "acceptance": "适用时，对照本片已批准的观众体验、故事事实和可观察关系验收；不以复现本卡示例判通过，未采用该选项不构成缺陷。",
+              "role": "conditional_method_option",
+              "when": "仅当已批准的本场内容确实涉及「路线与资源怎样收紧」时；题材标签本身不激活这项方法。",
+              "countercase": "若本场不存在上述处境，或已有另一种有效表达，跳过此选项；不得新增事件、人物、冲突或固定镜头来凑本卡。"
+            },
+            {
+              "id": "individual-facet-3",
+              "term": "现代战争",
+              "decision": "技术信息如何影响行动",
+              "execute": "可选方法示例（不是必须执行的镜头链）：观察、识别、通信与行动分开，设备不等于全知；军事事实独立核验。",
+              "basis": "authored_production_design_not_director_quote",
+              "acceptance": "适用时，对照本片已批准的观众体验、故事事实和可观察关系验收；不以复现本卡示例判通过，未采用该选项不构成缺陷。",
+              "role": "conditional_method_option",
+              "when": "仅当已批准的本场内容确实涉及「技术信息如何影响行动」时；题材标签本身不激活这项方法。",
+              "countercase": "若本场不存在上述处境，或已有另一种有效表达，跳过此选项；不得新增事件、人物、冲突或固定镜头来凑本卡。"
+            }
+          ]
+        },
+        {
+          "id": "collective",
+          "label": "军旅/集体成长",
+          "aliases": [
+            "军旅成长",
+            "集体成长",
+            "集体作战"
+          ],
+          "options": [
+            {
+              "profile_id": "kang-honglei",
+              "why": "不同个体与集体价值相互塑造。",
+              "method_cards": [
+                "kang-honglei-method-1"
+              ],
+              "reference_boundary": "这些方法卡只证明卡内 source_fact；本路线拍法是可比较的创作迁移，不证明该导演精通本分支全部题材。"
+            },
+            {
+              "profile_id": "steven-spielberg",
+              "why": "研究任务群体中个体选择与情感后果。",
+              "method_cards": [
+                "steven-spielberg-method-1"
+              ],
+              "reference_boundary": "这些方法卡只证明卡内 source_fact；本路线拍法是可比较的创作迁移，不证明该导演精通本分支全部题材。"
+            }
+          ],
+          "limits": "具体作品/段落和本剧适配仍须核实；此处只是候选研究路线。",
+          "execution_facets": [
+            {
+              "id": "collective-facet-1",
+              "term": "集体作战",
+              "decision": "命令如何变成相互依赖的行动",
+              "execute": "可选方法示例（不是必须执行的镜头链）：先交代分工和相对位置，再展示通信、配合、失败后的重组；不以爆炸蒙太奇替代协同。",
+              "basis": "authored_production_design_not_director_quote",
+              "acceptance": "适用时，对照本片已批准的观众体验、故事事实和可观察关系验收；不以复现本卡示例判通过，未采用该选项不构成缺陷。",
+              "role": "conditional_method_option",
+              "when": "仅当已批准的本场内容确实涉及「命令如何变成相互依赖的行动」时；题材标签本身不激活这项方法。",
+              "countercase": "若本场不存在上述处境，或已有另一种有效表达，跳过此选项；不得新增事件、人物、冲突或固定镜头来凑本卡。"
+            }
+          ]
+        },
+        {
+          "id": "command",
+          "label": "指挥/权力与战役",
+          "aliases": [
+            "指挥",
+            "战役",
+            "战争史诗",
+            "指挥决策"
+          ],
+          "options": [
+            {
+              "profile_id": "akira-kurosawa",
+              "why": "研究群体运动、权力和地形组织。",
+              "method_cards": [
+                "akira-kurosawa-method-1"
+              ],
+              "reference_boundary": "这些方法卡只证明卡内 source_fact；本路线拍法是可比较的创作迁移，不证明该导演精通本分支全部题材。"
+            },
+            {
+              "profile_id": "stanley-kubrick",
+              "why": "研究制度命令与个体处境。",
+              "method_cards": [
+                "stanley-kubrick-method-1"
+              ],
+              "reference_boundary": "这些方法卡只证明卡内 source_fact；本路线拍法是可比较的创作迁移，不证明该导演精通本分支全部题材。"
+            },
+            {
+              "profile_id": "ridley-scott",
+              "why": "规模、阵营空间与个人体验。",
+              "method_cards": [
+                "ridley-scott-method-1"
+              ],
+              "reference_boundary": "这些方法卡只证明卡内 source_fact；本路线拍法是可比较的创作迁移，不证明该导演精通本分支全部题材。"
+            }
+          ],
+          "limits": "史实、阵型、武器与军事流程另核；不能因名导参照自动宣称战术准确。",
+          "execution_facets": [
+            {
+              "id": "command-facet-1",
+              "term": "指挥决策",
+              "decision": "决策者知道什么又承担什么",
+              "execute": "可选方法示例（不是必须执行的镜头链）：命令依据与信息延迟可追踪，执行现场反馈修正判断；不能瞬间知道全战场。",
+              "basis": "authored_production_design_not_director_quote",
+              "acceptance": "适用时，对照本片已批准的观众体验、故事事实和可观察关系验收；不以复现本卡示例判通过，未采用该选项不构成缺陷。",
+              "role": "conditional_method_option",
+              "when": "仅当已批准的本场内容确实涉及「决策者知道什么又承担什么」时；题材标签本身不激活这项方法。",
+              "countercase": "若本场不存在上述处境，或已有另一种有效表达，跳过此选项；不得新增事件、人物、冲突或固定镜头来凑本卡。"
+            }
+          ]
+        },
+        {
+          "id": "historical-war",
+          "label": "历史战争/战争创伤",
+          "aliases": [
+            "历史战争",
+            "战争创伤"
+          ],
+          "options": [
+            {
+              "profile_id": "zhang-yimou",
+              "why": "研究人物、仪式及集体视觉关系。",
+              "method_cards": [
+                "zhang-yimou-method-1"
+              ],
+              "reference_boundary": "这些方法卡只证明卡内 source_fact；本路线拍法是可比较的创作迁移，不证明该导演精通本分支全部题材。"
+            },
+            {
+              "profile_id": "steven-spielberg",
+              "why": "个体代价与群体记忆的研究方向。",
+              "method_cards": [
+                "steven-spielberg-method-1"
+              ],
+              "reference_boundary": "这些方法卡只证明卡内 source_fact；本路线拍法是可比较的创作迁移，不证明该导演精通本分支全部题材。"
+            }
+          ],
+          "limits": "具体作品/段落和本剧适配仍须核实；此处只是候选研究路线。",
+          "execution_facets": [
+            {
+              "id": "historical-war-facet-1",
+              "term": "历史战争",
+              "decision": "个体处境与历史规模如何连接",
+              "execute": "可选方法示例（不是必须执行的镜头链）：由人物遭遇揭示战场，再落回损失与关系；时代装备和史实另核。",
+              "basis": "authored_production_design_not_director_quote",
+              "acceptance": "适用时，对照本片已批准的观众体验、故事事实和可观察关系验收；不以复现本卡示例判通过，未采用该选项不构成缺陷。",
+              "role": "conditional_method_option",
+              "when": "仅当已批准的本场内容确实涉及「个体处境与历史规模如何连接」时；题材标签本身不激活这项方法。",
+              "countercase": "若本场不存在上述处境，或已有另一种有效表达，跳过此选项；不得新增事件、人物、冲突或固定镜头来凑本卡。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "history",
+      "label": "历史古装与权力",
+      "aliases": [
+        "历史",
+        "古装",
+        "权谋",
+        "宫廷",
+        "history"
+      ],
+      "decision": "借历史拍什么：权力如何运作、个人伦理，还是历史规模？",
+      "branches": [
+        {
+          "id": "court",
+          "label": "宫廷/权谋",
+          "aliases": [
+            "宫斗",
+            "朝堂",
+            "政治权谋",
+            "朝堂博弈",
+            "宫廷关系"
+          ],
+          "options": [
+            {
+              "profile_id": "kong-sheng",
+              "why": "群像长期关系及情感立场；不能简化为权谋标签。",
+              "method_cards": [
+                "kong-sheng-method-1",
+                "kong-sheng-method-2"
+              ],
+              "reference_boundary": "这些方法卡只证明卡内 source_fact；本路线拍法是可比较的创作迁移，不证明该导演精通本分支全部题材。"
+            },
+            {
+              "profile_id": "zheng-xiaolong",
+              "why": "《甄嬛传》须另核具体资料，研究制度中的关系行动。",
+              "method_cards": [
+                "zheng-xiaolong-method-1",
+                "zheng-xiaolong-method-2"
+              ],
+              "reference_boundary": "这些方法卡只证明卡内 source_fact；本路线拍法是可比较的创作迁移，不证明该导演精通本分支全部题材。"
+            }
+          ],
+          "limits": "具体作品/段落和本剧适配仍须核实；此处只是候选研究路线。",
+          "execution_facets": [
+            {
+              "id": "court-facet-1",
+              "term": "朝堂博弈",
+              "decision": "言说权限与实际筹码是否一致",
+              "execute": "可选方法示例（不是必须执行的镜头链）：座次、在场者和获准发言改变谈判，结果影响下一场资源。",
+              "basis": "authored_production_design_not_director_quote",
+              "acceptance": "适用时，对照本片已批准的观众体验、故事事实和可观察关系验收；不以复现本卡示例判通过，未采用该选项不构成缺陷。",
+              "role": "conditional_method_option",
+              "when": "仅当已批准的本场内容确实涉及「言说权限与实际筹码是否一致」时；题材标签本身不激活这项方法。",
+              "countercase": "若本场不存在上述处境，或已有另一种有效表达，跳过此选项；不得新增事件、人物、冲突或固定镜头来凑本卡。"
+            },
+            {
+              "id": "court-facet-2",
+              "term": "宫廷关系",
+              "decision": "礼制如何限制亲密与敌意",
+              "execute": "可选方法示例（不是必须执行的镜头链）：称谓、站位、礼节和退场权限承载关系变化；不只华服加阴笑。",
+              "basis": "authored_production_design_not_director_quote",
+              "acceptance": "适用时，对照本片已批准的观众体验、故事事实和可观察关系验收；不以复现本卡示例判通过，未采用该选项不构成缺陷。",
+              "role": "conditional_method_option",
+              "when": "仅当已批准的本场内容确实涉及「礼制如何限制亲密与敌意」时；题材标签本身不激活这项方法。",
+              "countercase": "若本场不存在上述处境，或已有另一种有效表达，跳过此选项；不得新增事件、人物、冲突或固定镜头来凑本卡。"
+            }
+          ]
+        },
+        {
+          "id": "epic-history",
+          "label": "历史史诗",
+          "aliases": [
+            "历史史诗",
+            "古代战争",
+            "历史正剧",
+            "历史群像"
+          ],
+          "options": [
+            {
+              "profile_id": "ridley-scott",
+              "why": "环境等级与个体在史诗中的处境。",
+              "method_cards": [
+                "ridley-scott-method-1"
+              ],
+              "reference_boundary": "这些方法卡只证明卡内 source_fact；本路线拍法是可比较的创作迁移，不证明该导演精通本分支全部题材。"
+            },
+            {
+              "profile_id": "akira-kurosawa",
+              "why": "群体、权力与空间调度的研究方向。",
+              "method_cards": [
+                "akira-kurosawa-method-1"
+              ],
+              "reference_boundary": "这些方法卡只证明卡内 source_fact；本路线拍法是可比较的创作迁移，不证明该导演精通本分支全部题材。"
+            }
+          ],
+          "limits": "具体作品/段落和本剧适配仍须核实；此处只是候选研究路线。",
+          "execution_facets": [
+            {
+              "id": "epic-history-facet-1",
+              "term": "历史正剧",
+              "decision": "真实事件与戏剧组织边界在哪",
+              "execute": "可选方法示例（不是必须执行的镜头链）：关键史实单独核对，人物行动呈现制度约束；不以史诗镜头替代历史根据。",
+              "basis": "authored_production_design_not_director_quote",
+              "acceptance": "适用时，对照本片已批准的观众体验、故事事实和可观察关系验收；不以复现本卡示例判通过，未采用该选项不构成缺陷。",
+              "role": "conditional_method_option",
+              "when": "仅当已批准的本场内容确实涉及「真实事件与戏剧组织边界在哪」时；题材标签本身不激活这项方法。",
+              "countercase": "若本场不存在上述处境，或已有另一种有效表达，跳过此选项；不得新增事件、人物、冲突或固定镜头来凑本卡。"
+            },
+            {
+              "id": "epic-history-facet-2",
+              "term": "历史群像",
+              "decision": "多方历史行动如何互相制约",
+              "execute": "可选方法示例（不是必须执行的镜头链）：各阵营拥有不同信息与时间线，重大事件前后有可辨因果；不平均分脸。",
+              "basis": "authored_production_design_not_director_quote",
+              "acceptance": "适用时，对照本片已批准的观众体验、故事事实和可观察关系验收；不以复现本卡示例判通过，未采用该选项不构成缺陷。",
+              "role": "conditional_method_option",
+              "when": "仅当已批准的本场内容确实涉及「多方历史行动如何互相制约」时；题材标签本身不激活这项方法。",
+              "countercase": "若本场不存在上述处境，或已有另一种有效表达，跳过此选项；不得新增事件、人物、冲突或固定镜头来凑本卡。"
+            }
+          ]
+        },
+        {
+          "id": "costume-life",
+          "label": "古装生活/礼法情感",
+          "aliases": [
+            "古装生活",
+            "古装爱情",
+            "古偶",
+            "传奇"
+          ],
+          "options": [
+            {
+              "profile_id": "yang-yang",
+              "why": "生活行动、情感与古典文化的当代表达。",
+              "method_cards": [
+                "yang-yang-method-1"
+              ],
+              "reference_boundary": "这些方法卡只证明卡内 source_fact；本路线拍法是可比较的创作迁移，不证明该导演精通本分支全部题材。"
+            },
+            {
+              "profile_id": "ang-lee",
+              "why": "欲望与礼法、家庭责任相抵触。",
+              "method_cards": [
+                "ang-lee-method-1"
+              ],
+              "reference_boundary": "这些方法卡只证明卡内 source_fact；本路线拍法是可比较的创作迁移，不证明该导演精通本分支全部题材。"
+            }
+          ],
+          "limits": "历史准确、当代转译和架空设定分别标记，不冒充同一件事。",
+          "execution_facets": [
+            {
+              "id": "costume-life-facet-1",
+              "term": "传奇",
+              "decision": "人物非凡选择如何有因有果",
+              "execute": "可选方法示例（不是必须执行的镜头链）：传说性事件仍有目标、限制和后果，奇遇不能随意解除困难。",
+              "basis": "authored_production_design_not_director_quote",
+              "acceptance": "适用时，对照本片已批准的观众体验、故事事实和可观察关系验收；不以复现本卡示例判通过，未采用该选项不构成缺陷。",
+              "role": "conditional_method_option",
+              "when": "仅当已批准的本场内容确实涉及「人物非凡选择如何有因有果」时；题材标签本身不激活这项方法。",
+              "countercase": "若本场不存在上述处境，或已有另一种有效表达，跳过此选项；不得新增事件、人物、冲突或固定镜头来凑本卡。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "eastern-fantasy",
+      "label": "武侠仙侠与神话",
+      "aliases": [
+        "武侠",
+        "仙侠",
+        "神话",
+        "玄幻",
+        "东方奇幻",
+        "wuxia"
+      ],
+      "decision": "能力奇观解决什么人物问题？动作规则与情感规则如何一致？",
+      "branches": [
+        {
+          "id": "martial",
+          "label": "武侠/江湖",
+          "aliases": [
+            "江湖",
+            "武侠动作",
+            "武术动作"
+          ],
+          "options": [
+            {
+              "profile_id": "tsui-hark",
+              "why": "场景条件、奇招与攻防变化。",
+              "method_cards": [
+                "tsui-hark-method-1"
+              ],
+              "reference_boundary": "这些方法卡只证明卡内 source_fact；本路线拍法是可比较的创作迁移，不证明该导演精通本分支全部题材。"
+            },
+            {
+              "profile_id": "ang-lee",
+              "why": "欲望、礼法与动作的关系。",
+              "method_cards": [
+                "ang-lee-method-1"
+              ],
+              "reference_boundary": "这些方法卡只证明卡内 source_fact；本路线拍法是可比较的创作迁移，不证明该导演精通本分支全部题材。"
+            },
+            {
+              "profile_id": "john-woo",
+              "why": "研究行动中的关系与情义，不默认每招慢动作。",
+              "method_cards": [
+                "john-woo-method-1"
+              ],
+              "reference_boundary": "这些方法卡只证明卡内 source_fact；本路线拍法是可比较的创作迁移，不证明该导演精通本分支全部题材。"
+            }
+          ],
+          "limits": "具体作品/段落和本剧适配仍须核实；此处只是候选研究路线。",
+          "execution_facets": [
+            {
+              "id": "martial-facet-1",
+              "term": "江湖",
+              "decision": "身份规矩如何限制行动",
+              "execute": "可选方法示例（不是必须执行的镜头链）：承诺、名望与恩义通过选择兑现，不能只靠人物宣称侠义。",
+              "basis": "authored_production_design_not_director_quote",
+              "acceptance": "适用时，对照本片已批准的观众体验、故事事实和可观察关系验收；不以复现本卡示例判通过，未采用该选项不构成缺陷。",
+              "role": "conditional_method_option",
+              "when": "仅当已批准的本场内容确实涉及「身份规矩如何限制行动」时；题材标签本身不激活这项方法。",
+              "countercase": "若本场不存在上述处境，或已有另一种有效表达，跳过此选项；不得新增事件、人物、冲突或固定镜头来凑本卡。"
+            },
+            {
+              "id": "martial-facet-2",
+              "term": "武术动作",
+              "decision": "技法为何在此刻有效",
+              "execute": "可用距离、站位、发力、接触或经批准的画外证据建立动作关系；炫技可承担威慑、人物性格、节奏、观赏或优势变化。",
+              "basis": "authored_production_design_not_director_quote",
+              "acceptance": "适用时，对照本片已批准的观众体验、故事事实和可观察关系验收；不以复现本卡示例判通过，未采用该选项不构成缺陷。",
+              "role": "conditional_method_option",
+              "when": "本段需要读懂具体武术技法、攻防因果或身体能力展示时。",
+              "countercase": "一次展示、仪式性切磋或持续压制未必改变优势；不为制造逆转改写战果，也不强求每击可见接触。"
+            }
+          ]
+        },
+        {
+          "id": "cultivation",
+          "label": "仙侠/修行",
+          "aliases": [
+            "修仙",
+            "仙侠修行",
+            "奇幻修行"
+          ],
+          "options": [
+            {
+              "profile_id": "yang-yang",
+              "why": "修行、生活和人物选择并行，限定具体作品。",
+              "method_cards": [
+                "yang-yang-method-1"
+              ],
+              "reference_boundary": "这些方法卡只证明卡内 source_fact；本路线拍法是可比较的创作迁移，不证明该导演精通本分支全部题材。"
+            },
+            {
+              "profile_id": "tsui-hark",
+              "why": "奇幻动作的可读规则与奇招。",
+              "method_cards": [
+                "tsui-hark-method-1"
+              ],
+              "reference_boundary": "这些方法卡只证明卡内 source_fact；本路线拍法是可比较的创作迁移，不证明该导演精通本分支全部题材。"
+            }
+          ],
+          "limits": "具体作品/段落和本剧适配仍须核实；此处只是候选研究路线。",
+          "execution_facets": [
+            {
+              "id": "cultivation-facet-1",
+              "term": "奇幻修行",
+              "decision": "能力增长有什么限制与代价",
+              "execute": "可选方法示例（不是必须执行的镜头链）：训练问题、能力使用条件与失误后果可见；不自动升级解决矛盾。",
+              "basis": "authored_production_design_not_director_quote",
+              "acceptance": "适用时，对照本片已批准的观众体验、故事事实和可观察关系验收；不以复现本卡示例判通过，未采用该选项不构成缺陷。",
+              "role": "conditional_method_option",
+              "when": "仅当已批准的本场内容确实涉及「能力增长有什么限制与代价」时；题材标签本身不激活这项方法。",
+              "countercase": "若本场不存在上述处境，或已有另一种有效表达，跳过此选项；不得新增事件、人物、冲突或固定镜头来凑本卡。"
+            }
+          ]
+        },
+        {
+          "id": "myth",
+          "label": "神话/东方幻想",
+          "aliases": [
+            "东方神话",
+            "神魔",
+            "妖怪",
+            "神话人物",
+            "东方幻想与大型奇观"
+          ],
+          "options": [
+            {
+              "profile_id": "hayao-miyazaki",
+              "why": "研究人与异世界的关系和行动伦理。",
+              "method_cards": [
+                "hayao-miyazaki-method-1"
+              ],
+              "reference_boundary": "这些方法卡只证明卡内 source_fact；本路线拍法是可比较的创作迁移，不证明该导演精通本分支全部题材。"
+            },
+            {
+              "profile_id": "tsui-hark",
+              "why": "奇观的戏剧作用与能力后果。",
+              "method_cards": [
+                "tsui-hark-method-1"
+              ],
+              "reference_boundary": "这些方法卡只证明卡内 source_fact；本路线拍法是可比较的创作迁移，不证明该导演精通本分支全部题材。"
+            },
+            {
+              "profile_id": "peter-jackson",
+              "why": "旅程群体与宏观世界的迁移候选。",
+              "method_cards": [
+                "peter-jackson-method-1"
+              ],
+              "reference_boundary": "这些方法卡只证明卡内 source_fact；本路线拍法是可比较的创作迁移，不证明该导演精通本分支全部题材。"
+            }
+          ],
+          "limits": "日本神话、西方奇幻和中国传统不互为事实依据；须补所用文化、原典与视觉规则。",
+          "execution_facets": [
+            {
+              "id": "myth-facet-1",
+              "term": "神话人物",
+              "decision": "超常身份如何拥有具体欲望",
+              "execute": "可选方法示例（不是必须执行的镜头链）：神性能力与人际责任共同限制行为；不以庄严姿态替代表演。",
+              "basis": "authored_production_design_not_director_quote",
+              "acceptance": "适用时，对照本片已批准的观众体验、故事事实和可观察关系验收；不以复现本卡示例判通过，未采用该选项不构成缺陷。",
+              "role": "conditional_method_option",
+              "when": "仅当已批准的本场内容确实涉及「超常身份如何拥有具体欲望」时；题材标签本身不激活这项方法。",
+              "countercase": "若本场不存在上述处境，或已有另一种有效表达，跳过此选项；不得新增事件、人物、冲突或固定镜头来凑本卡。"
+            },
+            {
+              "id": "myth-facet-2",
+              "term": "东方幻想与大型奇观",
+              "decision": "奇观如何改变角色的行动世界",
+              "execute": "可选方法示例（不是必须执行的镜头链）：先建立规则与规模，再呈现个体选择及后果；不把中国元素拼贴当文化依据。",
+              "basis": "authored_production_design_not_director_quote",
+              "acceptance": "适用时，对照本片已批准的观众体验、故事事实和可观察关系验收；不以复现本卡示例判通过，未采用该选项不构成缺陷。",
+              "role": "conditional_method_option",
+              "when": "仅当已批准的本场内容确实涉及「奇观如何改变角色的行动世界」时；题材标签本身不激活这项方法。",
+              "countercase": "若本场不存在上述处境，或已有另一种有效表达，跳过此选项；不得新增事件、人物、冲突或固定镜头来凑本卡。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "horror",
+      "label": "恐怖及细分类型",
+      "aliases": [
+        "恐怖",
+        "惊悚",
+        "horror"
+      ],
+      "decision": "恐惧来源是未知威胁、信仰秩序、身体异化还是心理认知？",
+      "branches": [
+        {
+          "id": "psychological-horror",
+          "label": "心理/社会恐怖",
+          "aliases": [
+            "心理恐怖",
+            "社会恐怖"
+          ],
+          "options": [
+            {
+              "profile_id": "jordan-peele",
+              "why": "研究社会处境与主观威胁。",
+              "method_cards": [
+                "jordan-peele-method-1"
+              ],
+              "reference_boundary": "这些方法卡只证明卡内 source_fact；本路线拍法是可比较的创作迁移，不证明该导演精通本分支全部题材。"
+            },
+            {
+              "profile_id": "ari-aster",
+              "why": "研究家庭关系、悲痛与压迫。",
+              "method_cards": [
+                "ari-aster-method-1"
+              ],
+              "reference_boundary": "这些方法卡只证明卡内 source_fact；本路线拍法是可比较的创作迁移，不证明该导演精通本分支全部题材。"
+            }
+          ],
+          "limits": "具体作品/段落和本剧适配仍须核实；此处只是候选研究路线。",
+          "execution_facets": [
+            {
+              "id": "psychological-horror-facet-1",
+              "term": "心理恐怖",
+              "decision": "恐惧者与观众分别能确信什么",
+              "execute": "可选方法示例（不是必须执行的镜头链）：正常解释与异常证据逐次竞争；主观体验须有稳定规则，不任意用幻觉抹账。",
+              "basis": "authored_production_design_not_director_quote",
+              "acceptance": "适用时，对照本片已批准的观众体验、故事事实和可观察关系验收；不以复现本卡示例判通过，未采用该选项不构成缺陷。",
+              "role": "conditional_method_option",
+              "when": "仅当已批准的本场内容确实涉及「恐惧者与观众分别能确信什么」时；题材标签本身不激活这项方法。",
+              "countercase": "若本场不存在上述处境，或已有另一种有效表达，跳过此选项；不得新增事件、人物、冲突或固定镜头来凑本卡。"
+            }
+          ]
+        },
+        {
+          "id": "supernatural",
+          "label": "灵异/鬼屋",
+          "aliases": [
+            "灵异",
+            "鬼屋"
+          ],
+          "options": [
+            {
+              "profile_id": "james-wan",
+              "why": "可搜索画面与画外威胁。",
+              "method_cards": [
+                "james-wan-method-1"
+              ],
+              "reference_boundary": "这些方法卡只证明卡内 source_fact；本路线拍法是可比较的创作迁移，不证明该导演精通本分支全部题材。"
+            },
+            {
+              "profile_id": "john-carpenter",
+              "why": "持续威胁与声音动机的研究方向。",
+              "method_cards": [
+                "john-carpenter-method-1"
+              ],
+              "reference_boundary": "这些方法卡只证明卡内 source_fact；本路线拍法是可比较的创作迁移，不证明该导演精通本分支全部题材。"
+            }
+          ],
+          "limits": "具体作品/段落和本剧适配仍须核实；此处只是候选研究路线。",
+          "execution_facets": [
+            {
+              "id": "supernatural-facet-1",
+              "term": "灵异",
+              "decision": "异常怎样进入已建立的空间",
+              "execute": "可选方法示例（不是必须执行的镜头链）：先正常状态再可定位差异，角色求证改变恐惧；不是连续突响。",
+              "basis": "authored_production_design_not_director_quote",
+              "acceptance": "适用时，对照本片已批准的观众体验、故事事实和可观察关系验收；不以复现本卡示例判通过，未采用该选项不构成缺陷。",
+              "role": "conditional_method_option",
+              "when": "仅当已批准的本场内容确实涉及「异常怎样进入已建立的空间」时；题材标签本身不激活这项方法。",
+              "countercase": "若本场不存在上述处境，或已有另一种有效表达，跳过此选项；不得新增事件、人物、冲突或固定镜头来凑本卡。"
+            }
+          ]
+        },
+        {
+          "id": "folk",
+          "label": "民俗/宗教恐怖",
+          "aliases": [
+            "民俗恐怖",
+            "宗教恐怖",
+            "民俗"
+          ],
+          "options": [
+            {
+              "profile_id": "robert-eggers",
+              "why": "具体信仰秩序与生活考据。",
+              "method_cards": [
+                "robert-eggers-method-1"
+              ],
+              "reference_boundary": "这些方法卡只证明卡内 source_fact；本路线拍法是可比较的创作迁移，不证明该导演精通本分支全部题材。"
+            },
+            {
+              "profile_id": "ari-aster",
+              "why": "仪式、群体与个人处境的研究方向。",
+              "method_cards": [
+                "ari-aster-method-1"
+              ],
+              "reference_boundary": "这些方法卡只证明卡内 source_fact；本路线拍法是可比较的创作迁移，不证明该导演精通本分支全部题材。"
+            }
+          ],
+          "limits": "中国地方民俗不能由欧美影片背书；采用前补地域/时代/民俗资料。",
+          "execution_facets": [
+            {
+              "id": "folk-facet-1",
+              "term": "民俗",
+              "decision": "人物相信什么禁忌",
+              "execute": "可选方法示例（不是必须执行的镜头链）：日常秩序、违禁行动与后果依次成立；真实民俗与虚构宗教显式区分。",
+              "basis": "authored_production_design_not_director_quote",
+              "acceptance": "适用时，对照本片已批准的观众体验、故事事实和可观察关系验收；不以复现本卡示例判通过，未采用该选项不构成缺陷。",
+              "role": "conditional_method_option",
+              "when": "仅当已批准的本场内容确实涉及「人物相信什么禁忌」时；题材标签本身不激活这项方法。",
+              "countercase": "若本场不存在上述处境，或已有另一种有效表达，跳过此选项；不得新增事件、人物、冲突或固定镜头来凑本卡。"
+            }
+          ]
+        },
+        {
+          "id": "monster",
+          "label": "怪物/密闭求生",
+          "aliases": [
+            "怪物",
+            "密闭恐怖",
+            "生物恐怖",
+            "封闭空间"
+          ],
+          "options": [
+            {
+              "profile_id": "ridley-scott",
+              "why": "研究环境通道、遮挡和未知生物。",
+              "method_cards": [
+                "ridley-scott-method-1"
+              ],
+              "reference_boundary": "这些方法卡只证明卡内 source_fact；本路线拍法是可比较的创作迁移，不证明该导演精通本分支全部题材。"
+            },
+            {
+              "profile_id": "john-carpenter",
+              "why": "研究群体信任和持续威胁；The Thing 另补具体证据。",
+              "method_cards": [
+                "john-carpenter-method-1"
+              ],
+              "reference_boundary": "这些方法卡只证明卡内 source_fact；本路线拍法是可比较的创作迁移，不证明该导演精通本分支全部题材。"
+            }
+          ],
+          "limits": "具体作品/段落和本剧适配仍须核实；此处只是候选研究路线。",
+          "execution_facets": [
+            {
+              "id": "monster-facet-1",
+              "term": "怪物",
+              "decision": "威胁能力和弱点如何被发现",
+              "execute": "可选方法示例（不是必须执行的镜头链）：先有限证据、再遭遇、再策略变化；不得临时增删能力。",
+              "basis": "authored_production_design_not_director_quote",
+              "acceptance": "适用时，对照本片已批准的观众体验、故事事实和可观察关系验收；不以复现本卡示例判通过，未采用该选项不构成缺陷。",
+              "role": "conditional_method_option",
+              "when": "仅当已批准的本场内容确实涉及「威胁能力和弱点如何被发现」时；题材标签本身不激活这项方法。",
+              "countercase": "若本场不存在上述处境，或已有另一种有效表达，跳过此选项；不得新增事件、人物、冲突或固定镜头来凑本卡。"
+            },
+            {
+              "id": "monster-facet-2",
+              "term": "封闭空间",
+              "decision": "可退路径为何失效",
+              "execute": "可选方法示例（不是必须执行的镜头链）：入口、出口、盲区和资源先清楚，封闭有事件原因；不随镜头改变房间。",
+              "basis": "authored_production_design_not_director_quote",
+              "acceptance": "适用时，对照本片已批准的观众体验、故事事实和可观察关系验收；不以复现本卡示例判通过，未采用该选项不构成缺陷。",
+              "role": "conditional_method_option",
+              "when": "仅当已批准的本场内容确实涉及「可退路径为何失效」时；题材标签本身不激活这项方法。",
+              "countercase": "若本场不存在上述处境，或已有另一种有效表达，跳过此选项；不得新增事件、人物、冲突或固定镜头来凑本卡。"
+            }
+          ]
+        },
+        {
+          "id": "body",
+          "label": "身体恐怖",
+          "aliases": [
+            "身体恐怖",
+            "异化"
+          ],
+          "options": [
+            {
+              "profile_id": "david-cronenberg",
+              "why": "身体、亲密和身份变化的后果。",
+              "method_cards": [
+                "david-cronenberg-method-1"
+              ],
+              "reference_boundary": "这些方法卡只证明卡内 source_fact；本路线拍法是可比较的创作迁移，不证明该导演精通本分支全部题材。"
+            },
+            {
+              "profile_id": "satoshi-kon",
+              "why": "主观身份不确定的动画转译候选，不代表身体特效方法。",
+              "method_cards": [
+                "satoshi-kon-method-1"
+              ],
+              "reference_boundary": "这些方法卡只证明卡内 source_fact；本路线拍法是可比较的创作迁移，不证明该导演精通本分支全部题材。"
+            }
+          ],
+          "limits": "具体作品/段落和本剧适配仍须核实；此处只是候选研究路线。",
+          "execution_facets": [
+            {
+              "id": "body-facet-1",
+              "term": "身体恐怖",
+              "decision": "身体变化如何影响身份与关系",
+              "execute": "可选方法示例（不是必须执行的镜头链）：以触碰、功能受限或回避体现改变；不把视觉猎奇当人物体验。",
+              "basis": "authored_production_design_not_director_quote",
+              "acceptance": "适用时，对照本片已批准的观众体验、故事事实和可观察关系验收；不以复现本卡示例判通过，未采用该选项不构成缺陷。",
+              "role": "conditional_method_option",
+              "when": "仅当已批准的本场内容确实涉及「身体变化如何影响身份与关系」时；题材标签本身不激活这项方法。",
+              "countercase": "若本场不存在上述处境，或已有另一种有效表达，跳过此选项；不得新增事件、人物、冲突或固定镜头来凑本卡。"
+            }
+          ]
+        },
+        {
+          "id": "found-footage",
+          "label": "伪纪录/拾得影像",
+          "aliases": [
+            "伪纪录",
+            "拾得影像",
+            "found-footage"
+          ],
+          "options": [
+            {
+              "profile_id": "oren-peli",
+              "why": "首部《鬼影实录》：设置摄影机的理由、静态夜间记录与异常时机。",
+              "method_cards": [
+                "oren-peli-method-1"
+              ],
+              "reference_boundary": "这些方法卡只证明卡内 source_fact；本路线拍法是可比较的创作迁移，不证明该导演精通本分支全部题材。"
+            }
+          ],
+          "limits": "已补首部影片的直接专项参考；摄影机归属、为何继续拍、素材留存与剪辑身份必须闭合。伪纪录不是手持风格的同义词。",
+          "execution_facets": [
+            {
+              "id": "found-footage-facet-1",
+              "term": "伪纪录",
+              "decision": "影像为何能够被记录和留下",
+              "execute": "按本片约定核对操作者、开机目的、机位限制和素材归属；明确何处使用采访、重演或其他被允许的形式。",
+              "basis": "authored_production_design_not_director_quote",
+              "acceptance": "适用时，对照本片已批准的观众体验、故事事实和可观察关系验收；不以复现本卡示例判通过，未采用该选项不构成缺陷。",
+              "role": "conditional_method_option",
+              "when": "本片确立了具体记录设备与影像来源的观看约定时。",
+              "countercase": "伪纪录不等于所有镜头都必须来自单台手持设备；允许本片已声明的多源材料，不凭空增加记录者。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "action-adventure",
+      "label": "动作冒险与灾难",
+      "aliases": [
+        "动作",
+        "冒险",
+        "灾难",
+        "救援",
+        "action"
+      ],
+      "decision": "快感来自攻防、空间挑战、追逐决策还是拯救代价？",
+      "branches": [
+        {
+          "id": "combat",
+          "label": "格斗/枪战",
+          "aliases": [
+            "打斗",
+            "格斗",
+            "枪战",
+            "近身搏斗"
+          ],
+          "options": [
+            {
+              "profile_id": "gareth-evans",
+              "why": "研究可读攻防、接触和动作后果。",
+              "method_cards": [
+                "gareth-evans-method-1"
+              ],
+              "reference_boundary": "这些方法卡只证明卡内 source_fact；本路线拍法是可比较的创作迁移，不证明该导演精通本分支全部题材。"
+            },
+            {
+              "profile_id": "john-woo",
+              "why": "研究关系与动作情绪的结合。",
+              "method_cards": [
+                "john-woo-method-1"
+              ],
+              "reference_boundary": "这些方法卡只证明卡内 source_fact；本路线拍法是可比较的创作迁移，不证明该导演精通本分支全部题材。"
+            },
+            {
+              "profile_id": "ryan-coogler",
+              "why": "角色视点与不同对战阶段的节奏。",
+              "method_cards": [
+                "ryan-coogler-method-1"
+              ],
+              "reference_boundary": "这些方法卡只证明卡内 source_fact；本路线拍法是可比较的创作迁移，不证明该导演精通本分支全部题材。"
+            }
+          ],
+          "limits": "具体作品/段落和本剧适配仍须核实；此处只是候选研究路线。",
+          "execution_facets": [
+            {
+              "id": "combat-facet-1",
+              "term": "近身搏斗",
+              "decision": "每次交换如何改变优势",
+              "execute": "可选方法示例（不是必须执行的镜头链）：按试探、抢位、接触、失衡与反击组织短促动作；一击不机械撑满生成时长。",
+              "basis": "authored_production_design_not_director_quote",
+              "acceptance": "适用时，对照本片已批准的观众体验、故事事实和可观察关系验收；不以复现本卡示例判通过，未采用该选项不构成缺陷。",
+              "role": "conditional_method_option",
+              "when": "仅当已批准的本场内容确实涉及「每次交换如何改变优势」时；题材标签本身不激活这项方法。",
+              "countercase": "若本场不存在上述处境，或已有另一种有效表达，跳过此选项；不得新增事件、人物、冲突或固定镜头来凑本卡。"
+            },
+            {
+              "id": "combat-facet-2",
+              "term": "枪战",
+              "decision": "射线与掩体如何限制选择",
+              "execute": "可选方法示例（不是必须执行的镜头链）：交代威胁方位、可行动路径与换位后果；不让枪声替代空间关系。",
+              "basis": "authored_production_design_not_director_quote",
+              "acceptance": "适用时，对照本片已批准的观众体验、故事事实和可观察关系验收；不以复现本卡示例判通过，未采用该选项不构成缺陷。",
+              "role": "conditional_method_option",
+              "when": "仅当已批准的本场内容确实涉及「射线与掩体如何限制选择」时；题材标签本身不激活这项方法。",
+              "countercase": "若本场不存在上述处境，或已有另一种有效表达，跳过此选项；不得新增事件、人物、冲突或固定镜头来凑本卡。"
+            }
+          ]
+        },
+        {
+          "id": "pursuit",
+          "label": "追逐/载具",
+          "aliases": [
+            "追逐",
+            "飙车",
+            "载具"
+          ],
+          "options": [
+            {
+              "profile_id": "george-miller",
+              "why": "研究高速中的目标、地理与方向。",
+              "method_cards": [
+                "george-miller-method-1"
+              ],
+              "reference_boundary": "这些方法卡只证明卡内 source_fact；本路线拍法是可比较的创作迁移，不证明该导演精通本分支全部题材。"
+            },
+            {
+              "profile_id": "paul-greengrass",
+              "why": "受限观察与临场判断。",
+              "method_cards": [
+                "paul-greengrass-method-1"
+              ],
+              "reference_boundary": "这些方法卡只证明卡内 source_fact；本路线拍法是可比较的创作迁移，不证明该导演精通本分支全部题材。"
+            }
+          ],
+          "limits": "具体作品/段落和本剧适配仍须核实；此处只是候选研究路线。",
+          "execution_facets": [
+            {
+              "id": "pursuit-facet-1",
+              "term": "追逐",
+              "decision": "双方目标与距离怎样变化",
+              "execute": "可选方法示例（不是必须执行的镜头链）：速度变化有障碍或决定触发，转弯和切镜后位置可还原。",
+              "basis": "authored_production_design_not_director_quote",
+              "acceptance": "适用时，对照本片已批准的观众体验、故事事实和可观察关系验收；不以复现本卡示例判通过，未采用该选项不构成缺陷。",
+              "role": "conditional_method_option",
+              "when": "仅当已批准的本场内容确实涉及「双方目标与距离怎样变化」时；题材标签本身不激活这项方法。",
+              "countercase": "若本场不存在上述处境，或已有另一种有效表达，跳过此选项；不得新增事件、人物、冲突或固定镜头来凑本卡。"
+            }
+          ]
+        },
+        {
+          "id": "heist",
+          "label": "犯罪行动/盗窃",
+          "aliases": [
+            "劫案",
+            "盗窃",
+            "盗宝"
+          ],
+          "options": [
+            {
+              "profile_id": "david-fincher",
+              "why": "研究流程与信息控制。",
+              "method_cards": [
+                "david-fincher-method-1"
+              ],
+              "reference_boundary": "这些方法卡只证明卡内 source_fact；本路线拍法是可比较的创作迁移，不证明该导演精通本分支全部题材。"
+            },
+            {
+              "profile_id": "edgar-wright",
+              "why": "研究动作、声音与节奏协同。",
+              "method_cards": [
+                "edgar-wright-method-1"
+              ],
+              "reference_boundary": "这些方法卡只证明卡内 source_fact；本路线拍法是可比较的创作迁移，不证明该导演精通本分支全部题材。"
+            }
+          ],
+          "limits": "具体劫案片证据需补；不能因为擅长精确镜头就自动选定。",
+          "execution_facets": [
+            {
+              "id": "heist-facet-1",
+              "term": "劫案",
+              "decision": "计划如何遇到可追踪偏差",
+              "execute": "可选方法示例（不是必须执行的镜头链）：物件、权限、时间窗和队员分工先交代；临场改变付代价。",
+              "basis": "authored_production_design_not_director_quote",
+              "acceptance": "适用时，对照本片已批准的观众体验、故事事实和可观察关系验收；不以复现本卡示例判通过，未采用该选项不构成缺陷。",
+              "role": "conditional_method_option",
+              "when": "仅当已批准的本场内容确实涉及「计划如何遇到可追踪偏差」时；题材标签本身不激活这项方法。",
+              "countercase": "若本场不存在上述处境，或已有另一种有效表达，跳过此选项；不得新增事件、人物、冲突或固定镜头来凑本卡。"
+            }
+          ]
+        },
+        {
+          "id": "quest",
+          "label": "公路/探索/奇幻冒险",
+          "aliases": [
+            "公路",
+            "探索",
+            "奇幻冒险",
+            "探险",
+            "公路冒险"
+          ],
+          "options": [
+            {
+              "profile_id": "peter-jackson",
+              "why": "旅程地理与群体分合。",
+              "method_cards": [
+                "peter-jackson-method-1"
+              ],
+              "reference_boundary": "这些方法卡只证明卡内 source_fact；本路线拍法是可比较的创作迁移，不证明该导演精通本分支全部题材。"
+            },
+            {
+              "profile_id": "robert-zemeckis",
+              "why": "道具、时限与因果兑现。",
+              "method_cards": [
+                "robert-zemeckis-method-1"
+              ],
+              "reference_boundary": "这些方法卡只证明卡内 source_fact；本路线拍法是可比较的创作迁移，不证明该导演精通本分支全部题材。"
+            },
+            {
+              "profile_id": "steven-spielberg",
+              "why": "研究发现、惊奇和人物关系。",
+              "method_cards": [
+                "steven-spielberg-method-1"
+              ],
+              "reference_boundary": "这些方法卡只证明卡内 source_fact；本路线拍法是可比较的创作迁移，不证明该导演精通本分支全部题材。"
+            }
+          ],
+          "limits": "具体作品/段落和本剧适配仍须核实；此处只是候选研究路线。",
+          "execution_facets": [
+            {
+              "id": "quest-facet-1",
+              "term": "探险",
+              "decision": "未知怎样被逐步认识",
+              "execute": "可选方法示例（不是必须执行的镜头链）：观察线索、提出判断、试探、受挫与新路相连；不只换风景。",
+              "basis": "authored_production_design_not_director_quote",
+              "acceptance": "适用时，对照本片已批准的观众体验、故事事实和可观察关系验收；不以复现本卡示例判通过，未采用该选项不构成缺陷。",
+              "role": "conditional_method_option",
+              "when": "仅当已批准的本场内容确实涉及「未知怎样被逐步认识」时；题材标签本身不激活这项方法。",
+              "countercase": "若本场不存在上述处境，或已有另一种有效表达，跳过此选项；不得新增事件、人物、冲突或固定镜头来凑本卡。"
+            },
+            {
+              "id": "quest-facet-2",
+              "term": "公路冒险",
+              "decision": "移动为何改变关系与目标",
+              "execute": "可通过停靠的行动、景观、等待、声音或人物互动组织旅程；路程省略按本片意图保留或有意限制方向与时间信息。",
+              "basis": "authored_production_design_not_director_quote",
+              "acceptance": "适用时，对照本片已批准的观众体验、故事事实和可观察关系验收；不以复现本卡示例判通过，未采用该选项不构成缺陷。",
+              "role": "conditional_method_option",
+              "when": "某停靠点承担选择、关系变化或旅途体验，且其序列作用需要设计时。",
+              "countercase": "停靠点可用于休息、气氛、重复、感受或对比，不要求每站都有关系转折。"
+            }
+          ]
+        },
+        {
+          "id": "rescue",
+          "label": "灾难/救援",
+          "aliases": [
+            "灾难救援",
+            "灾难求生",
+            "灾难逃生与救援"
+          ],
+          "options": [
+            {
+              "profile_id": "james-cameron",
+              "why": "研究规模威胁和情感行动线。",
+              "method_cards": [
+                "james-cameron-method-1"
+              ],
+              "reference_boundary": "这些方法卡只证明卡内 source_fact；本路线拍法是可比较的创作迁移，不证明该导演精通本分支全部题材。"
+            },
+            {
+              "profile_id": "paul-greengrass",
+              "why": "信息不全时的协同与反应。",
+              "method_cards": [
+                "paul-greengrass-method-1"
+              ],
+              "reference_boundary": "这些方法卡只证明卡内 source_fact；本路线拍法是可比较的创作迁移，不证明该导演精通本分支全部题材。"
+            }
+          ],
+          "limits": "救援技术、灾害规律另核，场面规模不能取代行动可信度。",
+          "execution_facets": [
+            {
+              "id": "rescue-facet-1",
+              "term": "灾难逃生与救援",
+              "decision": "救谁、怎么到达和何时来不及",
+              "execute": "可选方法示例（不是必须执行的镜头链）：逃生路径、救援资源与互相冲突的任务清楚；灾难强度不代替决定。",
+              "basis": "authored_production_design_not_director_quote",
+              "acceptance": "适用时，对照本片已批准的观众体验、故事事实和可观察关系验收；不以复现本卡示例判通过，未采用该选项不构成缺陷。",
+              "role": "conditional_method_option",
+              "when": "仅当已批准的本场内容确实涉及「救谁、怎么到达和何时来不及」时；题材标签本身不激活这项方法。",
+              "countercase": "若本场不存在上述处境，或已有另一种有效表达，跳过此选项；不得新增事件、人物、冲突或固定镜头来凑本卡。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "science-fiction",
+      "label": "科幻与末日",
+      "aliases": [
+        "科幻",
+        "末日",
+        "science-fiction",
+        "sci-fi"
+      ],
+      "decision": "未知世界的核心是物理规则、技术伦理、身份，还是生存制度？",
+      "branches": [
+        {
+          "id": "hard-space",
+          "label": "硬科幻/太空",
+          "aliases": [
+            "硬科幻",
+            "太空",
+            "星际"
+          ],
+          "options": [
+            {
+              "profile_id": "denis-villeneuve",
+              "why": "研究未知尺度、感知与信息揭示。",
+              "method_cards": [
+                "denis-villeneuve-method-1"
+              ],
+              "reference_boundary": "这些方法卡只证明卡内 source_fact；本路线拍法是可比较的创作迁移，不证明该导演精通本分支全部题材。"
+            },
+            {
+              "profile_id": "stanley-kubrick",
+              "why": "研究系统、时间与人的位置。",
+              "method_cards": [
+                "stanley-kubrick-method-1"
+              ],
+              "reference_boundary": "这些方法卡只证明卡内 source_fact；本路线拍法是可比较的创作迁移，不证明该导演精通本分支全部题材。"
+            },
+            {
+              "profile_id": "alfonso-cuaron",
+              "why": "研究受限视点与连续处境。",
+              "method_cards": [
+                "alfonso-cuaron-method-1"
+              ],
+              "reference_boundary": "这些方法卡只证明卡内 source_fact；本路线拍法是可比较的创作迁移，不证明该导演精通本分支全部题材。"
+            }
+          ],
+          "limits": "科学事实另核；慢镜、巨大飞船和高概念不自动等于硬科幻。",
+          "execution_facets": [
+            {
+              "id": "hard-space-facet-1",
+              "term": "硬科幻",
+              "decision": "规则怎样限制解决办法",
+              "execute": "可选方法示例（不是必须执行的镜头链）：用可观察事件展示规则、边界与代价；科学假设和已知事实分开。",
+              "basis": "authored_production_design_not_director_quote",
+              "acceptance": "适用时，对照本片已批准的观众体验、故事事实和可观察关系验收；不以复现本卡示例判通过，未采用该选项不构成缺陷。",
+              "role": "conditional_method_option",
+              "when": "仅当已批准的本场内容确实涉及「规则怎样限制解决办法」时；题材标签本身不激活这项方法。",
+              "countercase": "若本场不存在上述处境，或已有另一种有效表达，跳过此选项；不得新增事件、人物、冲突或固定镜头来凑本卡。"
+            },
+            {
+              "id": "hard-space-facet-2",
+              "term": "太空",
+              "decision": "方位和生命支持如何被感知",
+              "execute": "可选方法示例（不是必须执行的镜头链）：先有参照物与运动关系，再改变距离或支撑条件；不能把飘浮当无重量表演。",
+              "basis": "authored_production_design_not_director_quote",
+              "acceptance": "适用时，对照本片已批准的观众体验、故事事实和可观察关系验收；不以复现本卡示例判通过，未采用该选项不构成缺陷。",
+              "role": "conditional_method_option",
+              "when": "仅当已批准的本场内容确实涉及「方位和生命支持如何被感知」时；题材标签本身不激活这项方法。",
+              "countercase": "若本场不存在上述处境，或已有另一种有效表达，跳过此选项；不得新增事件、人物、冲突或固定镜头来凑本卡。"
+            }
+          ]
+        },
+        {
+          "id": "ai-cyber",
+          "label": "人工智能/赛博朋克",
+          "aliases": [
+            "人工智能",
+            "AI",
+            "赛博朋克"
+          ],
+          "options": [
+            {
+              "profile_id": "mamoru-oshii",
+              "why": "研究身份、意识与城市系统。",
+              "method_cards": [
+                "mamoru-oshii-method-1"
+              ],
+              "reference_boundary": "这些方法卡只证明卡内 source_fact；本路线拍法是可比较的创作迁移，不证明该导演精通本分支全部题材。"
+            },
+            {
+              "profile_id": "ridley-scott",
+              "why": "研究技术世界里的个人处境。",
+              "method_cards": [
+                "ridley-scott-method-1"
+              ],
+              "reference_boundary": "这些方法卡只证明卡内 source_fact；本路线拍法是可比较的创作迁移，不证明该导演精通本分支全部题材。"
+            }
+          ],
+          "limits": "赛博朋克是主题/世界维度，不等于霓虹画风；不强制 2D、3D 或三渲二。",
+          "execution_facets": [
+            {
+              "id": "ai-cyber-facet-1",
+              "term": "人工智能",
+              "decision": "主体权限与行动责任是什么",
+              "execute": "可选方法示例（不是必须执行的镜头链）：用具体决策、误判与控制边界展开；不只发光界面或空泛哲学台词。",
+              "basis": "authored_production_design_not_director_quote",
+              "acceptance": "适用时，对照本片已批准的观众体验、故事事实和可观察关系验收；不以复现本卡示例判通过，未采用该选项不构成缺陷。",
+              "role": "conditional_method_option",
+              "when": "仅当已批准的本场内容确实涉及「主体权限与行动责任是什么」时；题材标签本身不激活这项方法。",
+              "countercase": "若本场不存在上述处境，或已有另一种有效表达，跳过此选项；不得新增事件、人物、冲突或固定镜头来凑本卡。"
+            },
+            {
+              "id": "ai-cyber-facet-2",
+              "term": "赛博朋克",
+              "decision": "技术怎样改变阶层与身体选择",
+              "execute": "可选方法示例（不是必须执行的镜头链）：接入权限、劳动、监控与身体代价可见；霓虹不是题材本身。",
+              "basis": "authored_production_design_not_director_quote",
+              "acceptance": "适用时，对照本片已批准的观众体验、故事事实和可观察关系验收；不以复现本卡示例判通过，未采用该选项不构成缺陷。",
+              "role": "conditional_method_option",
+              "when": "仅当已批准的本场内容确实涉及「技术怎样改变阶层与身体选择」时；题材标签本身不激活这项方法。",
+              "countercase": "若本场不存在上述处境，或已有另一种有效表达，跳过此选项；不得新增事件、人物、冲突或固定镜头来凑本卡。"
+            }
+          ]
+        },
+        {
+          "id": "time",
+          "label": "时间旅行/循环",
+          "aliases": [
+            "时间旅行",
+            "时间循环"
+          ],
+          "options": [
+            {
+              "profile_id": "robert-zemeckis",
+              "why": "规则、因果与前后兑现。",
+              "method_cards": [
+                "robert-zemeckis-method-1"
+              ],
+              "reference_boundary": "这些方法卡只证明卡内 source_fact；本路线拍法是可比较的创作迁移，不证明该导演精通本分支全部题材。"
+            },
+            {
+              "profile_id": "christopher-nolan",
+              "why": "研究多时间结构与观众信息组织。",
+              "method_cards": [
+                "christopher-nolan-method-1"
+              ],
+              "reference_boundary": "这些方法卡只证明卡内 source_fact；本路线拍法是可比较的创作迁移，不证明该导演精通本分支全部题材。"
+            }
+          ],
+          "limits": "循环同时可为跨题材叙事机制；不能因为该标签自动采用碎片结构。",
+          "execution_facets": [
+            {
+              "id": "time-facet-1",
+              "term": "时间循环",
+              "decision": "重复中什么保持什么改变",
+              "execute": "可建立循环基准、记忆权限和关键变化，选择保留重复、压缩或省略来组织体验；规则冲突需有故事依据。",
+              "basis": "authored_production_design_not_director_quote",
+              "acceptance": "适用时，对照本片已批准的观众体验、故事事实和可观察关系验收；不以复现本卡示例判通过，未采用该选项不构成缺陷。",
+              "role": "conditional_method_option",
+              "when": "重复与差异是本片已建立的时间机制且本段需要观众辨认时。",
+              "countercase": "刻意重复可表现困境、仪式或疲惫，不要求每轮新增情报；不为凑差异新增事件。"
+            }
+          ]
+        },
+        {
+          "id": "dystopia",
+          "label": "反乌托邦/末日生存",
+          "aliases": [
+            "反乌托邦",
+            "末日生存",
+            "末世生存"
+          ],
+          "options": [
+            {
+              "profile_id": "bong-joon-ho",
+              "why": "研究制度、阶层与空间限制。",
+              "method_cards": [
+                "bong-joon-ho-method-1"
+              ],
+              "reference_boundary": "这些方法卡只证明卡内 source_fact；本路线拍法是可比较的创作迁移，不证明该导演精通本分支全部题材。"
+            },
+            {
+              "profile_id": "george-miller",
+              "why": "生存资源、行动目标与群体冲突。",
+              "method_cards": [
+                "george-miller-method-1"
+              ],
+              "reference_boundary": "这些方法卡只证明卡内 source_fact；本路线拍法是可比较的创作迁移，不证明该导演精通本分支全部题材。"
+            },
+            {
+              "profile_id": "arcane-fortiche",
+              "why": "限定季/集与正确署名，研究阶层空间、家庭冲突和连续人物弧；不是自动指定混合渲染。",
+              "method_cards": [
+                "arcane-fortiche-method-1"
+              ],
+              "reference_boundary": "这些方法卡只证明卡内 source_fact；本路线拍法是可比较的创作迁移，不证明该导演精通本分支全部题材。"
+            }
+          ],
+          "limits": "具体作品/段落和本剧适配仍须核实；此处只是候选研究路线。",
+          "execution_facets": [
+            {
+              "id": "dystopia-facet-1",
+              "term": "反乌托邦",
+              "decision": "制度如何进入人物日常",
+              "execute": "可选方法示例（不是必须执行的镜头链）：行动权限、监控和惩罚可观察，反抗暴露制度限制；不只灰色城市。",
+              "basis": "authored_production_design_not_director_quote",
+              "acceptance": "适用时，对照本片已批准的观众体验、故事事实和可观察关系验收；不以复现本卡示例判通过，未采用该选项不构成缺陷。",
+              "role": "conditional_method_option",
+              "when": "仅当已批准的本场内容确实涉及「制度如何进入人物日常」时；题材标签本身不激活这项方法。",
+              "countercase": "若本场不存在上述处境，或已有另一种有效表达，跳过此选项；不得新增事件、人物、冲突或固定镜头来凑本卡。"
+            },
+            {
+              "id": "dystopia-facet-2",
+              "term": "末世生存",
+              "decision": "资源变化怎样迫使关系重组",
+              "execute": "可选方法示例（不是必须执行的镜头链）：水、住所、交通或信任等稀缺项与决策绑定；不是废墟空镜串烧。",
+              "basis": "authored_production_design_not_director_quote",
+              "acceptance": "适用时，对照本片已批准的观众体验、故事事实和可观察关系验收；不以复现本卡示例判通过，未采用该选项不构成缺陷。",
+              "role": "conditional_method_option",
+              "when": "仅当已批准的本场内容确实涉及「资源变化怎样迫使关系重组」时；题材标签本身不激活这项方法。",
+              "countercase": "若本场不存在上述处境，或已有另一种有效表达，跳过此选项；不得新增事件、人物、冲突或固定镜头来凑本卡。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "comedy",
+      "label": "喜剧与讽刺",
+      "aliases": [
+        "喜剧",
+        "讽刺",
+        "搞笑",
+        "comedy"
+      ],
+      "decision": "笑来自人物、误会、形式节奏还是制度矛盾？",
+      "branches": [
+        {
+          "id": "sitcom",
+          "label": "生活/情景喜剧",
+          "aliases": [
+            "情景喜剧",
+            "生活喜剧",
+            "情境喜剧"
+          ],
+          "options": [
+            {
+              "profile_id": "james-burrows",
+              "why": "人物欲望、调度和反应节拍。",
+              "method_cards": [
+                "james-burrows-method-1"
+              ],
+              "reference_boundary": "这些方法卡只证明卡内 source_fact；本路线拍法是可比较的创作迁移，不证明该导演精通本分支全部题材。"
+            },
+            {
+              "profile_id": "nancy-meyers",
+              "why": "共处中的生活边界与尴尬。",
+              "method_cards": [
+                "nancy-meyers-method-1"
+              ],
+              "reference_boundary": "这些方法卡只证明卡内 source_fact；本路线拍法是可比较的创作迁移，不证明该导演精通本分支全部题材。"
+            }
+          ],
+          "limits": "具体作品/段落和本剧适配仍须核实；此处只是候选研究路线。",
+          "execution_facets": [
+            {
+              "id": "sitcom-facet-1",
+              "term": "生活喜剧",
+              "decision": "熟悉日常如何偏离期待",
+              "execute": "可选方法示例（不是必须执行的镜头链）：先建立习惯，微小阻碍引发修正，人物保持认真目标。",
+              "basis": "authored_production_design_not_director_quote",
+              "acceptance": "适用时，对照本片已批准的观众体验、故事事实和可观察关系验收；不以复现本卡示例判通过，未采用该选项不构成缺陷。",
+              "role": "conditional_method_option",
+              "when": "仅当已批准的本场内容确实涉及「熟悉日常如何偏离期待」时；题材标签本身不激活这项方法。",
+              "countercase": "若本场不存在上述处境，或已有另一种有效表达，跳过此选项；不得新增事件、人物、冲突或固定镜头来凑本卡。"
+            },
+            {
+              "id": "sitcom-facet-2",
+              "term": "情境喜剧",
+              "decision": "固定关系如何产生新的冲突",
+              "execute": "可选方法示例（不是必须执行的镜头链）：进出场、误听与物件归属改变关系；单集笑点不能重置成长。",
+              "basis": "authored_production_design_not_director_quote",
+              "acceptance": "适用时，对照本片已批准的观众体验、故事事实和可观察关系验收；不以复现本卡示例判通过，未采用该选项不构成缺陷。",
+              "role": "conditional_method_option",
+              "when": "仅当已批准的本场内容确实涉及「固定关系如何产生新的冲突」时；题材标签本身不激活这项方法。",
+              "countercase": "若本场不存在上述处境，或已有另一种有效表达，跳过此选项；不得新增事件、人物、冲突或固定镜头来凑本卡。"
+            }
+          ]
+        },
+        {
+          "id": "absurd",
+          "label": "荒诞/黑色喜剧",
+          "aliases": [
+            "荒诞",
+            "黑色喜剧",
+            "社会讽刺",
+            "黑色幽默"
+          ],
+          "options": [
+            {
+              "profile_id": "stephen-chow",
+              "why": "研究荒诞行动与人物愿望。",
+              "method_cards": [
+                "stephen-chow-method-1"
+              ],
+              "reference_boundary": "这些方法卡只证明卡内 source_fact；本路线拍法是可比较的创作迁移，不证明该导演精通本分支全部题材。"
+            },
+            {
+              "profile_id": "bong-joon-ho",
+              "why": "阶层处境和类型反差。",
+              "method_cards": [
+                "bong-joon-ho-method-1"
+              ],
+              "reference_boundary": "这些方法卡只证明卡内 source_fact；本路线拍法是可比较的创作迁移，不证明该导演精通本分支全部题材。"
+            },
+            {
+              "profile_id": "wes-anderson",
+              "why": "研究构图秩序与人物失序，不默认对称。",
+              "method_cards": [
+                "wes-anderson-method-1"
+              ],
+              "reference_boundary": "这些方法卡只证明卡内 source_fact；本路线拍法是可比较的创作迁移，不证明该导演精通本分支全部题材。"
+            }
+          ],
+          "limits": "具体作品/段落和本剧适配仍须核实；此处只是候选研究路线。",
+          "execution_facets": [
+            {
+              "id": "absurd-facet-1",
+              "term": "荒诞",
+              "decision": "不合理世界内部有何一致规则",
+              "execute": "可选方法示例（不是必须执行的镜头链）：认真执行荒诞规则并展示升级后果；不是随机怪事堆叠。",
+              "basis": "authored_production_design_not_director_quote",
+              "acceptance": "适用时，对照本片已批准的观众体验、故事事实和可观察关系验收；不以复现本卡示例判通过，未采用该选项不构成缺陷。",
+              "role": "conditional_method_option",
+              "when": "仅当已批准的本场内容确实涉及「不合理世界内部有何一致规则」时；题材标签本身不激活这项方法。",
+              "countercase": "若本场不存在上述处境，或已有另一种有效表达，跳过此选项；不得新增事件、人物、冲突或固定镜头来凑本卡。"
+            },
+            {
+              "id": "absurd-facet-2",
+              "term": "黑色幽默",
+              "decision": "可笑与伤害是否同时存在",
+              "execute": "可选方法示例（不是必须执行的镜头链）：笑点留下真实代价，观看立场清楚；不拿受害者痛苦当万能包袱。",
+              "basis": "authored_production_design_not_director_quote",
+              "acceptance": "适用时，对照本片已批准的观众体验、故事事实和可观察关系验收；不以复现本卡示例判通过，未采用该选项不构成缺陷。",
+              "role": "conditional_method_option",
+              "when": "仅当已批准的本场内容确实涉及「可笑与伤害是否同时存在」时；题材标签本身不激活这项方法。",
+              "countercase": "若本场不存在上述处境，或已有另一种有效表达，跳过此选项；不得新增事件、人物、冲突或固定镜头来凑本卡。"
+            }
+          ]
+        },
+        {
+          "id": "action-comedy",
+          "label": "动作喜剧",
+          "aliases": [
+            "动作喜剧"
+          ],
+          "options": [
+            {
+              "profile_id": "edgar-wright",
+              "why": "动作、音效和剪辑共同组织包袱。",
+              "method_cards": [
+                "edgar-wright-method-1"
+              ],
+              "reference_boundary": "这些方法卡只证明卡内 source_fact；本路线拍法是可比较的创作迁移，不证明该导演精通本分支全部题材。"
+            },
+            {
+              "profile_id": "brad-bird",
+              "why": "能力、身体动作与人物关系产生幽默。",
+              "method_cards": [
+                "brad-bird-method-1"
+              ],
+              "reference_boundary": "这些方法卡只证明卡内 source_fact；本路线拍法是可比较的创作迁移，不证明该导演精通本分支全部题材。"
+            }
+          ],
+          "limits": "具体作品/段落和本剧适配仍须核实；此处只是候选研究路线。",
+          "execution_facets": [
+            {
+              "id": "action-comedy-facet-1",
+              "term": "动作喜剧",
+              "decision": "身体目标与失败怎样形成笑点",
+              "execute": "可选方法示例（不是必须执行的镜头链）：先清楚目的与物件规则，再拍失败、补救与升级，动作因果不被包袱打断。",
+              "basis": "authored_production_design_not_director_quote",
+              "acceptance": "适用时，对照本片已批准的观众体验、故事事实和可观察关系验收；不以复现本卡示例判通过，未采用该选项不构成缺陷。",
+              "role": "conditional_method_option",
+              "when": "仅当已批准的本场内容确实涉及「身体目标与失败怎样形成笑点」时；题材标签本身不激活这项方法。",
+              "countercase": "若本场不存在上述处境，或已有另一种有效表达，跳过此选项；不得新增事件、人物、冲突或固定镜头来凑本卡。"
+            }
+          ]
+        },
+        {
+          "id": "romantic-comedy",
+          "label": "爱情喜剧",
+          "aliases": [
+            "爱情喜剧",
+            "浪漫喜剧",
+            "romcom"
+          ],
+          "options": [
+            {
+              "profile_id": "nora-ephron",
+              "why": "期待、误解与认知变化形成浪漫喜感。",
+              "method_cards": [
+                "nora-ephron-method-1"
+              ],
+              "reference_boundary": "这些方法卡只证明卡内 source_fact；本路线拍法是可比较的创作迁移，不证明该导演精通本分支全部题材。"
+            },
+            {
+              "profile_id": "nancy-meyers",
+              "why": "成熟生活与亲密关系边界。",
+              "method_cards": [
+                "nancy-meyers-method-1"
+              ],
+              "reference_boundary": "这些方法卡只证明卡内 source_fact；本路线拍法是可比较的创作迁移，不证明该导演精通本分支全部题材。"
+            }
+          ],
+          "limits": "具体作品/段落和本剧适配仍须核实；此处只是候选研究路线。",
+          "execution_facets": [
+            {
+              "id": "romantic-comedy-facet-1",
+              "term": "浪漫喜剧",
+              "decision": "笑点怎样推动相互认识",
+              "execute": "可选方法示例（不是必须执行的镜头链）：让尴尬与误判带来新的认识或行动；只插笑话不算关系推进。",
+              "basis": "authored_production_design_not_director_quote",
+              "acceptance": "适用时，对照本片已批准的观众体验、故事事实和可观察关系验收；不以复现本卡示例判通过，未采用该选项不构成缺陷。",
+              "role": "conditional_method_option",
+              "when": "仅当已批准的本场内容确实涉及「笑点怎样推动相互认识」时；题材标签本身不激活这项方法。",
+              "countercase": "若本场不存在上述处境，或已有另一种有效表达，跳过此选项；不得新增事件、人物、冲突或固定镜头来凑本卡。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "performance-sport",
+      "label": "体育竞技与音乐舞蹈",
+      "aliases": [
+        "体育",
+        "竞技",
+        "音乐",
+        "舞蹈",
+        "sport"
+      ],
+      "decision": "观众要理解技术、投入胜负，还是体验表演与人物代价？",
+      "branches": [
+        {
+          "id": "sports",
+          "label": "体育比赛",
+          "aliases": [
+            "体育比赛",
+            "拳击",
+            "球赛",
+            "个人竞技",
+            "训练成长"
+          ],
+          "options": [
+            {
+              "profile_id": "ryan-coogler",
+              "why": "回合体验、调整与人物压力。",
+              "method_cards": [
+                "ryan-coogler-method-1"
+              ],
+              "reference_boundary": "这些方法卡只证明卡内 source_fact；本路线拍法是可比较的创作迁移，不证明该导演精通本分支全部题材。"
+            },
+            {
+              "profile_id": "brad-bird",
+              "why": "身体重量和动作可读性的迁移候选，不替代运动专项资料。",
+              "method_cards": [
+                "brad-bird-method-1"
+              ],
+              "reference_boundary": "这些方法卡只证明卡内 source_fact；本路线拍法是可比较的创作迁移，不证明该导演精通本分支全部题材。"
+            }
+          ],
+          "limits": "具体作品/段落和本剧适配仍须核实；此处只是候选研究路线。",
+          "execution_facets": [
+            {
+              "id": "sports-facet-1",
+              "term": "个人竞技",
+              "decision": "选手如何识别问题并调整",
+              "execute": "可选方法示例（不是必须执行的镜头链）：技术失败、判断、调整和再尝试可见；不靠热血台词瞬间变强。",
+              "basis": "authored_production_design_not_director_quote",
+              "acceptance": "适用时，对照本片已批准的观众体验、故事事实和可观察关系验收；不以复现本卡示例判通过，未采用该选项不构成缺陷。",
+              "role": "conditional_method_option",
+              "when": "仅当已批准的本场内容确实涉及「选手如何识别问题并调整」时；题材标签本身不激活这项方法。",
+              "countercase": "若本场不存在上述处境，或已有另一种有效表达，跳过此选项；不得新增事件、人物、冲突或固定镜头来凑本卡。"
+            },
+            {
+              "id": "sports-facet-2",
+              "term": "训练成长",
+              "decision": "重复训练中什么真的变了",
+              "execute": "可选方法示例（不是必须执行的镜头链）：相同问题前后比较执行、体力或判断；不只汗水音乐蒙太奇。",
+              "basis": "authored_production_design_not_director_quote",
+              "acceptance": "适用时，对照本片已批准的观众体验、故事事实和可观察关系验收；不以复现本卡示例判通过，未采用该选项不构成缺陷。",
+              "role": "conditional_method_option",
+              "when": "仅当已批准的本场内容确实涉及「重复训练中什么真的变了」时；题材标签本身不激活这项方法。",
+              "countercase": "若本场不存在上述处境，或已有另一种有效表达，跳过此选项；不得新增事件、人物、冲突或固定镜头来凑本卡。"
+            }
+          ]
+        },
+        {
+          "id": "competition",
+          "label": "电竞/规则与局势/现实关系",
+          "aliases": [
+            "竞赛",
+            "电竞"
+          ],
+          "options": [
+            {
+              "profile_id": "derek-hui",
+              "why": "《穿越火线》导演一手访谈：游戏空间具身化、年代对照与失败后的关系。",
+              "method_cards": [
+                "derek-hui-method-1"
+              ],
+              "reference_boundary": "这些方法卡只证明卡内 source_fact；本路线拍法是可比较的创作迁移，不证明该导演精通本分支全部题材。"
+            }
+          ],
+          "limits": "已补具体剧集导演与方法依据；游戏内外需可辨，比赛规则和界面信息另核，不能用真人枪战取代电竞因果。",
+          "execution_facets": [
+            {
+              "id": "competition-facet-1",
+              "term": "电竞",
+              "decision": "游戏局势与人的决策怎样互证",
+              "execute": "可选方法示例（不是必须执行的镜头链）：地图、视野、资源、目标与队内指令对应；游戏内外切换可辨，获胜有过程证据。",
+              "basis": "authored_production_design_not_director_quote",
+              "acceptance": "适用时，对照本片已批准的观众体验、故事事实和可观察关系验收；不以复现本卡示例判通过，未采用该选项不构成缺陷。",
+              "role": "conditional_method_option",
+              "when": "仅当已批准的本场内容确实涉及「游戏局势与人的决策怎样互证」时；题材标签本身不激活这项方法。",
+              "countercase": "若本场不存在上述处境，或已有另一种有效表达，跳过此选项；不得新增事件、人物、冲突或固定镜头来凑本卡。"
+            }
+          ]
+        },
+        {
+          "id": "music-dance",
+          "label": "音乐/舞台/舞蹈",
+          "aliases": [
+            "音乐表演",
+            "舞台",
+            "歌舞",
+            "舞蹈",
+            "歌舞叙事"
+          ],
+          "options": [
+            {
+              "profile_id": "damien-chazelle",
+              "why": "完整动作、拍点和戏剧压力的组织。",
+              "method_cards": [
+                "damien-chazelle-method-1"
+              ],
+              "reference_boundary": "这些方法卡只证明卡内 source_fact；本路线拍法是可比较的创作迁移，不证明该导演精通本分支全部题材。"
+            },
+            {
+              "profile_id": "naoko-yamada",
+              "why": "人物关系与声音共创的研究方向。",
+              "method_cards": [
+                "naoko-yamada-method-1"
+              ],
+              "reference_boundary": "这些方法卡只证明卡内 source_fact；本路线拍法是可比较的创作迁移，不证明该导演精通本分支全部题材。"
+            }
+          ],
+          "limits": "乐器动作、舞蹈和声画同步单独核验；不能借音乐掩盖动作错误。",
+          "execution_facets": [
+            {
+              "id": "music-dance-facet-1",
+              "term": "舞蹈",
+              "decision": "身体完整动作还是情绪局部更重要",
+              "execute": "可选方法示例（不是必须执行的镜头链）：舞姿、支撑脚与伙伴关系可读；近景切入不能遮掉关键动作。",
+              "basis": "authored_production_design_not_director_quote",
+              "acceptance": "适用时，对照本片已批准的观众体验、故事事实和可观察关系验收；不以复现本卡示例判通过，未采用该选项不构成缺陷。",
+              "role": "conditional_method_option",
+              "when": "仅当已批准的本场内容确实涉及「身体完整动作还是情绪局部更重要」时；题材标签本身不激活这项方法。",
+              "countercase": "若本场不存在上述处境，或已有另一种有效表达，跳过此选项；不得新增事件、人物、冲突或固定镜头来凑本卡。"
+            },
+            {
+              "id": "music-dance-facet-2",
+              "term": "音乐表演",
+              "decision": "声音与演奏行为是否对应",
+              "execute": "可选方法示例（不是必须执行的镜头链）：乐器动作、呼吸、拍点与声部核对；直出与后配职责先定。",
+              "basis": "authored_production_design_not_director_quote",
+              "acceptance": "适用时，对照本片已批准的观众体验、故事事实和可观察关系验收；不以复现本卡示例判通过，未采用该选项不构成缺陷。",
+              "role": "conditional_method_option",
+              "when": "仅当已批准的本场内容确实涉及「声音与演奏行为是否对应」时；题材标签本身不激活这项方法。",
+              "countercase": "若本场不存在上述处境，或已有另一种有效表达，跳过此选项；不得新增事件、人物、冲突或固定镜头来凑本卡。"
+            },
+            {
+              "id": "music-dance-facet-3",
+              "term": "歌舞叙事",
+              "decision": "唱跳在故事中完成什么改变",
+              "execute": "可用歌舞承担选择、关系、信息，也可展开情绪、仪式、幻想、身体技巧或节奏性的停顿；衔接服从本片意图。",
+              "basis": "authored_production_design_not_director_quote",
+              "acceptance": "适用时，对照本片已批准的观众体验、故事事实和可观察关系验收；不以复现本卡示例判通过，未采用该选项不构成缺陷。",
+              "role": "conditional_method_option",
+              "when": "歌舞被作品选为人物、情绪、关系、叙事或纯视听体验的表达方式时。",
+              "countercase": "叙事可以暂缓以容纳经批准的抒情或表演段落，不要求每首歌推进情节，也不因暂停行动就判为无效。"
+            }
+          ]
+        },
+        {
+          "id": "team-sport",
+          "label": "团队对抗/协作与战术后果",
+          "aliases": [
+            "团队对抗",
+            "团队竞技",
+            "团体竞技"
+          ],
+          "options": [
+            {
+              "profile_id": "bennett-miller",
+              "why": "《点球成金》团队资源选择与人物风险；不是球类动作手册。",
+              "method_cards": [
+                "bennett-miller-method-1"
+              ],
+              "reference_boundary": "这些方法卡只证明卡内 source_fact；本路线拍法是可比较的创作迁移，不证明该导演精通本分支全部题材。"
+            },
+            {
+              "profile_id": "derek-hui",
+              "why": "《穿越火线》具身竞赛和队员关系；具体战术规则仍按项目核验。",
+              "method_cards": [
+                "derek-hui-method-1"
+              ],
+              "reference_boundary": "这些方法卡只证明卡内 source_fact；本路线拍法是可比较的创作迁移，不证明该导演精通本分支全部题材。"
+            }
+          ],
+          "limits": "集体胜负必须能还原分工和决策；管理者视点、场内视点不同，不把团队拍成独狼轮流秀。",
+          "execution_facets": [
+            {
+              "id": "team-sport-facet-1",
+              "term": "团队对抗",
+              "decision": "共同目标怎样依靠分工实现",
+              "execute": "可选方法示例（不是必须执行的镜头链）：交代队员角色、信息及配合时机，关键失误影响全队后续决策；不能只剪各自高光。",
+              "basis": "authored_production_design_not_director_quote",
+              "acceptance": "适用时，对照本片已批准的观众体验、故事事实和可观察关系验收；不以复现本卡示例判通过，未采用该选项不构成缺陷。",
+              "role": "conditional_method_option",
+              "when": "仅当已批准的本场内容确实涉及「共同目标怎样依靠分工实现」时；题材标签本身不激活这项方法。",
+              "countercase": "若本场不存在上述处境，或已有另一种有效表达，跳过此选项；不得新增事件、人物、冲突或固定镜头来凑本卡。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "children-family",
+      "label": "儿童合家欢与童话",
+      "aliases": [
+        "儿童",
+        "合家欢",
+        "童话",
+        "亲子",
+        "children"
+      ],
+      "decision": "理解门槛、情绪强度和幻想规则是否适合目标观众？",
+      "branches": [
+        {
+          "id": "family-adventure",
+          "label": "合家欢冒险",
+          "aliases": [
+            "亲子冒险",
+            "家庭冒险",
+            "全年龄喜剧"
+          ],
+          "options": [
+            {
+              "profile_id": "brad-bird",
+              "why": "家庭关系通过行动能力和合作兑现。",
+              "method_cards": [
+                "brad-bird-method-1"
+              ],
+              "reference_boundary": "这些方法卡只证明卡内 source_fact；本路线拍法是可比较的创作迁移，不证明该导演精通本分支全部题材。"
+            },
+            {
+              "profile_id": "steven-spielberg",
+              "why": "研究发现、恐惧与奇观中的儿童处境。",
+              "method_cards": [
+                "steven-spielberg-method-1"
+              ],
+              "reference_boundary": "这些方法卡只证明卡内 source_fact；本路线拍法是可比较的创作迁移，不证明该导演精通本分支全部题材。"
+            }
+          ],
+          "limits": "具体作品/段落和本剧适配仍须核实；此处只是候选研究路线。",
+          "execution_facets": [
+            {
+              "id": "family-adventure-facet-1",
+              "term": "家庭冒险",
+              "decision": "不同年龄怎样共同解决问题",
+              "execute": "可选方法示例（不是必须执行的镜头链）：各成员能力、限制与贡献有区别，儿童能动性不靠成年人突然无能来换。",
+              "basis": "authored_production_design_not_director_quote",
+              "acceptance": "适用时，对照本片已批准的观众体验、故事事实和可观察关系验收；不以复现本卡示例判通过，未采用该选项不构成缺陷。",
+              "role": "conditional_method_option",
+              "when": "仅当已批准的本场内容确实涉及「不同年龄怎样共同解决问题」时；题材标签本身不激活这项方法。",
+              "countercase": "若本场不存在上述处境，或已有另一种有效表达，跳过此选项；不得新增事件、人物、冲突或固定镜头来凑本卡。"
+            },
+            {
+              "id": "family-adventure-facet-2",
+              "term": "全年龄喜剧",
+              "decision": "不同理解层是否都可享受",
+              "execute": "可选方法示例（不是必须执行的镜头链）：儿童能读身体与目标，成人可读关系潜台词；另审内容强度，不因动画自动适龄。",
+              "basis": "authored_production_design_not_director_quote",
+              "acceptance": "适用时，对照本片已批准的观众体验、故事事实和可观察关系验收；不以复现本卡示例判通过，未采用该选项不构成缺陷。",
+              "role": "conditional_method_option",
+              "when": "仅当已批准的本场内容确实涉及「不同理解层是否都可享受」时；题材标签本身不激活这项方法。",
+              "countercase": "若本场不存在上述处境，或已有另一种有效表达，跳过此选项；不得新增事件、人物、冲突或固定镜头来凑本卡。"
+            }
+          ]
+        },
+        {
+          "id": "emotional-fantasy",
+          "label": "情感寓言",
+          "aliases": [
+            "情感寓言",
+            "成长童话",
+            "温暖奇幻"
+          ],
+          "options": [
+            {
+              "profile_id": "pete-docter",
+              "why": "让抽象情绪成为可体验的行动规则。",
+              "method_cards": [
+                "pete-docter-method-1"
+              ],
+              "reference_boundary": "这些方法卡只证明卡内 source_fact；本路线拍法是可比较的创作迁移，不证明该导演精通本分支全部题材。"
+            },
+            {
+              "profile_id": "hayao-miyazaki",
+              "why": "研究好奇、劳动和与异类相处。",
+              "method_cards": [
+                "hayao-miyazaki-method-1"
+              ],
+              "reference_boundary": "这些方法卡只证明卡内 source_fact；本路线拍法是可比较的创作迁移，不证明该导演精通本分支全部题材。"
+            }
+          ],
+          "limits": "具体作品/段落和本剧适配仍须核实；此处只是候选研究路线。",
+          "execution_facets": [
+            {
+              "id": "emotional-fantasy-facet-1",
+              "term": "温暖奇幻",
+              "decision": "善意是否通过行动被体会",
+              "execute": "可选方法示例（不是必须执行的镜头链）：奇幻体验改变现实关系或自我理解，温暖不等于无冲突无代价。",
+              "basis": "authored_production_design_not_director_quote",
+              "acceptance": "适用时，对照本片已批准的观众体验、故事事实和可观察关系验收；不以复现本卡示例判通过，未采用该选项不构成缺陷。",
+              "role": "conditional_method_option",
+              "when": "仅当已批准的本场内容确实涉及「善意是否通过行动被体会」时；题材标签本身不激活这项方法。",
+              "countercase": "若本场不存在上述处境，或已有另一种有效表达，跳过此选项；不得新增事件、人物、冲突或固定镜头来凑本卡。"
+            }
+          ]
+        },
+        {
+          "id": "fairy-tale",
+          "label": "童话/想象世界",
+          "aliases": [
+            "奇幻童话",
+            "儿童幻想",
+            "童话"
+          ],
+          "options": [
+            {
+              "profile_id": "hayao-miyazaki",
+              "why": "环境、行动与伦理的联结。",
+              "method_cards": [
+                "hayao-miyazaki-method-1"
+              ],
+              "reference_boundary": "这些方法卡只证明卡内 source_fact；本路线拍法是可比较的创作迁移，不证明该导演精通本分支全部题材。"
+            },
+            {
+              "profile_id": "wes-anderson",
+              "why": "研究群像和形式游戏；需筛选年龄合适的作品与段落。",
+              "method_cards": [
+                "wes-anderson-method-1"
+              ],
+              "reference_boundary": "这些方法卡只证明卡内 source_fact；本路线拍法是可比较的创作迁移，不证明该导演精通本分支全部题材。"
+            }
+          ],
+          "limits": "导演名不保证儿童适宜；内容尺度、惊吓强度和理解负担独立评估，不默认卡通即低龄。",
+          "execution_facets": [
+            {
+              "id": "fairy-tale-facet-1",
+              "term": "童话",
+              "decision": "简洁规则怎样承载真实情感",
+              "execute": "可选方法示例（不是必须执行的镜头链）：重复母题每次带新意义，魔法有边界；不能用说教替代选择。",
+              "basis": "authored_production_design_not_director_quote",
+              "acceptance": "适用时，对照本片已批准的观众体验、故事事实和可观察关系验收；不以复现本卡示例判通过，未采用该选项不构成缺陷。",
+              "role": "conditional_method_option",
+              "when": "仅当已批准的本场内容确实涉及「简洁规则怎样承载真实情感」时；题材标签本身不激活这项方法。",
+              "countercase": "若本场不存在上述处境，或已有另一种有效表达，跳过此选项；不得新增事件、人物、冲突或固定镜头来凑本卡。"
+            }
+          ]
+        },
+        {
+          "id": "child-viewpoint",
+          "label": "儿童视点/有限理解",
+          "aliases": [
+            "儿童视点",
+            "儿童视角"
+          ],
+          "options": [
+            {
+              "profile_id": "alfonso-cuaron",
+              "why": "《小公主》儿童具体感知与行为引导。",
+              "method_cards": [
+                "alfonso-cuaron-method-1"
+              ],
+              "reference_boundary": "这些方法卡只证明卡内 source_fact；本路线拍法是可比较的创作迁移，不证明该导演精通本分支全部题材。"
+            },
+            {
+              "profile_id": "hirokazu-koreeda",
+              "why": "《小偷家族》儿童称谓与家庭关系的有限表达。",
+              "method_cards": [
+                "hirokazu-koreeda-method-1"
+              ],
+              "reference_boundary": "这些方法卡只证明卡内 source_fact；本路线拍法是可比较的创作迁移，不证明该导演精通本分支全部题材。"
+            }
+          ],
+          "limits": "儿童视点不等于儿童适龄；是否合家欢另外审内容，不能把成人题材自动判为儿童可看。",
+          "execution_facets": [
+            {
+              "id": "child-viewpoint-facet-1",
+              "term": "儿童视点",
+              "decision": "孩子能看到什么又误解什么",
+              "execute": "可选方法示例（不是必须执行的镜头链）：按儿童当下具体任务和注意对象组织信息，成人意义可留给观众；不自动低机位或幼化语言。",
+              "basis": "authored_production_design_not_director_quote",
+              "acceptance": "适用时，对照本片已批准的观众体验、故事事实和可观察关系验收；不以复现本卡示例判通过，未采用该选项不构成缺陷。",
+              "role": "conditional_method_option",
+              "when": "仅当已批准的本场内容确实涉及「孩子能看到什么又误解什么」时；题材标签本身不激活这项方法。",
+              "countercase": "若本场不存在上述处境，或已有另一种有效表达，跳过此选项；不得新增事件、人物、冲突或固定镜头来凑本卡。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "mechanisms": [
+    {
+      "id": "rebirth",
+      "label": "重生",
+      "aliases": [
+        "重生",
+        "重来"
+      ],
+      "check": "明确前世知识、当前可知信息与改变后的新因果；不能靠旁白跳过人物适应。",
+      "selection_effect": "跨题材机制，不是导演类型；先确定人物关系和观众体验，再研究题材候选。"
+    },
+    {
+      "id": "transmigration",
+      "label": "穿越",
+      "aliases": [
+        "穿越",
+        "穿书"
+      ],
+      "check": "明确进入方式、身份认知与世界规则；原世界经验不自动解决所有冲突。",
+      "selection_effect": "跨题材机制，不是导演类型；先确定人物关系和观众体验，再研究题材候选。"
+    },
+    {
+      "id": "revenge",
+      "label": "复仇",
+      "aliases": [
+        "复仇",
+        "复仇爽剧"
+      ],
+      "check": "明确伤害事实、行动代价、信息布局与兑现；不能每集靠旁人降智和羞辱替代行动。",
+      "selection_effect": "跨题材机制，不是导演类型；先确定人物关系和观众体验，再研究题材候选。"
+    },
+    {
+      "id": "comeback",
+      "label": "逆袭",
+      "aliases": [
+        "逆袭",
+        "翻身",
+        "爽剧"
+      ],
+      "check": "明确能力来源、阻力变化与观众看得见的成果；升级不是只换更强敌人。",
+      "selection_effect": "跨题材机制，不是导演类型；先确定人物关系和观众体验，再研究题材候选。"
+    },
+    {
+      "id": "identity-reversal",
+      "label": "身份反转",
+      "aliases": [
+        "身份反转",
+        "马甲",
+        "真假身份"
+      ],
+      "check": "安排可追溯线索、谁知道什么及揭露后的关系改变；反转不能任意更改既定事实。",
+      "selection_effect": "跨题材机制，不是导演类型；先确定人物关系和观众体验，再研究题材候选。"
+    },
+    {
+      "id": "system",
+      "label": "系统",
+      "aliases": [
+        "系统",
+        "任务系统"
+      ],
+      "check": "明确任务、奖励、约束、代价和信息显示职责；系统播报不代替人物选择。",
+      "selection_effect": "跨题材机制，不是导演类型；先确定人物关系和观众体验，再研究题材候选。"
+    },
+    {
+      "id": "infinite-loop",
+      "label": "无限流/循环机制",
+      "aliases": [
+        "无限流",
+        "循环",
+        "时间循环"
+      ],
+      "check": "明确每轮保留/重置什么、规则如何被验证；重复镜头应产生新信息，循环不限于科幻。",
+      "selection_effect": "跨题材机制，不是导演类型；先确定人物关系和观众体验，再研究题材候选。"
+    }
+  ],
+  "medium_terms": [
+    "动漫",
+    "动画",
+    "真人",
+    "仿真人",
+    "拟真",
+    "2d",
+    "3d",
+    "三渲二",
+    "2d动漫",
+    "3d动画",
+    "定格"
+  ],
+  "medium_notice": "这是媒介/外观，不是题材；保持已选画风，结合实际剧本检索题材与人物方法。",
+  "completion_contract": {
+    "revision": "director-completion-20261002",
+    "scope": "原四项已确认方案及已记录专项；不是无限题材目录。",
+    "joint_directing": "deferred",
+    "source_and_adaptation_separate": true
+  },
+  "facet_policy": {
+    "role": "conditional_method_options",
+    "activation": "approved_scene_need_not_genre_label",
+    "acceptance_basis": "approved_project_intent_not_example_reproduction",
+    "may_add_story_facts": false,
+    "unused_option_is_failure": false
+  }
+}

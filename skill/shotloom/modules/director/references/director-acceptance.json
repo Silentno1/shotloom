@@ -1,0 +1,476 @@
+{
+  "schema_version": 1,
+  "revision": "director-contract-20261003",
+  "scope": "原已确认四部分方案及记录的伪纪录、电竞、方法证据补齐；联合执导延期。",
+  "promised_routes": [
+    {
+      "topic_id": "romance",
+      "branch_id": "light",
+      "term": "轻甜"
+    },
+    {
+      "topic_id": "romance",
+      "branch_id": "light",
+      "term": "浪漫喜剧"
+    },
+    {
+      "topic_id": "romance",
+      "branch_id": "youth-love",
+      "term": "青春恋爱"
+    },
+    {
+      "topic_id": "romance",
+      "branch_id": "adult",
+      "term": "成熟爱情"
+    },
+    {
+      "topic_id": "romance",
+      "branch_id": "adult",
+      "term": "婚姻关系"
+    },
+    {
+      "topic_id": "romance",
+      "branch_id": "tragic",
+      "term": "虐恋"
+    },
+    {
+      "topic_id": "romance",
+      "branch_id": "tragic",
+      "term": "爱情悬疑"
+    },
+    {
+      "topic_id": "youth",
+      "branch_id": "peer",
+      "term": "校园"
+    },
+    {
+      "topic_id": "youth",
+      "branch_id": "peer",
+      "term": "友情"
+    },
+    {
+      "topic_id": "youth",
+      "branch_id": "peer",
+      "term": "青春群像"
+    },
+    {
+      "topic_id": "youth",
+      "branch_id": "departure",
+      "term": "个人成长"
+    },
+    {
+      "topic_id": "youth",
+      "branch_id": "family-growth",
+      "term": "代际冲突"
+    },
+    {
+      "topic_id": "family-life",
+      "branch_id": "domestic",
+      "term": "家庭伦理"
+    },
+    {
+      "topic_id": "family-life",
+      "branch_id": "domestic",
+      "term": "亲子"
+    },
+    {
+      "topic_id": "family-life",
+      "branch_id": "elder-care",
+      "term": "养老"
+    },
+    {
+      "topic_id": "family-life",
+      "branch_id": "urban",
+      "term": "都市生活"
+    },
+    {
+      "topic_id": "family-life",
+      "branch_id": "rural",
+      "term": "乡土"
+    },
+    {
+      "topic_id": "family-life",
+      "branch_id": "period",
+      "term": "年代生活"
+    },
+    {
+      "topic_id": "professional",
+      "branch_id": "work-business",
+      "term": "职场"
+    },
+    {
+      "topic_id": "professional",
+      "branch_id": "work-business",
+      "term": "商战"
+    },
+    {
+      "topic_id": "professional",
+      "branch_id": "medicine",
+      "term": "医疗"
+    },
+    {
+      "topic_id": "professional",
+      "branch_id": "law-news",
+      "term": "法律"
+    },
+    {
+      "topic_id": "professional",
+      "branch_id": "law-news",
+      "term": "新闻"
+    },
+    {
+      "topic_id": "professional",
+      "branch_id": "social-biography",
+      "term": "社会议题"
+    },
+    {
+      "topic_id": "professional",
+      "branch_id": "social-biography",
+      "term": "人物传记"
+    },
+    {
+      "topic_id": "crime-spy",
+      "branch_id": "classic-mystery",
+      "term": "本格推理"
+    },
+    {
+      "topic_id": "crime-spy",
+      "branch_id": "deduction",
+      "term": "刑侦"
+    },
+    {
+      "topic_id": "crime-spy",
+      "branch_id": "psychological",
+      "term": "犯罪心理"
+    },
+    {
+      "topic_id": "crime-spy",
+      "branch_id": "manhunt",
+      "term": "追凶"
+    },
+    {
+      "topic_id": "crime-spy",
+      "branch_id": "undercover",
+      "term": "卧底"
+    },
+    {
+      "topic_id": "crime-spy",
+      "branch_id": "undercover",
+      "term": "情报博弈"
+    },
+    {
+      "topic_id": "crime-spy",
+      "branch_id": "political",
+      "term": "政治惊悚"
+    },
+    {
+      "topic_id": "war",
+      "branch_id": "individual",
+      "term": "战争中的个体"
+    },
+    {
+      "topic_id": "war",
+      "branch_id": "collective",
+      "term": "集体作战"
+    },
+    {
+      "topic_id": "war",
+      "branch_id": "individual",
+      "term": "战场生存"
+    },
+    {
+      "topic_id": "war",
+      "branch_id": "command",
+      "term": "指挥决策"
+    },
+    {
+      "topic_id": "war",
+      "branch_id": "individual",
+      "term": "现代战争"
+    },
+    {
+      "topic_id": "war",
+      "branch_id": "historical-war",
+      "term": "历史战争"
+    },
+    {
+      "topic_id": "history",
+      "branch_id": "epic-history",
+      "term": "历史正剧"
+    },
+    {
+      "topic_id": "history",
+      "branch_id": "court",
+      "term": "朝堂博弈"
+    },
+    {
+      "topic_id": "history",
+      "branch_id": "court",
+      "term": "宫廷关系"
+    },
+    {
+      "topic_id": "history",
+      "branch_id": "costume-life",
+      "term": "传奇"
+    },
+    {
+      "topic_id": "history",
+      "branch_id": "epic-history",
+      "term": "历史群像"
+    },
+    {
+      "topic_id": "eastern-fantasy",
+      "branch_id": "martial",
+      "term": "江湖"
+    },
+    {
+      "topic_id": "eastern-fantasy",
+      "branch_id": "martial",
+      "term": "武术动作"
+    },
+    {
+      "topic_id": "eastern-fantasy",
+      "branch_id": "cultivation",
+      "term": "奇幻修行"
+    },
+    {
+      "topic_id": "eastern-fantasy",
+      "branch_id": "myth",
+      "term": "神话人物"
+    },
+    {
+      "topic_id": "eastern-fantasy",
+      "branch_id": "myth",
+      "term": "东方幻想与大型奇观"
+    },
+    {
+      "topic_id": "horror",
+      "branch_id": "psychological-horror",
+      "term": "心理恐怖"
+    },
+    {
+      "topic_id": "horror",
+      "branch_id": "folk",
+      "term": "民俗"
+    },
+    {
+      "topic_id": "horror",
+      "branch_id": "supernatural",
+      "term": "灵异"
+    },
+    {
+      "topic_id": "horror",
+      "branch_id": "monster",
+      "term": "怪物"
+    },
+    {
+      "topic_id": "horror",
+      "branch_id": "body",
+      "term": "身体恐怖"
+    },
+    {
+      "topic_id": "horror",
+      "branch_id": "monster",
+      "term": "封闭空间"
+    },
+    {
+      "topic_id": "horror",
+      "branch_id": "found-footage",
+      "term": "伪纪录"
+    },
+    {
+      "topic_id": "action-adventure",
+      "branch_id": "combat",
+      "term": "近身搏斗"
+    },
+    {
+      "topic_id": "action-adventure",
+      "branch_id": "combat",
+      "term": "枪战"
+    },
+    {
+      "topic_id": "action-adventure",
+      "branch_id": "pursuit",
+      "term": "追逐"
+    },
+    {
+      "topic_id": "action-adventure",
+      "branch_id": "heist",
+      "term": "劫案"
+    },
+    {
+      "topic_id": "action-adventure",
+      "branch_id": "quest",
+      "term": "探险"
+    },
+    {
+      "topic_id": "action-adventure",
+      "branch_id": "quest",
+      "term": "公路冒险"
+    },
+    {
+      "topic_id": "action-adventure",
+      "branch_id": "rescue",
+      "term": "灾难逃生与救援"
+    },
+    {
+      "topic_id": "science-fiction",
+      "branch_id": "hard-space",
+      "term": "硬科幻"
+    },
+    {
+      "topic_id": "science-fiction",
+      "branch_id": "hard-space",
+      "term": "太空"
+    },
+    {
+      "topic_id": "science-fiction",
+      "branch_id": "ai-cyber",
+      "term": "人工智能"
+    },
+    {
+      "topic_id": "science-fiction",
+      "branch_id": "ai-cyber",
+      "term": "赛博朋克"
+    },
+    {
+      "topic_id": "science-fiction",
+      "branch_id": "time",
+      "term": "时间循环"
+    },
+    {
+      "topic_id": "science-fiction",
+      "branch_id": "dystopia",
+      "term": "反乌托邦"
+    },
+    {
+      "topic_id": "science-fiction",
+      "branch_id": "dystopia",
+      "term": "末世生存"
+    },
+    {
+      "topic_id": "comedy",
+      "branch_id": "sitcom",
+      "term": "生活喜剧"
+    },
+    {
+      "topic_id": "comedy",
+      "branch_id": "sitcom",
+      "term": "情境喜剧"
+    },
+    {
+      "topic_id": "comedy",
+      "branch_id": "absurd",
+      "term": "荒诞"
+    },
+    {
+      "topic_id": "comedy",
+      "branch_id": "absurd",
+      "term": "黑色幽默"
+    },
+    {
+      "topic_id": "comedy",
+      "branch_id": "action-comedy",
+      "term": "动作喜剧"
+    },
+    {
+      "topic_id": "comedy",
+      "branch_id": "romantic-comedy",
+      "term": "浪漫喜剧"
+    },
+    {
+      "topic_id": "performance-sport",
+      "branch_id": "sports",
+      "term": "个人竞技"
+    },
+    {
+      "topic_id": "performance-sport",
+      "branch_id": "team-sport",
+      "term": "团队对抗"
+    },
+    {
+      "topic_id": "performance-sport",
+      "branch_id": "sports",
+      "term": "训练成长"
+    },
+    {
+      "topic_id": "performance-sport",
+      "branch_id": "competition",
+      "term": "电竞"
+    },
+    {
+      "topic_id": "performance-sport",
+      "branch_id": "music-dance",
+      "term": "舞蹈"
+    },
+    {
+      "topic_id": "performance-sport",
+      "branch_id": "music-dance",
+      "term": "音乐表演"
+    },
+    {
+      "topic_id": "performance-sport",
+      "branch_id": "music-dance",
+      "term": "歌舞叙事"
+    },
+    {
+      "topic_id": "children-family",
+      "branch_id": "child-viewpoint",
+      "term": "儿童视点"
+    },
+    {
+      "topic_id": "children-family",
+      "branch_id": "family-adventure",
+      "term": "家庭冒险"
+    },
+    {
+      "topic_id": "children-family",
+      "branch_id": "fairy-tale",
+      "term": "童话"
+    },
+    {
+      "topic_id": "children-family",
+      "branch_id": "emotional-fantasy",
+      "term": "温暖奇幻"
+    },
+    {
+      "topic_id": "children-family",
+      "branch_id": "family-adventure",
+      "term": "全年龄喜剧"
+    }
+  ],
+  "required_specialists": {
+    "养老": [
+      "michael-haneke"
+    ],
+    "本格推理": [
+      "rian-johnson"
+    ],
+    "伪纪录": [
+      "oren-peli"
+    ],
+    "电竞": [
+      "derek-hui"
+    ],
+    "团队对抗": [
+      "bennett-miller",
+      "derek-hui"
+    ],
+    "儿童视点": [
+      "alfonso-cuaron",
+      "hirokazu-koreeda"
+    ]
+  },
+  "invariants": [
+    "existing_64_ids_preserved",
+    "14_topics",
+    "7_mechanisms_separate",
+    "no_automatic_selection",
+    "no_joint_directing_expansion",
+    "medium_independence",
+    "existing_production_locks_unchanged",
+    "official_model_rules_unchanged",
+    "no_production_or_fees"
+  ],
+  "acceptance_boundary": "路线、具体方法依据、逐维度归属和回归可验证；实际成片效果和市场结果不由本库保证。"
+}

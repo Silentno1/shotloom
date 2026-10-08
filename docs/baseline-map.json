@@ -1,0 +1,1041 @@
+{
+  "schema_version": 1,
+  "purpose": "complete synchronized-source provenance; not execution or source-truth certification",
+  "baseline_date": "2026-10-04",
+  "files": [
+    {
+      "component": "director",
+      "source": "SKILL.md",
+      "source_sha256": "f98102d12b9d2cf5251207f450c6235e3accf78acd3630eec3486bc02ed21b15",
+      "target": "modules/director/WORKFLOW.md",
+      "disposition": "retained_with_public_adaptation"
+    },
+    {
+      "component": "director",
+      "source": "agents/openai.yaml",
+      "disposition": "replaced_by_single_public_entry_metadata"
+    },
+    {
+      "component": "director",
+      "source": "references/authority-and-method-bible.md",
+      "source_sha256": "1345787f707ed63fc61799db53ecbe93137219fa2cfcdb90c0660f223c61dae9",
+      "target": "modules/director/references/authority-and-method-bible.md",
+      "disposition": "retained_with_public_adaptation"
+    },
+    {
+      "component": "director",
+      "source": "references/director-acceptance.json",
+      "source_sha256": "abe334929612f793669d7180b057d5d34e674c2c6505a95478201b9eb1428eba",
+      "target": "modules/director/references/director-acceptance.json",
+      "disposition": "retained_with_public_adaptation"
+    },
+    {
+      "component": "director",
+      "source": "references/director-coverage.json",
+      "source_sha256": "ceb86554e8f293950c17f1d15cfab9d84cd7497749a23d19ccba559a3e294610",
+      "target": "modules/director/references/director-coverage.json",
+      "disposition": "retained_with_public_adaptation"
+    },
+    {
+      "component": "director",
+      "source": "references/director-coverage.md",
+      "source_sha256": "26bbc7023ae4091563036ea14e5f27d312f0f9a4661a828276db51867ec6e788",
+      "target": "modules/director/references/director-coverage.md",
+      "disposition": "retained_with_public_adaptation"
+    },
+    {
+      "component": "director",
+      "source": "references/director-decision-methods.json",
+      "source_sha256": "27aca02f4e51447d701c4a5e820fedf31199bb0a5276ddc4bceb02f73d0c7e8f",
+      "target": "modules/director/references/director-decision-methods.json",
+      "disposition": "retained_with_public_adaptation"
+    },
+    {
+      "component": "director",
+      "source": "references/director-decision-practice.md",
+      "source_sha256": "cbbd3c3c8c62bf1bc4ed5d258e0544435abaac65151939c1ce3c1cba88d5dece",
+      "target": "modules/director/references/director-decision-practice.md",
+      "disposition": "retained_with_public_adaptation"
+    },
+    {
+      "component": "director",
+      "source": "references/director-paper-comparisons.md",
+      "source_sha256": "18a38a66b70024c734f2304358a154fae1f57713809fda17a518e6eacc88ed01",
+      "target": "modules/director/references/director-paper-comparisons.md",
+      "disposition": "retained_with_public_adaptation"
+    },
+    {
+      "component": "director",
+      "source": "references/director-profiles.json",
+      "source_sha256": "c95cbae4d233625521b9aa0e69d3923870d2dcbdf06d93b3224cf36af7db4149",
+      "target": "modules/director/references/director-profiles.json",
+      "disposition": "retained_with_public_adaptation"
+    },
+    {
+      "component": "director",
+      "source": "references/director-scoring.md",
+      "source_sha256": "ad796accbed07156b9852b06907f54b1dd43e7976e0b80fe01afffda5be0626a",
+      "target": "modules/director/references/director-scoring.md",
+      "disposition": "retained_with_public_adaptation"
+    },
+    {
+      "component": "director",
+      "source": "references/director-selection.md",
+      "source_sha256": "a7c601b08de0e6ff88e7e51a72587175975b2cf79e5c716fd1268689351e7a5f",
+      "target": "modules/director/references/director-selection.md",
+      "disposition": "retained_with_public_adaptation"
+    },
+    {
+      "component": "director",
+      "source": "references/embedded-media-direction.md",
+      "source_sha256": "7f851529b6e6fdfcf0839fc87168ef66640729a067d92e9d7414aff822a3bee0",
+      "target": "modules/director/references/embedded-media-direction.md",
+      "disposition": "retained_with_public_adaptation"
+    },
+    {
+      "component": "director",
+      "source": "references/narrative-time.md",
+      "source_sha256": "03d60dea2e0ad22b767908cdc3b8de51c45b14679be9caf4751f5678418c7d2e",
+      "target": "modules/director/references/narrative-time.md",
+      "disposition": "retained_with_public_adaptation"
+    },
+    {
+      "component": "director",
+      "source": "references/performance-camera.md",
+      "source_sha256": "73f162b2c7b894623cf9e70f2b37f5fa9e0c65d513f712f38accda6d4cf4db5a",
+      "target": "modules/director/references/performance-camera.md",
+      "disposition": "retained_with_public_adaptation"
+    },
+    {
+      "component": "director",
+      "source": "references/production-workflow.md",
+      "source_sha256": "b4f9c260ce89895f8034676a97d4c55dd78cc6ede900c23ce4714a3a637b1e80",
+      "target": "modules/director/references/production-workflow.md",
+      "disposition": "retained_with_public_adaptation"
+    },
+    {
+      "component": "director",
+      "source": "references/scene-direction.md",
+      "source_sha256": "3d32c57e178749740cdb6ae5d8f3e969b866a8fe00dfedd5ab5c24125fc03b47",
+      "target": "modules/director/references/scene-direction.md",
+      "disposition": "retained_with_public_adaptation"
+    },
+    {
+      "component": "director",
+      "source": "references/screenwriting-development.md",
+      "source_sha256": "c1b11ec1116e9a84d2076bf2e345475e20a7b7028d29e9dbf3fd3af03487ab5a",
+      "target": "modules/director/references/screenwriting-development.md",
+      "disposition": "retained_with_public_adaptation"
+    },
+    {
+      "component": "director",
+      "source": "references/shot-camera-time-design.md",
+      "source_sha256": "d89186e8a472aafffe65d592d138ea2fc140197ac3062f68842c03f18d7dc59c",
+      "target": "modules/director/references/shot-camera-time-design.md",
+      "disposition": "retained_with_public_adaptation",
+      "previous_source_snapshots": [
+        {
+          "date": "2026-10-04",
+          "sha256": "496acbd7c7518cd9a2ba5d6115455453bc9a6d31640379f745f69815a0d67ede"
+        }
+      ],
+      "source_snapshot_date": "2026-10-09"
+    },
+    {
+      "component": "director",
+      "source": "references/stylized-action.md",
+      "source_sha256": "b3427ebaf928e7d70070bc7bf0ed1895735e69b08f6fb1a95aea54d45b6832bd",
+      "target": "modules/director/references/stylized-action.md",
+      "disposition": "retained_with_public_adaptation"
+    },
+    {
+      "component": "director",
+      "source": "references/tool-object-actions.md",
+      "source_sha256": "b2b667810f81ceba1fd49cbcc96f19c184590462bd4f5459e2fe578257690024",
+      "target": "modules/director/references/tool-object-actions.md",
+      "disposition": "retained_with_public_adaptation"
+    },
+    {
+      "component": "director",
+      "source": "references/transitions-sound.md",
+      "source_sha256": "2be9914ee49934ae14512465f35b90db9be52b33fc2183eca75cca9657f127f9",
+      "target": "modules/director/references/transitions-sound.md",
+      "disposition": "retained_with_public_adaptation"
+    },
+    {
+      "component": "director",
+      "source": "references/whole-body-performance.md",
+      "source_sha256": "db6911c25e80ed069e0bd42c35a7a15ea04821f82c2f7ebe54f4f0b5ba53fb66",
+      "target": "modules/director/references/whole-body-performance.md",
+      "disposition": "retained_with_public_adaptation"
+    },
+    {
+      "component": "director",
+      "source": "scripts/director_catalog_audit.py",
+      "source_sha256": "f5e12b8a643276502cd02e65a16e4bb322ec059140a8607959e9931e3183ce96",
+      "target": "modules/director/scripts/director_catalog_audit.py",
+      "disposition": "retained_with_public_adaptation"
+    },
+    {
+      "component": "director",
+      "source": "scripts/director_methods.py",
+      "source_sha256": "2e747225b24e64c736f6745e98b75035e66aae8d790c0d374e88063c1fb441a0",
+      "target": "modules/director/scripts/director_methods.py",
+      "disposition": "retained_with_public_adaptation"
+    },
+    {
+      "component": "director",
+      "source": "scripts/director_scoring.py",
+      "source_sha256": "28fd4f64f23254533780edeb0f8aaa77abb0eb78b0ebf3d04a51f48c4b85c20c",
+      "target": "modules/director/scripts/director_scoring.py",
+      "disposition": "retained_with_public_adaptation"
+    },
+    {
+      "component": "director",
+      "source": "scripts/director_style.py",
+      "source_sha256": "64efacb8075fa57dcd3e11a1d8a91f98403561d2cd0ca5b4bb9a217cee59f652",
+      "target": "modules/director/scripts/director_style.py",
+      "disposition": "retained_with_public_adaptation"
+    },
+    {
+      "component": "director",
+      "source": "scripts/drama_contracts.py",
+      "source_sha256": "477cc24ba4b4a8711657320ac025abb15108677217109ab5d8309ce05e05abf6",
+      "target": "modules/director/scripts/drama_contracts.py",
+      "disposition": "retained_with_public_adaptation"
+    },
+    {
+      "component": "director",
+      "source": "scripts/script_evidence.py",
+      "source_sha256": "e1dfdd855a940593108d67a5052c35d9e34172466f5423f4fdf31da81859b5d3",
+      "target": "modules/director/scripts/script_evidence.py",
+      "disposition": "retained_with_public_adaptation"
+    },
+    {
+      "component": "director",
+      "source": "scripts/test_contracts.py",
+      "source_sha256": "d36ce178f49e48df14ffe72a5632a3682c1090624f0e03dd2d9e6fcb97b3c0b1",
+      "target": "modules/director/scripts/test_contracts.py",
+      "disposition": "retained_with_public_adaptation"
+    },
+    {
+      "component": "director",
+      "source": "scripts/test_director_catalog_audit.py",
+      "source_sha256": "9d82e1c4d3a36a893779e992f54743be93aff2899687d9e1bf891bfc7272fa32",
+      "target": "modules/director/scripts/test_director_catalog_audit.py",
+      "disposition": "retained_with_public_adaptation"
+    },
+    {
+      "component": "director",
+      "source": "scripts/test_director_methods.py",
+      "source_sha256": "9782f689953be8f9327d269623801d053ab33e63eedaf48b81315fe99d6cdad0",
+      "target": "modules/director/scripts/test_director_methods.py",
+      "disposition": "retained_with_public_adaptation"
+    },
+    {
+      "component": "director",
+      "source": "scripts/test_director_scoring.py",
+      "source_sha256": "7ab114bde653b6c0e8aee2e2c4272c6018d3f78c8458d6a09058230d7e381bb3",
+      "target": "modules/director/scripts/test_director_scoring.py",
+      "disposition": "retained_with_public_adaptation"
+    },
+    {
+      "component": "director",
+      "source": "scripts/test_director_style.py",
+      "source_sha256": "3bc3912564fc354ab29cfbc7a97dc035c76a0db639e77106235d97d2bf57cf7a",
+      "target": "modules/director/scripts/test_director_style.py",
+      "disposition": "retained_with_public_adaptation"
+    },
+    {
+      "component": "director",
+      "source": "scripts/test_shared_contract_repair.py",
+      "source_sha256": "b4aa42774270fa6288da6bbe0a4b1703ac954fefa572557e749d4d82c1ad7eed",
+      "target": "modules/director/scripts/test_shared_contract_repair.py",
+      "disposition": "retained_with_public_adaptation"
+    },
+    {
+      "component": "visual-design",
+      "source": "SKILL.md",
+      "source_sha256": "0e1d31e9145a7d22b03d8695b68bedadec8984fac3a36a5c8d106b2159d60092",
+      "target": "modules/visual-design/WORKFLOW.md",
+      "disposition": "retained_with_public_adaptation"
+    },
+    {
+      "component": "visual-design",
+      "source": "agents/openai.yaml",
+      "disposition": "replaced_by_single_public_entry_metadata"
+    },
+    {
+      "component": "visual-design",
+      "source": "references/appearance-family-routing.md",
+      "source_sha256": "b4a721ea513a7de304ec9011f69a4f7fc791ab2906854314ac8b26974bce3e58",
+      "target": "modules/visual-design/references/appearance-family-routing.md",
+      "disposition": "retained_with_public_adaptation"
+    },
+    {
+      "component": "visual-design",
+      "source": "references/asset-and-spatial-systems.md",
+      "source_sha256": "a2d6d6f1587d15a0bef85839ea6931577c5ff07e71b923c3dc37f1523bbe3595",
+      "target": "modules/visual-design/references/asset-and-spatial-systems.md",
+      "disposition": "retained_with_public_adaptation"
+    },
+    {
+      "component": "visual-design",
+      "source": "references/light-color-production-design.md",
+      "source_sha256": "95ba128a1146d08b85c4bd061a938835a6c48686868edcae829ef8237a7b6132",
+      "target": "modules/visual-design/references/light-color-production-design.md",
+      "disposition": "retained_with_public_adaptation"
+    },
+    {
+      "component": "visual-design",
+      "source": "references/production-method-and-appearance.md",
+      "source_sha256": "bd772560b825dbeb7d912a3d3cf63d23fceae23796268ff4177031115093740b",
+      "target": "modules/visual-design/references/production-method-and-appearance.md",
+      "disposition": "retained_with_public_adaptation"
+    },
+    {
+      "component": "visual-design",
+      "source": "references/reference-look-extraction.md",
+      "source_sha256": "f1a924ff3c48f5049826fc01282c51f4f31c8ae9b4e87ea8fc4f2ee73836ab5a",
+      "target": "modules/visual-design/references/reference-look-extraction.md",
+      "disposition": "retained_with_public_adaptation"
+    },
+    {
+      "component": "visual-design",
+      "source": "references/scale-and-mass.md",
+      "source_sha256": "4e024426ffb8062bf3bc402b96695ed9a6411244b030724cda8bdd65c47beb77",
+      "target": "modules/visual-design/references/scale-and-mass.md",
+      "disposition": "retained_with_public_adaptation"
+    },
+    {
+      "component": "visual-design",
+      "source": "references/three-render-two.md",
+      "source_sha256": "b3fc910cdde03edc182fdd857822d98151e60456ce04b90dc7bb7a064ea43dad",
+      "target": "modules/visual-design/references/three-render-two.md",
+      "disposition": "retained_with_public_adaptation"
+    },
+    {
+      "component": "visual-design",
+      "source": "references/visual-bible.md",
+      "source_sha256": "d1034d3d0cc5b350759cafa457b82a06c65837b35a98d8b31dad1dc35ede877c",
+      "target": "modules/visual-design/references/visual-bible.md",
+      "disposition": "retained_with_public_adaptation"
+    },
+    {
+      "component": "visual-design",
+      "source": "scripts/test_audit_repairs.py",
+      "source_sha256": "8e7b1b6de294fb941d65a9bda745c50c3cbff8a6d5b4f6c336ffb761065c30a8",
+      "target": "modules/visual-design/scripts/test_audit_repairs.py",
+      "disposition": "retained_with_public_adaptation"
+    },
+    {
+      "component": "visual-design",
+      "source": "scripts/test_contract_repair_values.py",
+      "source_sha256": "92de739b0e760313fa32d2ec821b6bc47aeeded122d3dcb9d226c1a570d0b0b1",
+      "target": "modules/visual-design/scripts/test_contract_repair_values.py",
+      "disposition": "retained_with_public_adaptation"
+    },
+    {
+      "component": "visual-design",
+      "source": "scripts/test_open_appearance.py",
+      "source_sha256": "a2754b1b83d1e0a6e860f19126bc79cad128df96aeb77e8a606538d60d2fc9b2",
+      "target": "modules/visual-design/scripts/test_open_appearance.py",
+      "disposition": "retained_with_public_adaptation"
+    },
+    {
+      "component": "visual-design",
+      "source": "scripts/test_visual_contract.py",
+      "source_sha256": "4cf9584b010ec605e1ef84419ed2147ee2789a3d87521fadc6e3ec353db38bb0",
+      "target": "modules/visual-design/scripts/test_visual_contract.py",
+      "disposition": "retained_with_public_adaptation"
+    },
+    {
+      "component": "visual-design",
+      "source": "scripts/visual_contract.py",
+      "source_sha256": "01d803cdbe375e90c8e263d6191602af7055d896fb60b30effd069c8fdcc0a03",
+      "target": "modules/visual-design/scripts/visual_contract.py",
+      "disposition": "retained_with_public_adaptation"
+    },
+    {
+      "component": "generation",
+      "source": "SKILL.md",
+      "source_sha256": "901c1e7c7d504686b940dc55b1d29028cdfa57bad3695fb61e2d76d2be7856c7",
+      "target": "modules/generation/WORKFLOW.md",
+      "disposition": "retained_with_public_adaptation"
+    },
+    {
+      "component": "generation",
+      "source": "agents/openai.yaml",
+      "disposition": "replaced_by_single_public_entry_metadata"
+    },
+    {
+      "component": "generation",
+      "source": "references/audio-production.md",
+      "source_sha256": "71aba7ee56bf675cbbdf5d558a9fb9b40d5f3168d48f78ce26228985fbaaae2c",
+      "target": "modules/generation/references/audio-production.md",
+      "disposition": "retained_with_public_adaptation"
+    },
+    {
+      "component": "generation",
+      "source": "references/generation-units.md",
+      "source_sha256": "5057649ebd363834532d8733e1f0170193d770093ab4dd9bca6433def2ec7244",
+      "target": "modules/generation/references/generation-units.md",
+      "disposition": "retained_with_public_adaptation"
+    },
+    {
+      "component": "generation",
+      "source": "references/google-video.md",
+      "source_sha256": "2f8ed49e34e98088c7ebfcf4888e48dd2ef2c133dac7636d4c812699e3927c9a",
+      "target": "modules/generation/references/google-video.md",
+      "disposition": "retained_with_public_adaptation"
+    },
+    {
+      "component": "generation",
+      "source": "references/gpt-image-25.md",
+      "source_sha256": "b10efcb8dafec78d6fe348c109bd2734893cfe4066451b334ee9a8444e8cc067",
+      "target": "modules/generation/references/gpt-image-25.md",
+      "disposition": "retained_with_public_adaptation"
+    },
+    {
+      "component": "generation",
+      "source": "references/image-model-sources.md",
+      "source_sha256": "383e6647eecaf5991cb33480f851137c78148123e4bfe9a3b02acccac8aca0a8",
+      "target": "modules/generation/references/image-model-sources.md",
+      "disposition": "retained_with_public_adaptation"
+    },
+    {
+      "component": "generation",
+      "source": "references/image-platforms.md",
+      "source_sha256": "f4cfe0af3968674b91024d0f7229d3e486c91931bd8632183c6354e9e624b216",
+      "target": "modules/generation/references/image-platforms.md",
+      "disposition": "retained_with_public_adaptation"
+    },
+    {
+      "component": "generation",
+      "source": "references/kling-3-images.md",
+      "source_sha256": "a8663ebdfa0f846fec92626be24176b53e015a2fda0c21a12f2b2ab92680a7c1",
+      "target": "modules/generation/references/kling-3-images.md",
+      "disposition": "retained_with_public_adaptation"
+    },
+    {
+      "component": "generation",
+      "source": "references/kling-3-libtv.md",
+      "source_sha256": "6da36958cebec019228c5ba26c50530b422deaabf9156ae19c2451bbd095098a",
+      "target": "modules/generation/references/destination-bindings.md",
+      "disposition": "retained_with_public_adaptation"
+    },
+    {
+      "component": "generation",
+      "source": "references/kling-3-series.md",
+      "source_sha256": "9fba737a9f452ab2dde24d4e093359ff11036397251a39912072cb36968e9ebe",
+      "target": "modules/generation/references/kling-3-series.md",
+      "disposition": "retained_with_public_adaptation"
+    },
+    {
+      "component": "generation",
+      "source": "references/kling-3-sources.md",
+      "source_sha256": "13f50b0ba50529dc8fdded742233cf49e5c3f9018eac065bc69f1438d127d27b",
+      "target": "modules/generation/references/kling-3-sources.md",
+      "disposition": "retained_with_public_adaptation"
+    },
+    {
+      "component": "generation",
+      "source": "references/kling-3-video.md",
+      "source_sha256": "99a44327bef172ff42eb959a2c88314ec15acd02b7b372658bcfdf69579c8fd2",
+      "target": "modules/generation/references/kling-3-video.md",
+      "disposition": "retained_with_public_adaptation"
+    },
+    {
+      "component": "generation",
+      "source": "references/midjourney.md",
+      "source_sha256": "f5e89455c6ca227838242ef0f030099258968a958b9b31a91f5fedd976acdce3",
+      "target": "modules/generation/references/midjourney.md",
+      "disposition": "retained_with_public_adaptation"
+    },
+    {
+      "component": "generation",
+      "source": "references/minimax-h3.md",
+      "source_sha256": "66f1ff508b54d4fc798b72ae92cc47693247d5c8e5e8d7fc8f3d5dd5c8455dde",
+      "target": "modules/generation/references/minimax-h3.md",
+      "disposition": "retained_with_public_adaptation"
+    },
+    {
+      "component": "generation",
+      "source": "references/model-manual-authority.md",
+      "source_sha256": "7ca39fd76b4230fe5e1ba7ebf45672fefe17b75fb7f199ad2d6f3e8452ff7a72",
+      "target": "modules/generation/references/model-manual-authority.md",
+      "disposition": "retained_with_public_adaptation"
+    },
+    {
+      "component": "generation",
+      "source": "references/nano-banana.md",
+      "source_sha256": "acde256315867eca3eded7c1662777d3efca3cfb8c38deae6c5023ee12cac3f5",
+      "target": "modules/generation/references/nano-banana.md",
+      "disposition": "retained_with_public_adaptation"
+    },
+    {
+      "component": "generation",
+      "source": "references/operation-reconciliation.md",
+      "source_sha256": "a2140c002b33053b8fd5c7701b8bb85fc030dfdc204f08a4978d55735dc61627",
+      "target": "modules/generation/references/operation-reconciliation.md",
+      "disposition": "retained_with_public_adaptation"
+    },
+    {
+      "component": "generation",
+      "source": "references/platform-adapters.md",
+      "source_sha256": "0b6548bcb50a2ebcddf800bc3255670c61403b80707fa2bddab808e59d2caeb8",
+      "target": "modules/generation/references/platform-adapters.md",
+      "disposition": "retained_with_public_adaptation"
+    },
+    {
+      "component": "generation",
+      "source": "references/platform-routing.md",
+      "source_sha256": "89a18f7815537e8c6ffce451c4f12f19279842532989f5340ba985a4e9f1d3ea",
+      "target": "modules/generation/references/platform-routing.md",
+      "disposition": "retained_with_public_adaptation"
+    },
+    {
+      "component": "generation",
+      "source": "references/prompt-compilation.md",
+      "source_sha256": "894e60799da18c67423f993d5a78e771655a459b3df6d05cecb8c0311b33c54d",
+      "target": "modules/generation/references/prompt-compilation.md",
+      "disposition": "retained_with_public_adaptation"
+    },
+    {
+      "component": "generation",
+      "source": "references/runway-gen45.md",
+      "source_sha256": "9e8a1d0fe066187a6cfdb386e8247f812bd05c9db20148121155118fddefaa43",
+      "target": "modules/generation/references/runway-gen45.md",
+      "disposition": "retained_with_public_adaptation"
+    },
+    {
+      "component": "generation",
+      "source": "references/seedance-20.md",
+      "source_sha256": "e7c7c90e741f6126cdca18f4245be1e2b5674b287c2cb1aaae04910285765901",
+      "target": "modules/generation/references/seedance-20.md",
+      "disposition": "retained_with_public_adaptation"
+    },
+    {
+      "component": "generation",
+      "source": "references/seedance-25-operations.md",
+      "source_sha256": "2f943219e1a25fe53952c941465191d6d57b9940ff4d33ceb76dc44c0de0c085",
+      "target": "modules/generation/references/seedance-25-operations.md",
+      "disposition": "retained_with_public_adaptation"
+    },
+    {
+      "component": "generation",
+      "source": "references/seedance-25-sources.md",
+      "source_sha256": "4ff3d641b4a97cda6c79a2f55e529ca1544034c9fa33e2742f2d2034903af460",
+      "target": "modules/generation/references/seedance-25-sources.md",
+      "disposition": "retained_with_public_adaptation"
+    },
+    {
+      "component": "generation",
+      "source": "references/seedance-25.md",
+      "source_sha256": "bc4a1e41cf66ac6784d47d3ee525d69bad2d96cdaca6660f4d01e0d79139dde2",
+      "target": "modules/generation/references/seedance-25.md",
+      "disposition": "retained_with_public_adaptation"
+    },
+    {
+      "component": "generation",
+      "source": "references/seedance-seedream.md",
+      "source_sha256": "6e90b7d2483ec43b2914337a845f36ba8e63ce1a201e1323777a2bf5bb75f559",
+      "target": "modules/generation/references/seedance-seedream.md",
+      "disposition": "retained_with_public_adaptation"
+    },
+    {
+      "component": "generation",
+      "source": "references/source-lock-transcode-repair.md",
+      "source_sha256": "39cb0502c7a859429ffad729443724d9f3fc0a3a074423aab8c93fcf6706ac5a",
+      "target": "modules/generation/references/source-lock-transcode-repair.md",
+      "disposition": "retained_with_public_adaptation"
+    },
+    {
+      "component": "generation",
+      "source": "references/three-render-two-compilation.md",
+      "source_sha256": "f3c5148f9b9bcde426b70109025777fec82396ab4cdb0bedd331949a23f6ce85",
+      "target": "modules/generation/references/three-render-two-compilation.md",
+      "disposition": "retained_with_public_adaptation"
+    },
+    {
+      "component": "generation",
+      "source": "references/video-model-profiles.md",
+      "source_sha256": "cb84cc1cf538ee60e4d7a2e42645237e2efc85a07eb4d93f7971b81ffd70f43f",
+      "target": "modules/generation/references/video-model-profiles.md",
+      "disposition": "retained_with_public_adaptation"
+    },
+    {
+      "component": "generation",
+      "source": "references/video-model-selection.md",
+      "source_sha256": "c5ee9757a61f22aa8b3efa1c9bbd9ed2ca10ba32f2f9e5770442d225f35a802c",
+      "target": "modules/generation/references/video-model-selection.md",
+      "disposition": "retained_with_public_adaptation"
+    },
+    {
+      "component": "generation",
+      "source": "references/wan-3-sources.md",
+      "source_sha256": "52084169141d4ebc606ccdb5ec7ace6a7aee1fe11c02d1a1d6c5f77e3398cfe7",
+      "target": "modules/generation/references/wan-3-sources.md",
+      "disposition": "retained_with_public_adaptation"
+    },
+    {
+      "component": "generation",
+      "source": "references/wan-3.md",
+      "source_sha256": "f21b4e753ba0e6f5fc3fd04be355bbfb3d074406afdc9724e6df93dd72e81251",
+      "target": "modules/generation/references/wan-3.md",
+      "disposition": "retained_with_public_adaptation"
+    },
+    {
+      "component": "generation",
+      "source": "scripts/appearance_coverage_check.py",
+      "source_sha256": "fb132525e660129a28d424d69ef4288516888e8603122c1e74292b592d95be2f",
+      "target": "modules/generation/scripts/appearance_coverage_check.py",
+      "disposition": "retained_with_public_adaptation"
+    },
+    {
+      "component": "generation",
+      "source": "scripts/operation_reconciliation_check.py",
+      "source_sha256": "de0f069512010e291bd33c0626120a09d399dbb4e884160b5be28b67de7bee4e",
+      "target": "modules/generation/scripts/operation_reconciliation_check.py",
+      "disposition": "retained_with_public_adaptation"
+    },
+    {
+      "component": "generation",
+      "source": "scripts/platform_evidence_check.py",
+      "source_sha256": "05cc0c5681c4d07d92b14561d8ebc0113937ca047f6799303d79487c7bde370b",
+      "target": "modules/generation/scripts/platform_evidence_check.py",
+      "disposition": "retained_with_public_adaptation"
+    },
+    {
+      "component": "generation",
+      "source": "scripts/prompt_structure_check.py",
+      "source_sha256": "250ee0bbe7a8f51e5d808d07acd9ae9e16dc46f2c894f68d95a3b1cf5f5fe24b",
+      "target": "modules/generation/scripts/prompt_structure_check.py",
+      "disposition": "retained_with_public_adaptation"
+    },
+    {
+      "component": "generation",
+      "source": "scripts/reference_image_preflight.py",
+      "source_sha256": "9c8ee2bbd99bf22d8bc0e60da49159c4d4bf1bfdd1f081e2cb3d59109fc7c43e",
+      "target": "modules/generation/scripts/reference_image_preflight.py",
+      "disposition": "retained_with_public_adaptation"
+    },
+    {
+      "component": "generation",
+      "source": "scripts/sound_contract_check.py",
+      "source_sha256": "a714ce5a9aeceaf56f676c1f8055d9c6d9d545595dc14e57df2c6673e125b90f",
+      "target": "modules/generation/scripts/sound_contract_check.py",
+      "disposition": "retained_with_public_adaptation"
+    },
+    {
+      "component": "generation",
+      "source": "scripts/source_lock_check.py",
+      "source_sha256": "5762fdb7e8ec669542aeafbd1fc1bd75f315a7b3d25c19221825b67e70fdf960",
+      "target": "modules/generation/scripts/source_lock_check.py",
+      "disposition": "retained_with_public_adaptation"
+    },
+    {
+      "component": "generation",
+      "source": "scripts/test_appearance_coverage.py",
+      "source_sha256": "c74b6e0d2f1ecfac14745cba1aa0671659554aa4c273f7878e03485a2a66ae57",
+      "target": "modules/generation/scripts/test_appearance_coverage.py",
+      "disposition": "retained_with_public_adaptation"
+    },
+    {
+      "component": "generation",
+      "source": "scripts/test_audit_repairs.py",
+      "source_sha256": "5cff326cda339986ccca24baf936b680d87a935c5a3185acab8b119dca5d8959",
+      "target": "modules/generation/scripts/test_audit_repairs.py",
+      "disposition": "retained_with_public_adaptation"
+    },
+    {
+      "component": "generation",
+      "source": "scripts/test_contract_repair_values.py",
+      "source_sha256": "d7338a4ce893e25a328473ceb5d102b812262f7f44425387644018e53d474aa0",
+      "target": "modules/generation/scripts/test_contract_repair_values.py",
+      "disposition": "retained_with_public_adaptation"
+    },
+    {
+      "component": "generation",
+      "source": "scripts/test_director_gate.py",
+      "source_sha256": "5aff6f8c2554aa28cc1f679df7ab5e791b05474f0640543460fe012114f02e72",
+      "target": "modules/generation/scripts/test_director_gate.py",
+      "disposition": "retained_with_public_adaptation"
+    },
+    {
+      "component": "generation",
+      "source": "scripts/test_integrated_repair.py",
+      "source_sha256": "24407fc1c840ad27a0bd7432a520ed5c4ec83dd9f3bc15bdabeb40833a2a1a45",
+      "target": "modules/generation/scripts/test_integrated_repair.py",
+      "disposition": "retained_with_public_adaptation"
+    },
+    {
+      "component": "generation",
+      "source": "scripts/test_operation_reconciliation.py",
+      "source_sha256": "68f3ca4539eb66506b78e64dedec7dcefde3fe3d0434f97bb40b224829f3af4f",
+      "target": "modules/generation/scripts/test_operation_reconciliation.py",
+      "disposition": "retained_with_public_adaptation"
+    },
+    {
+      "component": "generation",
+      "source": "scripts/test_platform_evidence.py",
+      "source_sha256": "db77fc863ca3dcd00480e26894284acf0b8b25d3b24001ad6d39b788dcae8e15",
+      "target": "modules/generation/scripts/test_platform_evidence.py",
+      "disposition": "retained_with_public_adaptation"
+    },
+    {
+      "component": "generation",
+      "source": "scripts/test_prompt_structure.py",
+      "source_sha256": "b315fe3f9615d6470e075e1f7b7793c5521e26b9f84371964a6c1ab88f067430",
+      "target": "modules/generation/scripts/test_prompt_structure.py",
+      "disposition": "retained_with_public_adaptation"
+    },
+    {
+      "component": "generation",
+      "source": "scripts/test_reference_image_preflight.py",
+      "source_sha256": "457e9490cb11ca01d97c9fe5aec6ae45465c45c88ace99591cd52287f92578aa",
+      "target": "modules/generation/scripts/test_reference_image_preflight.py",
+      "disposition": "retained_with_public_adaptation"
+    },
+    {
+      "component": "generation",
+      "source": "scripts/test_sound_ownership_contract.py",
+      "source_sha256": "f2d49925511344b51960a0cb75d612d402d1f58e9680585eeeafd450ad329c2d",
+      "target": "modules/generation/scripts/test_sound_ownership_contract.py",
+      "disposition": "retained_with_public_adaptation"
+    },
+    {
+      "component": "generation",
+      "source": "scripts/test_source_lock.py",
+      "source_sha256": "65361e47a678de8f153308511bb21b7c4f1b4be83fdbef7669e9f396dd2d721d",
+      "target": "modules/generation/scripts/test_source_lock.py",
+      "disposition": "retained_with_public_adaptation"
+    },
+    {
+      "component": "review-continuity",
+      "source": "SKILL.md",
+      "source_sha256": "93ea902967b3d7a9706174b82b5faa0761b13238a903e9d713625b5d8dcbc2da",
+      "target": "modules/review-continuity/WORKFLOW.md",
+      "disposition": "retained_with_public_adaptation"
+    },
+    {
+      "component": "review-continuity",
+      "source": "agents/openai.yaml",
+      "disposition": "replaced_by_single_public_entry_metadata"
+    },
+    {
+      "component": "review-continuity",
+      "source": "references/asset-approval.md",
+      "source_sha256": "4b46d924a051122a372c0434a0c8d9d08d2a0fccb1545fa9fdd3f278e3ad1227",
+      "target": "modules/review-continuity/references/asset-approval.md",
+      "disposition": "retained_with_public_adaptation"
+    },
+    {
+      "component": "review-continuity",
+      "source": "references/continuity-ledger.md",
+      "source_sha256": "84e3d1b3eea5d93799e0867b05a7db141123f5b085779f5025a9f4ae7a1b6727",
+      "target": "modules/review-continuity/references/continuity-ledger.md",
+      "disposition": "retained_with_public_adaptation"
+    },
+    {
+      "component": "review-continuity",
+      "source": "references/failure-attribution.md",
+      "source_sha256": "a71605904cd763d1138404c6bdd7f75759ea7baa08e92c1b64340a16495b76f3",
+      "target": "modules/review-continuity/references/failure-attribution.md",
+      "disposition": "retained_with_public_adaptation"
+    },
+    {
+      "component": "review-continuity",
+      "source": "references/narrative-contexts.md",
+      "source_sha256": "b036837d299071062ad69a29db65e12bfe19faf752a5177359c6b87d56eb5b7d",
+      "target": "modules/review-continuity/references/narrative-contexts.md",
+      "disposition": "retained_with_public_adaptation"
+    },
+    {
+      "component": "review-continuity",
+      "source": "references/review-coverage-and-disposition.md",
+      "source_sha256": "f16c58ca911038f5160551298cb4a38dc58117a282a773e23acfcf832db9c4d1",
+      "target": "modules/review-continuity/references/review-coverage-and-disposition.md",
+      "disposition": "retained_with_public_adaptation"
+    },
+    {
+      "component": "review-continuity",
+      "source": "references/rule-learning-and-validation.md",
+      "source_sha256": "42611c0ec0575379ef063870b435a7d4e8c6a6bcb584d7bd7cb88cafad907966",
+      "target": "modules/review-continuity/references/rule-learning-and-validation.md",
+      "disposition": "retained_with_public_adaptation"
+    },
+    {
+      "component": "review-continuity",
+      "source": "references/take-review.md",
+      "source_sha256": "c84dd37ca2e253d1b1331c356ede0de821370ed09cb1239931edbfb63ad94d40",
+      "target": "modules/review-continuity/references/take-review.md",
+      "disposition": "retained_with_public_adaptation",
+      "previous_source_snapshots": [
+        {
+          "date": "2026-10-04",
+          "sha256": "3a3d33632bd9a4025d86af3b1b39cf13d989b88ef26834a51e257330185f07ce"
+        }
+      ],
+      "source_snapshot_date": "2026-10-09"
+    },
+    {
+      "component": "review-continuity",
+      "source": "scripts/asset_preflight.py",
+      "source_sha256": "4fa9b8cb5b22cfb9442cd198da31863fbadf950a584f81789a70efb96022152c",
+      "target": "modules/review-continuity/scripts/asset_preflight.py",
+      "disposition": "retained_with_public_adaptation"
+    },
+    {
+      "component": "review-continuity",
+      "source": "scripts/continuity_state.py",
+      "source_sha256": "fc4bfd5969da7e0498eb833d8272e8258c4eb9e81eeca1f998867304756803e7",
+      "target": "modules/review-continuity/scripts/continuity_state.py",
+      "disposition": "retained_with_public_adaptation"
+    },
+    {
+      "component": "review-continuity",
+      "source": "scripts/review_coverage_check.py",
+      "source_sha256": "c93385fc31b252c2ec22a86555b9f0b993b7ebbf877e27a98f91911dc5f53f49",
+      "target": "modules/review-continuity/scripts/review_coverage_check.py",
+      "disposition": "retained_with_public_adaptation"
+    },
+    {
+      "component": "review-continuity",
+      "source": "scripts/selection_manifest_check.py",
+      "source_sha256": "142f07b662867da7870b00c7a679a068b0e1802986306da6ab222c4877b75c6f",
+      "target": "modules/review-continuity/scripts/selection_manifest_check.py",
+      "disposition": "retained_with_public_adaptation"
+    },
+    {
+      "component": "review-continuity",
+      "source": "scripts/take_dialogue_audit.py",
+      "source_sha256": "5be686e43f2f9155df8065127973a141b44f8e905f54d522d2ba4988f830e1ef",
+      "target": "modules/review-continuity/scripts/take_dialogue_audit.py",
+      "disposition": "retained_with_public_adaptation"
+    },
+    {
+      "component": "review-continuity",
+      "source": "scripts/take_preflight.py",
+      "source_sha256": "b93b4b1d014a17633c64dd14985de49249241fcf625fa7579a085441ec12d6f3",
+      "target": "modules/review-continuity/scripts/take_preflight.py",
+      "disposition": "retained_with_public_adaptation"
+    },
+    {
+      "component": "review-continuity",
+      "source": "scripts/test_all_frame_evidence.py",
+      "source_sha256": "47644f3406d5e44a1d8ef543e1272527148e90ff4b70262e674de7e1047f0d4a",
+      "target": "modules/review-continuity/scripts/test_all_frame_evidence.py",
+      "disposition": "retained_with_public_adaptation"
+    },
+    {
+      "component": "review-continuity",
+      "source": "scripts/test_asset_preflight_contract.py",
+      "source_sha256": "d93a295a9e85d634179041e45b82011e812fd714e8ab1b014fd886b75008bfa5",
+      "target": "modules/review-continuity/scripts/test_asset_preflight_contract.py",
+      "disposition": "retained_with_public_adaptation"
+    },
+    {
+      "component": "review-continuity",
+      "source": "scripts/test_audit_repairs.py",
+      "source_sha256": "fa154f54c9650b108f4a0f0d437992d345f18c74591040da883332210efb8b7b",
+      "target": "modules/review-continuity/scripts/test_audit_repairs.py",
+      "disposition": "retained_with_public_adaptation"
+    },
+    {
+      "component": "review-continuity",
+      "source": "scripts/test_contact_sheet_timestamps.py",
+      "source_sha256": "fb17a5aa503756b6fae817a223f96d7cc6de60a195033a5b9a8a6bd03443e916",
+      "target": "modules/review-continuity/scripts/test_contact_sheet_timestamps.py",
+      "disposition": "retained_with_public_adaptation"
+    },
+    {
+      "component": "review-continuity",
+      "source": "scripts/test_continuity_state.py",
+      "source_sha256": "78de60a47c4bb686335b5d9078c7df471e4f45ce671def363a8ab12fc078472c",
+      "target": "modules/review-continuity/scripts/test_continuity_state.py",
+      "disposition": "retained_with_public_adaptation"
+    },
+    {
+      "component": "review-continuity",
+      "source": "scripts/test_contract_chain_repair.py",
+      "source_sha256": "49aaf75c20678afb1ba8ef32280243d5ff59266166481204ddcfaab9dcb3e88a",
+      "target": "modules/review-continuity/scripts/test_contract_chain_repair.py",
+      "disposition": "retained_with_public_adaptation"
+    },
+    {
+      "component": "review-continuity",
+      "source": "scripts/test_integrated_repair.py",
+      "source_sha256": "0cfdc1b8cce264f76ddea14c71150da119b506d366506093008f4251c5568a65",
+      "target": "modules/review-continuity/scripts/test_integrated_repair.py",
+      "disposition": "retained_with_public_adaptation"
+    },
+    {
+      "component": "review-continuity",
+      "source": "scripts/test_review_contracts.py",
+      "source_sha256": "cfb9e30b08b406040a1e8f731da79b1c081157ee73e92498207431674ca64b64",
+      "target": "modules/review-continuity/scripts/test_review_contracts.py",
+      "disposition": "retained_with_public_adaptation"
+    },
+    {
+      "component": "review-continuity",
+      "source": "scripts/test_review_coverage.py",
+      "source_sha256": "5f0b7dbc6fcec75c7bf96f51f4c2d440bb4b74d4d3183dea88fcebd7c6105fb4",
+      "target": "modules/review-continuity/scripts/test_review_coverage.py",
+      "disposition": "retained_with_public_adaptation"
+    },
+    {
+      "component": "review-continuity",
+      "source": "scripts/test_take_preflight_contract.py",
+      "source_sha256": "00380e37aab1710923214f40dafd91303e47048dfa79f8fefbf7c86f98f010a0",
+      "target": "modules/review-continuity/scripts/test_take_preflight_contract.py",
+      "disposition": "retained_with_public_adaptation"
+    },
+    {
+      "component": "edit-delivery",
+      "source": "SKILL.md",
+      "source_sha256": "d0a548cb64fe277c96fdf0c91e407da2813bfa5d35b89a8f05e7b285b8f5bef3",
+      "target": "modules/edit-delivery/WORKFLOW.md",
+      "disposition": "retained_with_public_adaptation",
+      "previous_source_snapshots": [
+        {
+          "date": "2026-10-04",
+          "sha256": "343c7c3863d50f3283ae70036b2d066188442c11dc25b27bf60ff07a88a21213"
+        }
+      ],
+      "source_snapshot_date": "2026-10-09"
+    },
+    {
+      "component": "edit-delivery",
+      "source": "agents/openai.yaml",
+      "disposition": "replaced_by_single_public_entry_metadata"
+    },
+    {
+      "component": "edit-delivery",
+      "source": "references/director-editing.md",
+      "source_sha256": "2e9282fa9fd4a982f53740f9587914997d593be6e60c1fff0431f1c730cfc85a",
+      "target": "modules/edit-delivery/references/director-editing.md",
+      "disposition": "retained_with_public_adaptation",
+      "previous_source_snapshots": [
+        {
+          "date": "2026-10-04",
+          "sha256": "b60d1567e45afa5b3dd363b4e2be1a7b5ca7bedeff8d8833925b3b7880e360fc"
+        }
+      ],
+      "source_snapshot_date": "2026-10-09"
+    },
+    {
+      "component": "edit-delivery",
+      "source": "references/post-production.md",
+      "source_sha256": "0789b12ac444f5c5b7b3487dc98da8856f062e37136a1518b33c8fd2a1a7f1a7",
+      "target": "modules/edit-delivery/references/post-production.md",
+      "disposition": "retained_with_public_adaptation",
+      "previous_source_snapshots": [
+        {
+          "date": "2026-10-04",
+          "sha256": "05c9c85b46b3e4fa426f653fd37876c770bcb97bd3a788f6b5fa06333f847a8d"
+        }
+      ],
+      "source_snapshot_date": "2026-10-09"
+    },
+    {
+      "component": "edit-delivery",
+      "source": "references/release-and-compliance.md",
+      "source_sha256": "aa6e996e394f75ebf345be6a5ea33ccfc22a8f4045d64c60893b833dc7a6f746",
+      "target": "modules/edit-delivery/references/release-and-compliance.md",
+      "disposition": "retained_with_public_adaptation"
+    },
+    {
+      "component": "edit-delivery",
+      "source": "scripts/delivery_check.py",
+      "source_sha256": "9195e77666b45f2feaa80c1c831644bf87dbe075ce7e53b46669270945ee2381",
+      "target": "modules/edit-delivery/scripts/delivery_check.py",
+      "disposition": "retained_with_public_adaptation"
+    },
+    {
+      "component": "edit-delivery",
+      "source": "scripts/test_audit_repairs.py",
+      "source_sha256": "958325c344700f3f05e4d20910843c4ab80935eaed275b8b7f8ea58db215850a",
+      "target": "modules/edit-delivery/scripts/test_audit_repairs.py",
+      "disposition": "retained_with_public_adaptation"
+    },
+    {
+      "component": "edit-delivery",
+      "source": "scripts/test_delivery_contract.py",
+      "source_sha256": "f62f607d93a4a3bd81c06200169760a473e4a99f2e36e56b7b8148c3d004c994",
+      "target": "modules/edit-delivery/scripts/test_delivery_contract.py",
+      "disposition": "retained_with_public_adaptation"
+    },
+    {
+      "component": "director",
+      "source": "references/shot-pattern-cases.md",
+      "source_sha256": "ca058e0e9e9488a67f114910d836b75b013a9178764f222f08bc2a8da6472675",
+      "source_snapshot_date": "2026-10-09",
+      "target": "modules/director/references/shot-pattern-cases.md",
+      "disposition": "retained_with_public_adaptation"
+    },
+    {
+      "component": "edit-delivery",
+      "source": "references/execution-routing.md",
+      "source_sha256": "40500d1b095bc68af07ecb421b64d6f46e725cdf509bad58932ae6f1001dbb4b",
+      "source_snapshot_date": "2026-10-09",
+      "target": "modules/edit-delivery/references/execution-routing.md",
+      "disposition": "retained_with_public_adaptation"
+    },
+    {
+      "component": "edit-delivery",
+      "source": "references/output-sync-calibration.md",
+      "source_sha256": "b34f08328ff2fde712b9ec2df51d161d9f25e944cc8def256ff09330a6840fdb",
+      "source_snapshot_date": "2026-10-09",
+      "target": "modules/edit-delivery/references/output-sync-calibration.md",
+      "disposition": "retained_with_public_adaptation"
+    },
+    {
+      "component": "edit-delivery",
+      "source": "references/subtitle-conform.md",
+      "source_sha256": "f5f0ddb1dd25535436a67ed4d8b60380085eba3913ac34e1f404b34fed6560a0",
+      "source_snapshot_date": "2026-10-09",
+      "target": "modules/edit-delivery/references/subtitle-conform.md",
+      "disposition": "retained_with_public_adaptation"
+    },
+    {
+      "component": "edit-delivery",
+      "source": "scripts/event_timing.py",
+      "source_sha256": "e1e22acf54b6238ffc22378eb56f67b8f0f142ca7dba1e714e73542f63e25c20",
+      "source_snapshot_date": "2026-10-09",
+      "target": "modules/edit-delivery/scripts/event_timing.py",
+      "disposition": "retained_with_public_adaptation"
+    },
+    {
+      "component": "edit-delivery",
+      "source": "scripts/test_event_timing.py",
+      "source_sha256": "c46b218d3fcd035730c894db941a9ca2f868a473eaf9da963baf8fd5383e6ff0",
+      "source_snapshot_date": "2026-10-09",
+      "target": "modules/edit-delivery/scripts/test_event_timing.py",
+      "disposition": "retained_with_public_adaptation"
+    }
+  ],
+  "last_synced_date": "2026-10-09",
+  "source_hash_policy": "source_sha256 identifies the latest synchronized source; previous_source_snapshots preserves earlier fingerprints; public adaptations need not match source bytes",
+  "updates": [
+    {
+      "date": "2026-10-09",
+      "version": "0.2.1-alpha",
+      "changed_targets": [
+        "modules/director/references/shot-camera-time-design.md",
+        "modules/review-continuity/references/take-review.md",
+        "modules/edit-delivery/WORKFLOW.md",
+        "modules/edit-delivery/references/director-editing.md",
+        "modules/edit-delivery/references/post-production.md"
+      ],
+      "added_targets": [
+        "modules/director/references/shot-pattern-cases.md",
+        "modules/edit-delivery/references/execution-routing.md",
+        "modules/edit-delivery/references/output-sync-calibration.md",
+        "modules/edit-delivery/references/subtitle-conform.md",
+        "modules/edit-delivery/scripts/event_timing.py",
+        "modules/edit-delivery/scripts/test_event_timing.py"
+      ]
+    }
+  ]
+}

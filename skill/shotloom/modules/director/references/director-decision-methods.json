@@ -1,0 +1,917 @@
+{
+  "schema_version": 1,
+  "revision": "director-methods-20261002",
+  "catalog_revision": "director-contract-20261003",
+  "catalog_sha256": "7ba1339659529f2dfeaa00568684ee70420acfb2468dd1645d46a81707eb3af9",
+  "policy": {
+    "authored_applications": true,
+    "source_facts": "director-profiles.json only; each card retains its own scope",
+    "not_for_production": true,
+    "default_generation_calls": 0,
+    "automatic_selection": false,
+    "joint_directing": "deferred"
+  },
+  "profiles": [
+    {
+      "profile_id": "david-fincher",
+      "basis_card_ids": [
+        "david-fincher-method-1"
+      ],
+      "status": "authored_application_not_director_fact",
+      "question": "此刻是声音让观众注意，还是声音该让位？",
+      "when": "存在对叙事节拍有影响的声画接点。",
+      "choice": "先标听觉注意与画面动作的关系，再按发现或决策安排声层进入。",
+      "alternative": "若精确台词或动作已承担发现，让声层后退；不为维持阴暗气氛持续填噪声。",
+      "countercase": "不能把限定作品的声乐合作资料扩展成全维度冷峻风格。",
+      "review": "观众能否读到触发、接收与后果，而非只听到低频压迫？"
+    },
+    {
+      "profile_id": "stanley-kubrick",
+      "basis_card_ids": [
+        "stanley-kubrick-method-1"
+      ],
+      "status": "authored_application_not_director_fact",
+      "question": "观众何时需要重建时间，何时需要读懂空间？",
+      "when": "故事确有信息重排需求，或群体移动的空间关系重要。",
+      "choice": "分别检验时间重排保留的因果桥，与行进场景中位置、视线和风险的可读性。",
+      "alternative": "因果顺序已经最有效时保持顺叙；关系由侧向调度说明时不强求中心对称。",
+      "countercase": "不能把两部限定作品混成每场都非线性加长跟拍的套餐。",
+      "review": "重排后有无无意泄密或因果缺口；空间变化是否可追踪？"
+    },
+    {
+      "profile_id": "denis-villeneuve",
+      "basis_card_ids": [
+        "denis-villeneuve-method-1"
+      ],
+      "status": "authored_application_not_director_fact",
+      "question": "观众要感到未知，还是听清关键交流？",
+      "when": "音乐、声效与信息性声音竞争注意。",
+      "choice": "以声音承载未知的范围和退让位置为设计重点，让关键交流在需要时可辨。",
+      "alternative": "交流本身已经足够陌生时减少衬乐；情绪需展开时才让音乐接手。",
+      "countercase": "不把宏大低频或持续慢节奏当全部作品的方法。",
+      "review": "情绪氛围有没有盖住理解行动所必需的音声？"
+    },
+    {
+      "profile_id": "alfred-hitchcock",
+      "basis_card_ids": [
+        "alfred-hitchcock-method-1"
+      ],
+      "status": "authored_application_not_director_fact",
+      "question": "观众相对人物多知道或少知道什么？",
+      "when": "信息差会改变喜剧、危险或主观体验。",
+      "choice": "先锁定视点能见范围，再在认知变化处调整观看距离或喜剧/紧张重心。",
+      "alternative": "信息无需主观遮蔽时可客观展示，不强制偷窥或惊吓。",
+      "countercase": "限定早期自述不是对其全部悬疑片的镜头公式。",
+      "review": "观众是否在预定阶段获得信息；转调有无改变事件本身？"
+    },
+    {
+      "profile_id": "steven-spielberg",
+      "basis_card_ids": [
+        "steven-spielberg-method-1"
+      ],
+      "status": "authored_application_not_director_fact",
+      "question": "谁的路线将与谁冲突？",
+      "when": "追逐、逼近或逃离依赖路径与遮挡。",
+      "choice": "先画出进入、交汇、障碍和逃出方向，再选择能读出位置变化的覆盖。",
+      "alternative": "路线上没有新变化时可保持同框；不能因紧迫就切掉空间桥。",
+      "countercase": "不要把地图规划经验推成所有场面必需运动主镜头。",
+      "review": "观众能否指出威胁从何处来、为何不能直接躲开？"
+    },
+    {
+      "profile_id": "bong-joon-ho",
+      "basis_card_ids": [
+        "bong-joon-ho-method-1"
+      ],
+      "status": "authored_application_not_director_fact",
+      "question": "一次失败怎样改变搭档的位置和判断？",
+      "when": "人物合作/对抗随同一事件变化。",
+      "choice": "把信息接收、谁先行动、谁接替或退让落实在已定空间中。",
+      "alternative": "改变主要发生于理解而非走位时，让听者接管画面，不强迫交换位置。",
+      "countercase": "不复制铁路或搭档桥段，也不为制造反转改变真相。",
+      "review": "位置或注意转换是否对应关系变化，而非纯粹热闹？"
+    },
+    {
+      "profile_id": "sidney-lumet",
+      "basis_card_ids": [
+        "sidney-lumet-method-1"
+      ],
+      "status": "authored_application_not_director_fact",
+      "question": "什么时候靠近才真正增加理解？",
+      "when": "对白中的信息、压力或权力关系发生变化。",
+      "choice": "先规划灯光、视线与覆盖是否支持关系转折，再在必要处收紧或重新分配画面。",
+      "alternative": "共同空间中的身体关系更重要时保持两人或群像，不随每句台词推近。",
+      "countercase": "不能从单部对白片资料推出特写配额或固定焦段阶梯。",
+      "review": "更近是否提供了先前看不到的反应，还是只放大说话脸？"
+    },
+    {
+      "profile_id": "asghar-farhadi",
+      "basis_card_ids": [
+        "asghar-farhadi-method-1"
+      ],
+      "status": "authored_application_not_director_fact",
+      "question": "人物此刻用什么说法保护或争取什么？",
+      "when": "局部家庭事实、隐瞒与彼此判断影响冲突。",
+      "choice": "分清每人可知信息与对对方的策略；指导角色做具体尝试，不下统一情绪口令。",
+      "alternative": "没有隐瞒的明确表达可以直接有力，不给所有人添加含糊停顿。",
+      "countercase": "不能为复杂感虚构秘密，或要求人人永远不说清。",
+      "review": "观众能否理解冲突来自各自立场，而非信息被任意删掉？"
+    },
+    {
+      "profile_id": "yasujiro-ozu",
+      "basis_card_ids": [
+        "yasujiro-ozu-method-1"
+      ],
+      "status": "authored_application_not_director_fact",
+      "question": "这一切点改变了谁与谁的关系？",
+      "when": "人物关系依靠观看、聆听和共同空间展开。",
+      "choice": "连看景别、反向观看与停留长度，优先保留听者和关系的可读性。",
+      "alternative": "低位遮掉关键任务时选本片有效机位；关系变化需要切换就切，不以静长为戒律。",
+      "countercase": "低机位不等于长镜头，也不等于所有段落都缓慢。",
+      "review": "观众能否读懂谁在回应谁；保持与切换是否各有原因？"
+    },
+    {
+      "profile_id": "hirokazu-koreeda",
+      "basis_card_ids": [
+        "hirokazu-koreeda-method-1"
+      ],
+      "status": "authored_application_not_director_fact",
+      "question": "照顾、责任或亲近由哪个行为而非解释成立？",
+      "when": "人物通过做事、未说尽的话或声音的可达性建立关系。",
+      "choice": "让已有照料或拒绝行为被看见；明确有口型但不可听是否具有叙事用途。",
+      "alternative": "台词承担必要事实时确保可听，不以留白为由消音。",
+      "countercase": "不能把一家人的定义预设成单一道德答案，或自动把所有台词压低。",
+      "review": "不靠新增旁白，关系是否仍可辨；听不清是否真是设计？"
+    },
+    {
+      "profile_id": "edward-yang",
+      "basis_card_ids": [
+        "edward-yang-method-1"
+      ],
+      "status": "authored_application_not_director_fact",
+      "question": "删短群像时会丢掉哪条因果连接？",
+      "when": "篇幅压缩会改变个人与家庭/社会线的重心。",
+      "choice": "先指出后续决定依赖的前置经验，保留最短但足够的关系与信息桥。",
+      "alternative": "次线确不影响当前观看目标时可删，不为群像规模保留无功能人物。",
+      "countercase": "不能用有限剪辑资料宣称所有场景应疏离远景。",
+      "review": "观众是否仍知道人物为什么走到下一步，而不是只剩结果？"
+    },
+    {
+      "profile_id": "lee-changdong",
+      "basis_card_ids": [
+        "lee-changdong-method-1"
+      ],
+      "status": "authored_application_not_director_fact",
+      "question": "角色在这一刻实际尝试完成什么？",
+      "when": "抽象情绪标签使表演僵硬或夸大。",
+      "choice": "给出对象、任务、阻力与回应空间，让生活动作承载感受。",
+      "alternative": "明确宣泄本就是人物行动时允许外放，不把开放表演误写成总要收着。",
+      "countercase": "自然偶发不是允许模型新增无因果动作或随机抽动。",
+      "review": "动作与停顿是否来自任务变化，还是模拟所谓真实感？"
+    },
+    {
+      "profile_id": "wong-karwai",
+      "basis_card_ids": [
+        "wong-karwai-method-1"
+      ],
+      "status": "authored_application_not_director_fact",
+      "question": "相近的人为什么仍感到远，或相隔的人怎样建立联系？",
+      "when": "空间距离、遮挡与观看位置能承载已定关系。",
+      "choice": "试验同框接近、画面分隔和可见范围如何改变观众对关系的感受。",
+      "alternative": "要读清身体任务或公开对话时用清楚覆盖，不每镜遮挡、拖影或极近广角。",
+      "countercase": "限定修复/画幅资料不是霓虹、失恋结局或固定时长的授权。",
+      "review": "去掉色调标签后，距离与关系是否仍有具体作用？"
+    },
+    {
+      "profile_id": "terrence-malick",
+      "basis_card_ids": [
+        "terrence-malick-method-1"
+      ],
+      "status": "authored_application_not_director_fact",
+      "question": "环境在此刻怎样参与人物经验？",
+      "when": "已有动作可与光、风、地形或多地点组合空间相互作用。",
+      "choice": "选能触发或承载人物注意的具体环境关系，并锁住连续方向与状态。",
+      "alternative": "环境无当前作用时回到人物任务，不加无关风景填时间。",
+      "countercase": "组合空间经验不允许地理漂移，也不证明所有镜头需游走。",
+      "review": "人物与环境有无可感关系；跨地点拼接是否仍成立？"
+    },
+    {
+      "profile_id": "david-lynch",
+      "basis_card_ids": [
+        "david-lynch-method-1"
+      ],
+      "status": "authored_application_not_director_fact",
+      "question": "哪个稳定声音使哪次异常变得可察觉？",
+      "when": "作品需要以听觉建立空间常态或不确定感。",
+      "choice": "先选与场景相容的声底，再控制一次相关变化的出现、持续或撤去。",
+      "alternative": "对白或现实动作已足够传达时可不加异常；静默也要有明确边界。",
+      "countercase": "工业声世界的例子不是每场低频噪声、恐怖滤镜或强制后配一切。",
+      "review": "听者能否察觉有意义的变化，还是全程一团怪声？"
+    },
+    {
+      "profile_id": "alfonso-cuaron",
+      "basis_card_ids": [
+        "alfonso-cuaron-method-1"
+      ],
+      "status": "authored_application_not_director_fact",
+      "question": "连续观看会使人物与环境的关系更清楚吗？",
+      "when": "行动路径、背景事件与人物经验需要同时保留。",
+      "choice": "先排身体任务、路径及可见窗口，再判断连续镜头的观看价值。",
+      "alternative": "连续覆盖遮掉关键反应或超出控制时按因果桥拆分，不把一镜到底当等级。",
+      "countercase": "具体引导演员和长镜头调度是有限资料，不是固定机位运动处方。",
+      "review": "观众是否持续知道人物在做什么、周边怎样影响他？"
+    },
+    {
+      "profile_id": "akira-kurosawa",
+      "basis_card_ids": [
+        "akira-kurosawa-method-1"
+      ],
+      "status": "authored_application_not_director_fact",
+      "question": "一次难以复现的行动需保住哪些互补信息？",
+      "when": "高速、雨水或多人动作有不可替代的状态变化。",
+      "choice": "规划承重、方向、接触和后果的互补覆盖，移动跟随或停止服从动作变化。",
+      "alternative": "单一视角已完整时不增角度；AI分别生成不能假称真实同步多机。",
+      "countercase": "不能把雨战经验变成所有动作都下雨或固定三机位。",
+      "review": "切换时动作状态、位置与后果是否接得上？"
+    },
+    {
+      "profile_id": "martin-scorsese",
+      "basis_card_ids": [
+        "martin-scorsese-method-1"
+      ],
+      "status": "authored_application_not_director_fact",
+      "question": "观众何时从旁观进入人物的执念或压力？",
+      "when": "具体物件、脸或行为细节承载主观注意。",
+      "choice": "以已定触发切入局部主观关注，再明确是否及何时返回共同空间。",
+      "alternative": "无主观改变时保持清晰客观覆盖，不硬塞插入或复杂跟拍。",
+      "countercase": "不能把限定作品技术观察变成夜店长镜头、暴力或旁白模板。",
+      "review": "注意转移是否揭示人物经验，还是只有炫耀镜头？"
+    },
+    {
+      "profile_id": "george-miller",
+      "basis_card_ids": [
+        "george-miller-method-1"
+      ],
+      "status": "authored_application_not_director_fact",
+      "question": "下一次切换由哪项威胁、判断或后果推动？",
+      "when": "动作序列需要速度、方向与决策推进。",
+      "choice": "把注意接力落在新风险、动作完成或优势变化上，保留必要空间与后果。",
+      "alternative": "一次连贯动作仍在有效发展时保持；没有新作用的覆盖不为快而切。",
+      "countercase": "不能按固定秒数或把生成片长等同成片节拍。",
+      "review": "正常速度下能否读到进展与冲击，而不是只有碎片和音量？"
+    },
+    {
+      "profile_id": "john-woo",
+      "basis_card_ids": [
+        "john-woo-method-1"
+      ],
+      "status": "authored_application_not_director_fact",
+      "question": "当前火线或攻击路径如何改变身体关系？",
+      "when": "动作方向、躲避高度与人物选择构成戏剧。",
+      "choice": "先建立威胁线及身体避让，再判断哪次选择/代价值得局部时间展开。",
+      "alternative": "单次接触要迅疾时常速完成；无注意价值的慢段删除。",
+      "countercase": "不复制茶楼布景、标志物或每击慢放；慢动作不替代接触。",
+      "review": "观众是否读懂为何命中/避开，以及时间展开强调了什么？"
+    },
+    {
+      "profile_id": "gareth-evans",
+      "basis_card_ids": [
+        "gareth-evans-method-1"
+      ],
+      "status": "authored_application_not_director_fact",
+      "question": "这一轮交锋让谁多了优势、少了能力？",
+      "when": "近身行动要呈现脆弱、阻力与局势变化。",
+      "choice": "按尝试、应对、代价与新局面排连续动作，必要切换服务清楚和强度。",
+      "alternative": "长段若空转或遮掉后果就缩短/改变覆盖；短促接触不硬撑成数秒。",
+      "countercase": "不把拳数、长镜头长度或永远写实当打击感指标。",
+      "review": "支撑、接触、反作用与损耗是否可读并累积？"
+    },
+    {
+      "profile_id": "edgar-wright",
+      "basis_card_ids": [
+        "edgar-wright-method-1"
+      ],
+      "status": "authored_application_not_director_fact",
+      "question": "追逐目的和行动主体能否一眼分辨？",
+      "when": "多车、多路径或快速行动需要明确目标。",
+      "choice": "保持主体可区分、路线与任务有关，切换由新的行动机会或风险推动。",
+      "alternative": "需要观察路线时可稳定展示；没锁音乐节拍就不强行一击一拍。",
+      "countercase": "限定追逐资料不能替所有场景背书节奏型蒙太奇。",
+      "review": "不看说明也能分清谁追谁、为什么转向吗？"
+    },
+    {
+      "profile_id": "stephen-chow",
+      "basis_card_ids": [
+        "stephen-chow-method-1"
+      ],
+      "status": "authored_application_not_director_fact",
+      "question": "观众是在笑谁的处境，还是只被动作夸张刺激？",
+      "when": "喜剧与威胁、尊严或暴力后果并存。",
+      "choice": "让已有目标和代价决定夸张幅度及笑点落在哪次期待改变。",
+      "alternative": "笑点需要清楚停留就留；危险应严肃时不补表情包削弱它。",
+      "countercase": "无固定反应秒数，不为搞笑改人物动机或取消已发生后果。",
+      "review": "笑后人物的欲望与风险是否还成立？"
+    },
+    {
+      "profile_id": "wes-anderson",
+      "basis_card_ids": [
+        "wes-anderson-method-1"
+      ],
+      "status": "authored_application_not_director_fact",
+      "question": "有序的空间安排怎样让关系或笑点被看见？",
+      "when": "进出、物件和多人位置能形成明确观看关系。",
+      "choice": "先用纸面调度检验谁何时出现、谁被挡住、谁看到什么，再选构图。",
+      "alternative": "不对称更能说明本场关系时允许不对称；无需对称和横移套餐。",
+      "countercase": "预演规划经验不授权额外生成，也不让美术对称凌驾剧情。",
+      "review": "布局的变化是否可读，还是人物只在精致布景里报台词？"
+    },
+    {
+      "profile_id": "jordan-peele",
+      "basis_card_ids": [
+        "jordan-peele-method-1"
+      ],
+      "status": "authored_application_not_director_fact",
+      "question": "谁看得见危险，却不能行动或不能让别人相信？",
+      "when": "控制权、观察权与行动权限不对等。",
+      "choice": "明确可见信息和被限制的反应通道，以视点或声音距离表现这种不对等。",
+      "alternative": "角色仍有真实行动机会时保留它，不把所有恐惧都写成僵直主观镜头。",
+      "countercase": "不能复制沉入空间的设定，或把现实身份当恐惧模板。",
+      "review": "观众是否理解被限制的具体能力，而不是只见怪异特效？"
+    },
+    {
+      "profile_id": "ari-aster",
+      "basis_card_ids": [
+        "ari-aster-method-1"
+      ],
+      "status": "authored_application_not_director_fact",
+      "question": "此刻的亲近究竟让角色获得归属还是失去边界？",
+      "when": "关系脆弱与群体接纳/侵入相互作用。",
+      "choice": "把接近、迎合、退让与拒绝的权限放到调度和回应中。",
+      "alternative": "明确安全的亲密不必拍成危险；没有仪式的剧本不添仪式。",
+      "countercase": "不把虚构风俗当历史事实，不强制每次情绪都走向崩溃。",
+      "review": "同样的靠近是否因关系处境呈现不同意义？"
+    },
+    {
+      "profile_id": "park-chanwook",
+      "basis_card_ids": [
+        "park-chanwook-method-1"
+      ],
+      "status": "authored_application_not_director_fact",
+      "question": "这段身体对抗要观众体验消耗，还是效率/快感？",
+      "when": "动作的疲惫、重复与痛感是已定戏剧重点之一。",
+      "choice": "选择能保留尝试受阻、体力变化和关系压力的覆盖与节奏。",
+      "alternative": "重点是突发决断时可短促完成，不为参考片段拖成长战。",
+      "countercase": "不复制走廊横移或把所有动作都慢拍；痛感不是伤口数量。",
+      "review": "后续动作是否受前面消耗影响，观众是否读到代价？"
+    },
+    {
+      "profile_id": "hayao-miyazaki",
+      "basis_card_ids": [
+        "hayao-miyazaki-method-1"
+      ],
+      "status": "authored_application_not_director_fact",
+      "question": "行动之间什么经验值得观众真正停留？",
+      "when": "恢复、感知、等待或环境体验承担序列作用。",
+      "choice": "让停顿里仍有注意、关系或感官发展，并确定何种变化结束停留。",
+      "alternative": "紧迫行动需连续推进时不加空白；一次撞击不为呼吸感拖长。",
+      "countercase": "间隙不是无事可拍时的风景填充，也不是低强度默认。",
+      "review": "停留后观众多感到或理解了什么；删掉是否真的有损失？"
+    },
+    {
+      "profile_id": "satoshi-kon",
+      "basis_card_ids": [
+        "satoshi-kon-method-1"
+      ],
+      "status": "authored_application_not_director_fact",
+      "question": "切换后观众需要辨认哪层现实、哪段时间或哪条关联？",
+      "when": "画面转换承担层次与信息密度。",
+      "choice": "安排保留的识别锚和应延迟的身份信息，让切点传递关系而不改事实。",
+      "alternative": "谜底应清楚时增加最少的定位信息，不把全部衔接做成迷惑转场。",
+      "countercase": "限定动画信息密度讨论不证明所有场景都需匹配剪辑或梦境。",
+      "review": "观众的困惑是否被设计且可回读，而不是连续性错误？"
+    },
+    {
+      "profile_id": "mamoru-oshii",
+      "basis_card_ids": [
+        "mamoru-oshii-method-1"
+      ],
+      "status": "authored_application_not_director_fact",
+      "question": "这部作品需要怎样的运动，才能让内容和设计成立？",
+      "when": "动作幅度、频率或静止应与当前内容和媒介设计协调。",
+      "choice": "先指出本场必须运动的对象和意义，再选择相应节奏；具体选择标为本片建议。",
+      "alternative": "对话或动作需求改变时允许明显变速，不默认城市静观或长停。",
+      "countercase": "现有来源是宽层内容/设计/运动关系，不能声称证实特定运镜习惯。",
+      "review": "运动和静止是否服务本场，而非名字引发的风格联想？"
+    },
+    {
+      "profile_id": "arcane-fortiche",
+      "basis_card_ids": [
+        "arcane-fortiche-method-1"
+      ],
+      "status": "authored_application_not_director_fact",
+      "question": "人物关系和动作地理在分镜阶段是否成立？",
+      "when": "使用经署名限定的作品级集体参考，且需检验关系/动作设计。",
+      "choice": "先在纸面安排意图、位置变化和作用结果，再让本片媒介实现；应用判断明确为创作建议。",
+      "alternative": "非动作场景以对应关系问题组织观看，不为团队标签强加战斗或混合渲染。",
+      "countercase": "生产流程资料不等于每位导演的艺术理念；不得固定双人署名或改变独立画风。",
+      "review": "不看渲染质感，关系与动作逻辑是否仍清楚？"
+    },
+    {
+      "profile_id": "christopher-nolan",
+      "basis_card_ids": [
+        "christopher-nolan-method-1"
+      ],
+      "status": "authored_application_not_director_fact",
+      "question": "交错的信息线怎样改变观众对同一压力的理解？",
+      "when": "多线或非线性确由权威故事支持。",
+      "choice": "锁定各线实际时间、观众可知信息和相互作用，再决定切回哪条线。",
+      "alternative": "单线已足以形成压力时不用并行；不能凭风格新增倒计时或第三条线。",
+      "countercase": "无强制开场解释规则、固定切速或指定焦段。",
+      "review": "每次交错是否增加比较或压力，且不把不同时间误成同时？"
+    },
+    {
+      "profile_id": "james-cameron",
+      "basis_card_ids": [
+        "james-cameron-method-1"
+      ],
+      "status": "authored_application_not_director_fact",
+      "question": "观众为何会在大场面里关心当前这个人的选择？",
+      "when": "群体动作或奇观需要人物反应和先前细节支撑。",
+      "choice": "明确当前行动者与相关见证者，用已有细节建立决策与后果的可理解性。",
+      "alternative": "无需全员响应；只有个别人的动作改变局面时集中可见资源。",
+      "countercase": "不能把大制作等同爆炸数量，也不为兑现细节增设新能力。",
+      "review": "奇观之后，谁做了选择、承担什么后果是否清楚？"
+    },
+    {
+      "profile_id": "zhang-yimou",
+      "basis_card_ids": [
+        "zhang-yimou-method-1"
+      ],
+      "status": "authored_application_not_director_fact",
+      "question": "生活中的哪次行动能让人物关系成立？",
+      "when": "采用《活着》限定的人物优先、运镜有必要才用的依据。",
+      "choice": "以当前任务和人物反应为中心，镜头只在注意或关系需要变化时移动。",
+      "alternative": "场面确需空间揭示或风格化表达时可运动，不把人物优先变成永远固定。",
+      "countercase": "不能用其他作品的大色块、仪仗场面覆盖本次限定方法。",
+      "review": "去掉华丽美术或运动，人物行为是否仍有重量？"
+    },
+    {
+      "profile_id": "nora-ephron",
+      "basis_card_ids": [
+        "nora-ephron-method-1"
+      ],
+      "status": "authored_application_not_director_fact",
+      "question": "这场关系在结束时与开始时有什么不同？",
+      "when": "对话、期待或音乐桥参与关系推进。",
+      "choice": "先说清场景关于什么，再安排听者、转折与音乐进出，纸面检查是否冗长。",
+      "alternative": "对白已完成情感作用时不用音乐再解释；连续关系可以留在同框。",
+      "countercase": "不因言情就自动温柔配音、浪漫配乐或柔光近景。",
+      "review": "关系转折是否由具体回应成立，而非配乐替人物完成？"
+    },
+    {
+      "profile_id": "nancy-meyers",
+      "basis_card_ids": [
+        "nancy-meyers-method-1"
+      ],
+      "status": "authored_application_not_director_fact",
+      "question": "亲近是如何从此前相处累积到当前行动的？",
+      "when": "成人边界、友情与爱情变化需要可信承接。",
+      "choice": "用已定生活任务和回应检验信任、退让或靠近的进程。",
+      "alternative": "公开表达已成熟时可以直接，不机械延迟告白或强加暧昧。",
+      "countercase": "灵感影片不是其本人执导作品；家居美术不替代关系发展。",
+      "review": "当前亲近有没有前置依据，拒绝/接受的边界是否被尊重？"
+    },
+    {
+      "profile_id": "richard-linklater",
+      "basis_card_ids": [
+        "richard-linklater-method-1"
+      ],
+      "status": "authored_application_not_director_fact",
+      "question": "谈话策略与共同移动怎样互相改变？",
+      "when": "同行、排练或跨场关系发展影响自然对话。",
+      "choice": "先排谁试探、说服、让步以及在哪里能回应，再使机位配合。",
+      "alternative": "不需要行走就不走；关键对视被移动破坏时停下或换覆盖。",
+      "countercase": "自然对话不等于可改精确台词，也不是每场散步长镜头。",
+      "review": "看似随意的交流是否有策略变化并带到下一场？"
+    },
+    {
+      "profile_id": "greta-gerwig",
+      "basis_card_ids": [
+        "greta-gerwig-method-1"
+      ],
+      "status": "authored_application_not_director_fact",
+      "question": "角色用固定的话到底在争取什么？",
+      "when": "精确剧本需要鲜活、可变但不改事实的表演。",
+      "choice": "在目标、倾听、身体任务和回应上探索，保留原句及其信息边界。",
+      "alternative": "直接表达已合适时保留，不为自然感强塞打断、口吃或即兴句子。",
+      "countercase": "排练探索不是改剧情、加台词或让所有角色高速争吵的授权。",
+      "review": "台词不变时表演是否仍能形成有因的变化？"
+    },
+    {
+      "profile_id": "celine-sciamma",
+      "basis_card_ids": [
+        "celine-sciamma-method-1"
+      ],
+      "status": "authored_application_not_director_fact",
+      "question": "谁在观察，谁知道自己被观察，谁作出回应？",
+      "when": "观看权限和主体性影响人物关系。",
+      "choice": "安排可见目标与回应时机，使观察者/被观察者关系可相互改变。",
+      "alternative": "直接共同任务更重要时不过度分割眼神特写，不把对象拍成静态美图。",
+      "countercase": "不能从艺术观察段落推导所有亲密只能安静凝视。",
+      "review": "被观看者是否仍有行动与回应权，而非只是供观看的形象？"
+    },
+    {
+      "profile_id": "kong-sheng",
+      "basis_card_ids": [
+        "kong-sheng-method-1",
+        "kong-sheng-method-2"
+      ],
+      "status": "authored_application_not_director_fact",
+      "question": "阻碍来自听不懂，还是来自立场与关系？",
+      "when": "分别对应语言沟通或关系情感的限定方法卡。",
+      "choice": "语言误解需明确谁听到什么、怎样尝试修复；立场冲突需保留具体关系代价。",
+      "alternative": "没有语言障碍时不用方言笑点；权谋不能替代人物为何在意。",
+      "countercase": "两部作品卡片分开使用，不把方言或高密度谋略强塞每场。",
+      "review": "观众能否区分误听、误会与真正拒绝，并读到关系后果？"
+    },
+    {
+      "profile_id": "zheng-xiaolong",
+      "basis_card_ids": [
+        "zheng-xiaolong-method-1",
+        "zheng-xiaolong-method-2"
+      ],
+      "status": "authored_application_not_director_fact",
+      "question": "等级权限或专业程序怎样限制当事人的行动？",
+      "when": "宫廷权力关系或专业协作任务，按各自来源卡选择。",
+      "choice": "先确定谁能发话/决定/接近，或谁负责哪步程序及交接，再安排回应与位置。",
+      "alternative": "平等私下交流可放松正式秩序；无专业资料不能编步骤证明真实。",
+      "countercase": "不能把等级压迫和医疗程序混成同一种拍法，也不凭导演名认证专业事实。",
+      "review": "谁有权限、谁承担后果是否能从行为中读出？"
+    },
+    {
+      "profile_id": "yang-yang",
+      "basis_card_ids": [
+        "yang-yang-method-1"
+      ],
+      "status": "authored_application_not_director_fact",
+      "question": "自然或空间怎样成为角色正在使用的环境？",
+      "when": "角色行动与路径、物件、季节或环境经验相关。",
+      "choice": "把景物纳入已定任务与注意目标，再选容纳关系的画面。",
+      "alternative": "环境只需定位时简洁交代，不为古典感增加游走与美景。",
+      "countercase": "自然取景讨论不限制本片必须真人或实景，也不保证画面全是柔美。",
+      "review": "人物真的在使用/感知环境，还是人物镜头与风景各不相干？"
+    },
+    {
+      "profile_id": "jiang-wei",
+      "basis_card_ids": [
+        "jiang-wei-method-1",
+        "jiang-wei-method-2"
+      ],
+      "status": "authored_application_not_director_fact",
+      "question": "人物公开在完成什么，私下又不能暴露什么？",
+      "when": "职业工作或谍战信息权限形成双重行动。",
+      "choice": "先锁工作流程和各人可知信息，再让一次行动改变信任或风险。",
+      "alternative": "没有秘密目标就不凭类型添加；工作细节无法核实时标缺口。",
+      "countercase": "两张限定作品卡不能为任意职业操作背书。",
+      "review": "观众是否读到表面任务与风险，而秘密仍按剧本时机揭示？"
+    },
+    {
+      "profile_id": "xin-shuang",
+      "basis_card_ids": [
+        "xin-shuang-method-1"
+      ],
+      "status": "authored_application_not_director_fact",
+      "question": "明亮日常与人物冲突怎样共同制造压力？",
+      "when": "悬疑需要生活质感、时间差或人物变化。",
+      "choice": "保留本片已定明暗美术，以人物/环境状态区分时间与关系。",
+      "alternative": "黑暗确有物理或叙事原因时仍可用，不把反套路变成永远明亮。",
+      "countercase": "不能靠换色温独自证明年代，也不为悬疑一律降亮度。",
+      "review": "去掉滤镜标签，人物矛盾和时序线索是否仍成立？"
+    },
+    {
+      "profile_id": "kang-honglei",
+      "basis_card_ids": [
+        "kang-honglei-method-1"
+      ],
+      "status": "authored_application_not_director_fact",
+      "question": "群体价值怎样通过不同人的任务和选择成立？",
+      "when": "团队场面要保留个体差异及集体后果。",
+      "choice": "给相关成员具体职责和信息入口，让响应顺序来自任务与关系。",
+      "alternative": "共同触发需要同步时允许齐动；无关成员不抢反应。",
+      "countercase": "集体感不是所有背景人喊口号、点头或同表情。",
+      "review": "观众能否分清谁承担了什么，而不是只有整齐群像？"
+    },
+    {
+      "profile_id": "kathryn-bigelow",
+      "basis_card_ids": [
+        "kathryn-bigelow-method-1"
+      ],
+      "status": "authored_application_not_director_fact",
+      "question": "危险范围如何落在某人的手、视线和身体负担上？",
+      "when": "威胁距离、操作风险和现场注意关键。",
+      "choice": "保留空间危险边界，再将关注转向具体任务、手部负担和注意变化。",
+      "alternative": "观众需要全局判断时恢复共同空间；手持不应挡掉唯一动作证据。",
+      "countercase": "多机经验不授权无限生成，危险感不等于全程抖动。",
+      "review": "紧张是否来自可理解风险与行动，而非仅靠摄影不稳定？"
+    },
+    {
+      "profile_id": "sam-mendes",
+      "basis_card_ids": [
+        "sam-mendes-method-1",
+        "sam-mendes-method-2"
+      ],
+      "status": "authored_application_not_director_fact",
+      "question": "连续路程中的心理压力是否值得保持连续观看？",
+      "when": "限于连续距离方法；排练改调度另有独立来源。",
+      "choice": "先排路径、停顿、障碍与心理变化；机位不成立时先改导演可变调度。",
+      "alternative": "连续性无额外作用时按戏剧接点切；不能为长镜头牺牲必需表演。",
+      "countercase": "不能把较早排练资料冒充《1917》制作记录，也不把预演当费用授权。",
+      "review": "路程和心理是否共同推进，还是镜头只在跟着走？"
+    },
+    {
+      "profile_id": "ridley-scott",
+      "basis_card_ids": [
+        "ridley-scott-method-1"
+      ],
+      "status": "authored_application_not_director_fact",
+      "question": "空间关系是否清楚，运动是否真的必要？",
+      "when": "分镜规划复杂环境，或对白中考虑增加移动镜头。",
+      "choice": "先确定视线、路径和关系，静态已足够时保留，让奇观仍关联角色行动。",
+      "alternative": "空间需要揭示/转移时再移动，不把反对无用移动理解为禁止运镜。",
+      "countercase": "概念设计、大片规模不替代场面调度，也不强加某种3D画风。",
+      "review": "每次运动能否说明收益；场景再大是否仍知道角色在做什么？"
+    },
+    {
+      "profile_id": "tsui-hark",
+      "basis_card_ids": [
+        "tsui-hark-method-1"
+      ],
+      "status": "authored_application_not_director_fact",
+      "question": "奇观中的能力或资源如何改变战术？",
+      "when": "特效、奇幻武打承担剧情作用。",
+      "choice": "明确触发前提、作用范围、对手应对及结果，镜头读得出策略变化。",
+      "alternative": "已定能力无需每次解释时保持流动；不能新增招式解决难点。",
+      "countercase": "特效多不是故事推进，不为壮观隐藏因果缺失。",
+      "review": "观众能否理解这一招为何有效、代价是什么？"
+    },
+    {
+      "profile_id": "peter-jackson",
+      "basis_card_ids": [
+        "peter-jackson-method-1"
+      ],
+      "status": "authored_application_not_director_fact",
+      "question": "幻想规模怎样服务当前情感和因果？",
+      "when": "复杂世界或奇观段落容易挤掉人物。",
+      "choice": "保留决定、阻力和结果链，检查是否需要在剪辑设计阶段修正缺桥。",
+      "alternative": "风景承担尺度或旅程体验时可停留；没有序列作用就不增加。",
+      "countercase": "不是所有史诗都要航拍或群战，也不以技术雄心改剧情。",
+      "review": "没有奇观加成时，人物为何前进和付出什么仍清楚吗？"
+    },
+    {
+      "profile_id": "james-wan",
+      "basis_card_ids": [
+        "james-wan-method-1"
+      ],
+      "status": "authored_application_not_director_fact",
+      "question": "观众能否在人物搜索时自行发现可能的威胁路径？",
+      "when": "空间搜寻和迟延揭示承担恐惧。",
+      "choice": "安排搜索者、可能入口与观众可见区域，让注意有可检查的方向。",
+      "alternative": "剧本要求突发或不确定时可限制视野，但不能靠无因噪声替代危险。",
+      "countercase": "不强制每场背后跟拍、跳吓或给空房间补鬼。",
+      "review": "观众害怕的是哪条可能性；揭示前后的空间是否一致？"
+    },
+    {
+      "profile_id": "john-carpenter",
+      "basis_card_ids": [
+        "john-carpenter-method-1"
+      ],
+      "status": "authored_application_not_director_fact",
+      "question": "声音节律承担的是辨认、逼近还是持续等待？",
+      "when": "重复听觉形状在当前恐惧设计中有作用。",
+      "choice": "原创设计可辨认的重复及变化条件；旋律、拍号和配器由本片决定。",
+      "alternative": "静默或现场声更有效时撤下音乐，不全场循环主题。",
+      "countercase": "现有2018资料涉及配乐而非执导，不复制五拍主题或归错导演。",
+      "review": "重复有没有随危险关系发展，而不是持续背景墙？"
+    },
+    {
+      "profile_id": "david-cronenberg",
+      "basis_card_ids": [
+        "david-cronenberg-method-1"
+      ],
+      "status": "authored_application_not_director_fact",
+      "question": "身体变化或失去怎样改变人与人的接近？",
+      "when": "身体、触碰、缺失与亲密边界是具体戏剧内容。",
+      "choice": "以允许/避开接触和实际任务表现关系代价，身体细节服务此关系。",
+      "alternative": "没有身体变化的剧本不添加症状；公开接受时不强塞厌恶。",
+      "countercase": "体恐不等于血量、猎奇器官或通用恶心特写。",
+      "review": "人物与身体的关系是否改变了行动，而非只剩视觉刺激？"
+    },
+    {
+      "profile_id": "robert-eggers",
+      "basis_card_ids": [
+        "robert-eggers-method-1"
+      ],
+      "status": "authored_application_not_director_fact",
+      "question": "角色把什么信念当作日常行动的真实依据？",
+      "when": "特定时代/群体信念影响生活任务与威胁理解。",
+      "choice": "先核必要生活实践，使信念在普通行动中可见，再处理其被挑战。",
+      "alternative": "背景不依赖历史细节时只保留必要项，不把研究量当画面价值。",
+      "countercase": "虚构仪式与史实分开；不能凭美术风格声称考据真实。",
+      "review": "异常是否打破了已建立的生活逻辑，而非任意神秘？"
+    },
+    {
+      "profile_id": "ryan-coogler",
+      "basis_card_ids": [
+        "ryan-coogler-method-1"
+      ],
+      "status": "authored_application_not_director_fact",
+      "question": "角色是在独自解决危机，还是重新向他人求助？",
+      "when": "动作/比赛中与教练或同伴的关系改变观看价值。",
+      "choice": "独自应对时保留完整尝试；关系介入时让寻找、接收帮助与后果可读。",
+      "alternative": "动作需要连续并不永远长镜头；找教练的反应也不必每回合插入。",
+      "countercase": "不把《奎迪》两段处理概括成所有体育片的固定顺序。",
+      "review": "覆盖改变是否对应自主/求助关系，而不是简单升级剪辑速度？"
+    },
+    {
+      "profile_id": "damien-chazelle",
+      "basis_card_ids": [
+        "damien-chazelle-method-1"
+      ],
+      "status": "authored_application_not_director_fact",
+      "question": "身体技艺和戏剧关系要在同一段里让观众读到什么？",
+      "when": "歌舞、演奏或协作的身体表现重要。",
+      "choice": "保留完整身体/协作关系的可读机会，再按戏剧与音乐的关系安排切换。",
+      "alternative": "特写确能读出关键技巧或回应时使用，不把全身视角当绝对规则。",
+      "countercase": "复杂开场不等于真实一次拍成；音乐节拍不强制所有切点。",
+      "review": "技艺是否可辨，人物为何做这件事是否仍在？"
+    },
+    {
+      "profile_id": "brad-bird",
+      "basis_card_ids": [
+        "brad-bird-method-1"
+      ],
+      "status": "authored_application_not_director_fact",
+      "question": "能力和动作怎样体现这个人的任务与性格？",
+      "when": "风格化身体、超能力与家庭/职业关系结合。",
+      "choice": "让力量、承重、准备与反应因角色及任务不同，而非全员同幅度弹动。",
+      "alternative": "普通对话或故意静止可少运动；不每次表情都全身夸张。",
+      "countercase": "动画导演不锁3D或特定渲染，物理可按已定媒介风格化。",
+      "review": "动作拿掉角色名字后仍能辨认其目标与处境吗？"
+    },
+    {
+      "profile_id": "pete-docter",
+      "basis_card_ids": [
+        "pete-docter-method-1"
+      ],
+      "status": "authored_application_not_director_fact",
+      "question": "抽象概念如何成为能行动并产生后果的关系？",
+      "when": "已有设定含难直接拍摄的心理或概念。",
+      "choice": "在授权设定中找到可操作空间、对象和结果，让观众通过行动理解。",
+      "alternative": "剧本未将概念具象化时只能提待批建议，不自创新世界规则。",
+      "countercase": "不能把情绪词直接变新角色、装置或额外对白解释。",
+      "review": "画面行为是否传达了概念，且没有扩大原设定？"
+    },
+    {
+      "profile_id": "makoto-shinkai",
+      "basis_card_ids": [
+        "makoto-shinkai-method-1"
+      ],
+      "status": "authored_application_not_director_fact",
+      "question": "歌与城市/光景段落压缩了哪段经历？",
+      "when": "音乐蒙太奇、时间流逝或环境注意具有明确作用。",
+      "choice": "标清被压缩的状态与保留的关系，让音乐与镜头发展共同组织体验。",
+      "alternative": "即时对话和因果动作需要正常时间时退出蒙太奇，不整集拍MV。",
+      "countercase": "自然光与歌曲合作资料不意味着每镜逆光、天空或固定音乐类型。",
+      "review": "观众能否读出过去了什么、人物关系怎样承接？"
+    },
+    {
+      "profile_id": "naoko-yamada",
+      "basis_card_ids": [
+        "naoko-yamada-method-1"
+      ],
+      "status": "authored_application_not_director_fact",
+      "question": "靠近或退缩怎样保留人物的主体性与听觉经验？",
+      "when": "身体表达、听觉可达性与人际关系重要。",
+      "choice": "选可读的姿态/行动及听点变化，尊重角色选择，不用旁观怜悯替代其行动。",
+      "alternative": "脸部或直接台词更准确时就用，不将手脚细节当签名配额。",
+      "countercase": "不从障碍经验泛化刻板行为，也不为感动任意消音。",
+      "review": "观众是否接近角色经验，同时仍看见其意愿与行动？"
+    },
+    {
+      "profile_id": "james-burrows",
+      "basis_card_ids": [
+        "james-burrows-method-1"
+      ],
+      "status": "authored_application_not_director_fact",
+      "question": "谁先听到、看见或进入，怎样改变喜剧关系？",
+      "when": "对白喜剧依靠进出、道具和听见顺序。",
+      "choice": "把既有台词与空间任务一起排，笑点由期待及信息变化形成。",
+      "alternative": "笑点依赖同框误解时保持，不逢包袱切单人反应。",
+      "countercase": "不新增台词包袱、笑声轨或强制反应停留秒数。",
+      "review": "不加罐头笑声，关系与笑点的因果是否成立？"
+    },
+    {
+      "profile_id": "paul-greengrass",
+      "basis_card_ids": [
+        "paul-greengrass-method-1"
+      ],
+      "status": "authored_application_not_director_fact",
+      "question": "观众像现场旁观者那样看不全，但必须理解什么？",
+      "when": "局部遮挡与不完整观察符合本场观看立场。",
+      "choice": "保留必要因果桥和可定位锚，让不完全视野构成经验而非信息断裂。",
+      "alternative": "关键操作只有一次时给足可见窗口；无需现场感时不强加抖动。",
+      "countercase": "有限作品观察不是所有题材都伪纪录或全程手持。",
+      "review": "看不全是否仍能理解行动及后果，还是只剩杂乱？"
+    },
+    {
+      "profile_id": "robert-zemeckis",
+      "basis_card_ids": [
+        "robert-zemeckis-method-1"
+      ],
+      "status": "authored_application_not_director_fact",
+      "question": "结尾的解决是否来自此前已经建立的东西？",
+      "when": "高潮/收束要兑现目标、道具或人物选择。",
+      "choice": "让已知条件在当前行动中重新获得用途，并使观众能认出其因果作用。",
+      "alternative": "非因果余韵段可保留开放，不为圆满硬收每条线。",
+      "countercase": "不能为风格增加新逃生规则、神器或改结局。",
+      "review": "回报是否由已有铺垫挣得，而非临时解释？"
+    },
+    {
+      "profile_id": "ang-lee",
+      "basis_card_ids": [
+        "ang-lee-method-1"
+      ],
+      "status": "authored_application_not_director_fact",
+      "question": "个人欲望与社会/家庭限制怎样在当下关系里相遇？",
+      "when": "文化、身份或亲密约束影响角色策略。",
+      "choice": "让想要与不能做的冲突落实为接近、回避、试探、公开选择等具体行动。",
+      "alternative": "角色确选择外放时允许强烈表达，不把所有文化压力写成含蓄不语。",
+      "countercase": "不以族群刻板印象规定表演，也不把克制当永久声线。",
+      "review": "欲望和限制是否同时可感，又没有靠标签解释？"
+    },
+    {
+      "profile_id": "michael-haneke",
+      "basis_card_ids": [
+        "michael-haneke-method-1"
+      ],
+      "status": "authored_application_not_director_fact",
+      "question": "照料行为怎样同时承载意愿、依赖与负担？",
+      "when": "照护/失去涉及身体任务、空间变化与伦理关系。",
+      "choice": "保留谁需要什么、谁如何回应及后果，时间省略不能删掉关系转变依据。",
+      "alternative": "明确直接表达就让其可听，不为冷峻撤掉一切情绪。",
+      "countercase": "不能把限定作品开头信息和空间收缩复制为通用死亡预告。",
+      "review": "观众是否看见当事人的意愿，而非只有旁人的悲伤？"
+    },
+    {
+      "profile_id": "rian-johnson",
+      "basis_card_ids": [
+        "rian-johnson-method-1"
+      ],
+      "status": "authored_application_not_director_fact",
+      "question": "表面可低估的行为里，真正的注意落在哪里？",
+      "when": "侦查、误判与公平线索符合既有剧本。",
+      "choice": "区分他人对角色的印象与实际观察目标，让已定线索在可见范围出现。",
+      "alternative": "不是谜题场景就不添线索；明确专业能力也不必伪装笨拙。",
+      "countercase": "不改变真凶或证据、不照搬反转结构；镜头提示不能提前泄底。",
+      "review": "回看时线索是否公平，初看时误判是否来自合理视点？"
+    },
+    {
+      "profile_id": "oren-peli",
+      "basis_card_ids": [
+        "oren-peli-method-1"
+      ],
+      "status": "authored_application_not_director_fact",
+      "question": "为什么这里会被记录，设备能看到听到什么？",
+      "when": "权威设定确是记录装置组织视听。",
+      "choice": "明确设备/操作者、视域和持续记录理由，基线中有意义的变化才获得注意。",
+      "alternative": "非记录视点的剧本用正常摄影；不能凭恐怖类型改成监控。",
+      "countercase": "不自动添加时间戳、噪点或画外异常，等待无作用就不延长。",
+      "review": "记录的缺口和变化是否来自装置条件，而非导演随意藏信息？"
+    },
+    {
+      "profile_id": "derek-hui",
+      "basis_card_ids": [
+        "derek-hui-method-1"
+      ],
+      "status": "authored_application_not_director_fact",
+      "question": "游戏里的决策如何经操作与沟通影响现实关系？",
+      "when": "电竞/游戏场面需要规则、行动者和情感共同成立。",
+      "choice": "先锁目标、资源、视野和职责，再连起输入/交流、局势变化与人物后果。",
+      "alternative": "关系变化由等待或失败后处理时不靠炫技游戏镜头填充。",
+      "countercase": "未核游戏规则不能编招式；不同年代不能只换滤镜。",
+      "review": "能否讲清谁做了哪项选择、为何成败、现实中付出什么？"
+    },
+    {
+      "profile_id": "bennett-miller",
+      "basis_card_ids": [
+        "bennett-miller-method-1"
+      ],
+      "status": "authored_application_not_director_fact",
+      "question": "胜负之外，哪次选人或策略决策真正改变了团队？",
+      "when": "体育/组织故事依靠判断、失败与重建。",
+      "choice": "选择能连接标准、决策和后果的比赛片段，让人物承受结果。",
+      "alternative": "单次竞技表现就是戏剧重点时可以充分展示，不强行全部转为会议。",
+      "countercase": "不把大量比赛或英雄面孔蒙太奇当团队变化，也不改真实素材事实。",
+      "review": "观众是否读到决策链，而非只知道最终赢或输？"
+    }
+  ]
+}
