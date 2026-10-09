@@ -120,7 +120,7 @@ python3 scripts/validate.py
 python3 scripts/run_tests.py
 ```
 
-完整的本地媒体检查还需安装 FFmpeg 和 FFprobe，再运行 `python3 scripts/run_tests.py --require-media`。该模式会记录工具版本，任何测试被跳过都会报错。上面的普通模式会说明跳过原因，不能视为完整媒体验证。CI 分为普通环境和必需媒体工具两组；`0.2.2` 的新配置尚待首次远程运行。
+完整的本地媒体检查还需安装 FFmpeg 和 FFprobe，再运行 `python3 scripts/run_tests.py --require-media`。该模式会记录工具版本，任何测试被跳过都会报错。上面的普通模式会说明跳过原因，不能视为完整媒体验证。2026-10-10，Python 3.10/3.13 的普通环境与必需媒体工具四项 CI 均已通过；两项完整媒体任务各执行 485 个测试，无跳过。详见[CI 验证记录](docs/TESTING.md)。
 
 当前版本尚未完成真实全片制作验证，也未逐一验证所有智能体环境。PowerShell 安装仍需实际运行确认。详细结果和未验证部分见[验证范围](docs/TESTING.md)。
 

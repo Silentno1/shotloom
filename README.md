@@ -120,7 +120,7 @@ python3 scripts/validate.py
 python3 scripts/run_tests.py
 ```
 
-For full local media verification, install FFmpeg and FFprobe, then run `python3 scripts/run_tests.py --require-media`. This mode prints tool versions and fails on skipped tests. The portable run above reports skips and does not count as full media verification. CI defines separate portable and media-required jobs; the new `0.2.2` matrix still needs its first remote run.
+For full local media verification, install FFmpeg and FFprobe, then run `python3 scripts/run_tests.py --require-media`. This mode prints tool versions and fails on skipped tests. The portable run above reports skips and does not count as full media verification. All four Python 3.10/3.13 portable and media-required CI jobs passed on 2026-10-10; each media job executed all 485 tests with no skips. See the [recorded CI results](docs/TESTING.md).
 
 This version has not completed real-film end-to-end validation or been verified across all agent environments. PowerShell installation still needs runtime confirmation. See [testing scope](docs/TESTING.md) for results and unverified areas.
 
