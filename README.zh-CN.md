@@ -8,7 +8,7 @@ Shotloom 是一个面向 AI 电影、短剧和漫剧制作的开源导演 Skill�
 
 你可以用它推进一段完整的制作流程，也可以只处理一场戏、一个镜头或一次素材审核。它由工作指引、参考资料和可选检查脚本组成，按当前任务读取所需内容。
 
-当前工作版本为 `0.2.2`，尚未发布。最新已发布安装包为 [v0.2.1](https://github.com/Silentno1/shotloom/releases/tag/v0.2.1)。要试用当前目录中的修改，请按下方说明安装完整的 `skill/shotloom` 文件夹。
+当前正式版本为 [v0.2.2](https://github.com/Silentno1/shotloom/releases/tag/v0.2.2)。请从版本附件下载 `shotloom-0.2.2.zip`，或按下方说明安装仓库中的完整 `skill/shotloom` 文件夹。修复内容和升级说明见[更新日志](CHANGELOG.md)。
 
 ## 一个小例子
 

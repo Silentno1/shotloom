@@ -4,23 +4,32 @@ Run `python3 scripts/validate.py` and `python3 scripts/run_tests.py`. Module sui
 
 For complete media testing, use `python3 scripts/run_tests.py --require-media`. It requires FFmpeg and FFprobe, prints their versions, and rejects every skip or mismatch between discovered and executed test counts. The portable mode reports each skip explicitly; a passing portable run is not a full media pass.
 
-## GitHub source verification — 2026-10-10 / 0.2.2 (unreleased)
+## Release package verification — 2026-10-10 / 0.2.2
+
+- The final installation archive was rebuilt in a fresh output directory after the installer and source-link follow-up. It contains **161 runtime files, 515,023 bytes**. ZIP integrity, complete inventory and byte-for-byte agreement with the current skill source passed. The earlier 514,957-byte local archive is not the release asset.
+- SHA-256: `1a1b0fe869327444068932667618baa6dc6de7ae6624b4f2bc8be4f928d9f4f5` for `shotloom-0.2.2.zip`. The release includes a separate `.zip.sha256` file.
+- After extraction outside the repository, Python **3.14.5** executed all **428 packaged module tests with zero skips**, using FFmpeg 6.0 and FFprobe 8.1.2. These are the same module cases included in the 485-test repository suite, not additional distinct tests. Repository installers and package-level tests are not part of the runtime ZIP.
+- The [0.2.2 release notes](https://github.com/Silentno1/shotloom/releases/tag/v0.2.2) identify the final tag and its four-job CI run. The source-only CI evidence below remains a separate historical step; it is not a substitute for verifying the final release commit.
+- The 0.2.1 tag, release notes and assets are retained as history. Their test results do not certify 0.2.2, and the 0.2.2 fixes do not change the old archive.
+- Windows/PowerShell runtime behavior, real-film production and independent use across all agent hosts remain unverified. Automated and synthetic checks do not establish audiovisual or creative acceptance.
+
+## Earlier GitHub source verification — 2026-10-10 / 0.2.2
 
 - Source commit [`623109b`](https://github.com/Silentno1/shotloom/commit/623109b13872f25a387c0c5c6248470f9eda5268) includes all 27 changed/new files, including both new test files. The uploaded tree matched the complete local staged tree exactly; no tests were omitted from the commit.
 - The [first four-job CI run](https://github.com/Silentno1/shotloom/actions/runs/37975853444) passed on Ubuntu 24.04.5 with Python **3.10.22 and 3.13.16**. Dates in this record use Asia/Shanghai.
 - Each required-media job executed **485/485 tests with zero skips**, using FFmpeg and FFprobe **6.1.1-3ubuntu5**. Suite counts were 57 package/public, 131 director, 36 edit/delivery, 115 generation, 119 review/continuity and 27 visual. Running the same suite under two interpreters does not double the distinct test count.
 - Each portable job deliberately hid the media executables: **485 discovered, 461 executed**, with five class-level skip events covering 24 unexecuted cases. These jobs passed their intended no-media checks; they are not full media passes.
-- This uploads the 0.2.2 source only. No `v0.2.2` tag, Release or replacement installation archive was created; the latest tagged release remains 0.2.1. The older local 0.2.2 ZIP still requires rebuilding before a future release.
+- That step uploaded the 0.2.2 source only. It did not create a `v0.2.2` tag, Release or replacement installation archive; 0.2.1 was still the latest release at that point. The final 0.2.2 package is recorded above.
 - Windows/PowerShell runtime behavior, real-film production and independent use across agent hosts remain unverified. These CI results establish only the tested automated behavior.
 
-## Latest local verification — 2026-10-09 / 0.2.2 installer follow-up (unreleased)
+## Earlier local verification — 2026-10-09 / 0.2.2 installer follow-up
 
 - Python **3.14.5 and 3.11.15**, macOS: each executed all **485 tests**, no skips, using required-media mode with FFmpeg 6.0 and FFprobe 8.1.2. Breakdown: 57 package/public, 131 director, 27 visual, 115 generation, 119 review/continuity and 36 edit/delivery.
 - The Bash installer has ten regression cases (seven added in this follow-up). They cover unique backups on repeated updates, discovery-root isolation, copy/backup/swap/restore failures, symlinked targets, rejected linked storage, a simulated cross-filesystem boundary, missing arguments and self-install refusal. The recursive discovery check finds only the active `shotloom/SKILL.md`; when restoration is deliberately made impossible, the original remains in the reported external backup instead of being deleted.
 - Both installers now stage and back up in a sibling `.<target-name>.shotloom-installer` directory, not inside the skills discovery root. The target's parent must be writable. Bash rejects cross-filesystem storage before moving the old installation; PowerShell uses filesystem move operations instead of a copy/delete fallback for directories. Old backups created by previous installers are not moved or deleted automatically.
 - Package structure, relative links, privacy/Python syntax, skill frontmatter, Bash syntax and whitespace checks passed. The PowerShell changes were reviewed but **not executed**: no PowerShell runtime is available locally. No real agent installation was changed.
 - The unnecessary K3-IO query parameter was removed. The parameter-free Chinese guide was readable in the scoped 2026-10-09 access check; this does not refresh model capabilities or certify external demonstrations.
-- The existing `dist/shotloom-0.2.2.zip` and checksum remain the **earlier snapshot recorded below**, not a package of this follow-up. Rebuild in a fresh output directory from the final verified source before any future release; do not treat the old source/archive equality check as current.
+- The original `dist/shotloom-0.2.2.zip` and checksum describe the **earlier snapshot recorded below**, not a package of this follow-up. The final release was rebuilt in a fresh output directory; do not treat the old source/archive equality check as current.
 - At the end of this local follow-up, no staging/commit, push, tag, Git identity change or release had been performed, and the new GitHub CI matrix had not run remotely. Python 3.10/3.13, Windows/PowerShell and real-film/independent-agent behavior were not run in that local verification. The subsequent GitHub run is recorded above.
 
 ## Earlier local verification — 2026-10-09 / 0.2.2 before installer follow-up
@@ -36,7 +45,7 @@ For complete media testing, use `python3 scripts/run_tests.py --require-media`. 
 - This snapshot introduced Python 3.10/3.13 portable jobs with intentionally unavailable media tools and separate media jobs that install FFmpeg/FFprobe and prohibit skips. The matrix had not run remotely at that point; its subsequent result is recorded above. Neither Python 3.10 nor 3.13 was executed locally in this verification.
 - The current written example is a fictional 0.2 workflow demonstration, not an actual-media acceptance fixture. Four Feishu sources and a linked official non-Feishu prompt guide received a scoped guest-access check; see the [source record](../skill/shotloom/modules/generation/references/seedance-25-sources.md). That check does not renew every historical model parameter or validate embedded demonstrations.
 
-No real-film end-to-end test, independent agent trial or PowerShell runtime test was performed. No remote generation, account change, dependency installation on the user's machine or publication was performed.
+Those earlier local snapshots did not include a real-film end-to-end test, independent agent trial or PowerShell runtime test. They involved no remote generation, account change, dependency installation on the user's machine or publication.
 
 ## Historical release verification — 2026-10-09 / 0.2.1
 
@@ -46,7 +55,7 @@ No real-film end-to-end test, independent agent trial or PowerShell runtime test
 - After extraction outside the repository, all five packaged module suites passed again (410 tests; not additional distinct cases).
 - The release changes version metadata and documentation, not production behavior. It does not add real-film validation, independent agent trials, PowerShell runtime testing or fresh verification of external model sources.
 
-Later cross-environment review found a video-tail failure in 0.2.1: a clip whose final frame ends at `0.1` seconds could report a container duration of `0.092`, causing a valid end-of-clip interval to be rejected. The local 0.2.2 fix derives the video endpoint from frame timing and includes a regression for that discrepancy. The published 0.2.1 tag/archive has not been replaced and still contains the defect; its original local pass does not negate this later finding.
+Later cross-environment review found a video-tail failure in 0.2.1: a clip whose final frame ends at `0.1` seconds could report a container duration of `0.092`, causing a valid end-of-clip interval to be rejected. The 0.2.2 fix derives the video endpoint from frame timing and includes a regression for that discrepancy. The published 0.2.1 tag/archive has not been replaced and still contains the defect; its original local pass does not negate this later finding.
 
 The [published CI job](https://github.com/Silentno1/shotloom/actions/runs/37847792931/job/113552903204) succeeded but did **not** execute all 449 cases: generation ran 113 with one class skip; review ran 81 with four class skips. Total executed was 427, with 22 cases omitted across those five class-level skip events. The original 449/no-skips result above describes the local environment only. The later 0.2.2 required-media jobs executed every discovered case, as recorded above; that result does not retroactively validate the old 0.2.1 archive.
 

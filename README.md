@@ -8,7 +8,7 @@ Shotloom is an open-source directing skill for AI films, short dramas and animat
 
 Use it for a full production workflow or a single scene, shot or review. The package contains instructions, references and optional checking scripts, loaded according to the task.
 
-Working version: `0.2.2` (unreleased). The latest published package is [v0.2.1](https://github.com/Silentno1/shotloom/releases/tag/v0.2.1). To try changes in this checkout, install its complete `skill/shotloom` folder as described below.
+Current release: [v0.2.2](https://github.com/Silentno1/shotloom/releases/tag/v0.2.2). Download `shotloom-0.2.2.zip` from the release assets, or install the complete `skill/shotloom` folder from this checkout. See the [changelog](CHANGELOG.md) for fixes and upgrade notes.
 
 ## A small example
 

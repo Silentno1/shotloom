@@ -1,6 +1,6 @@
 # Package architecture and maintenance
 
-Shotloom 0.2.2 (unreleased) contains five production modules behind one portable skill entry. Maintain the complete directing, visual, generation-planning, review/continuity and edit/delivery loop when changing the package.
+Shotloom 0.2.2 contains five production modules behind one portable skill entry. Maintain the complete directing, visual, generation-planning, review/continuity and edit/delivery loop when changing the package.
 
 ## Capability ownership
 

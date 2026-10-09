@@ -13,3 +13,13 @@ Use original explanations and scoped source attribution. Publicly readable mater
 Run `python3 scripts/validate.py` and `python3 scripts/run_tests.py`. Optional media tests report skips when tools are absent. Include realistic tool-limited/manual cases and relocated-install behavior. Do not add paid tests, new dependencies or unrelated project changes to complete a contribution.
 
 The maintainer-only `scripts/import_baseline.py` imports into a new staging directory and refuses overwrite. It performs mechanical normalization, not finished public adaptation; review its output against the current public contracts before merging. Never run it as an automatic user-project updater.
+
+## Publishing a version
+
+A version release includes the source commit, a matching `vX.Y.Z` tag, dated Chinese and English update notes, a freshly built installation ZIP and its SHA-256 file, and a GitHub Release. Updating the default branch alone is not a release. Routine maintenance does not authorize publication; publish only when the maintainer requests a version release.
+
+1. Align the skill version, both READMEs, changelog and verification record. Include new files in the commit and review the complete staged change.
+2. Build with `scripts/build_release.py` into a fresh output directory. Check ZIP integrity, inventory and byte-for-byte agreement with the final skill source; run the packaged module tests after isolated extraction. Do not reuse an earlier archive with the same version label.
+3. Upload the final commit and wait for all four CI jobs. Each required-media job must run every discovered test with zero skips. Record the final CI link in the release notes.
+4. Create only the requested version tag at that verified commit. Publish the ZIP, checksum and bilingual notes as a regular Release and mark it Latest unless a prerelease was explicitly requested. Retain previous tags, releases and assets; do not push all local tags.
+5. Check the public version page, Latest status, tag target and downloaded asset checksum. Report a blocker as an incomplete release, not a successful source-only substitute.
