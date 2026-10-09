@@ -10,12 +10,35 @@ permissions:
 jobs:
   package:
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python: ["3.10", "3.13"]
+    env:
+      SHOTLOOM_FFMPEG: shotloom-intentionally-unavailable
+      SHOTLOOM_FFPROBE: shotloom-intentionally-unavailable
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
-          python-version: "3.11"
+          python-version: ${{ matrix.python }}
       - name: Validate package
         run: python3 scripts/validate.py
-      - name: Run tests
+      - name: Run portable tests without media tools (skips reported)
         run: python3 scripts/run_tests.py
+
+  media:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python: ["3.10", "3.13"]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python }}
+      - name: Install media test dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg
+      - name: Run every test with media tools (no skips allowed)
+        run: python3 scripts/run_tests.py --require-media

@@ -1,6 +1,6 @@
 # Package architecture and maintenance
 
-Shotloom 0.2.1 contains five production modules behind one portable skill entry. Maintain the complete directing, visual, generation-planning, review/continuity and edit/delivery loop when changing the package.
+Shotloom 0.2.2 (unreleased) contains five production modules behind one portable skill entry. Maintain the complete directing, visual, generation-planning, review/continuity and edit/delivery loop when changing the package.
 
 ## Capability ownership
 
@@ -36,6 +36,21 @@ The 2026-10-09 update adds six resources for conditional shot-pattern cases, loc
 ## Maintenance and verification
 
 Use the file map to check coverage before editing a module. Keep one authoritative reference per decision; earlier reference paths are compatibility routers, not parallel specifications. Skill maintenance never automatically edits a user's project, reopens accepted media or migrates old state.
+
+The main entry links directly to maintained story, review and post-production references. Nine older five-line routes remain so saved links keep working; their combined 45 lines do not duplicate module rules. The root dialogue-audit script also remains as a thin compatibility entry, loading the module implementation by a package-relative path. Both command paths have the same options, output and exit codes, tested after relocation.
+
+## Loading the director library
+
+Keep the catalog bundled so a copied skill works offline, but load it only for a relevant named-reference task. The four director JSON files total 659,632 bytes before compression; storage size is not the amount sent to the agent on every task. Do not read them wholesale as part of normal startup.
+
+- Existing approved method or project-authored method: skip catalog retrieval entirely.
+- Named-reference research: start with `director_style.py topics`, `topic QUERY` or `find QUERY`; retrieve one relevant `profile ID` at a time.
+- Detailed method application: use `director_methods.py profile ID` for that profile and its authored adaptation, preserving evidence limits.
+- No Python: use the prose decision guides and the user's approved method. If a task specifically needs catalog facts, read only the selected profile with the host's file-search tools or report the retrieval limitation.
+
+The helpers may parse the JSON locally; only the selected result should enter the conversation. In the 2026-10-09 check, retrieving `nora-ephron` returned 5,499 UTF-8 bytes from `director_style.py` or 7,139 bytes including authored application from `director_methods.py`. Those are one profile's measured outputs, not a universal token budget. Splitting the catalog into another required download would add an installation dependency without reducing that selected result. Reconsider an optional distribution only if measured installation or retrieval costs justify it.
+
+## Verification boundaries
 
 Run package validation, all isolated test suites and relocated-install checks. Behavioral tests cover both method paths, stale bindings, source-lock consumers, continuity and media evidence. Documentation/keyword assertions remain wiring checks, not behavioral or artistic proof.
 

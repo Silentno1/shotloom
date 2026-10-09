@@ -2,6 +2,8 @@
 
 Primary authority: the [Jimeng official Seedance 2.5 manual](https://bytedance.larkoffice.com/wiki/RXh5ww6EqighMdkVTMccm2d4n7e), read 2026-10-02. It supersedes conflicting legacy third-party instructions. See [sources, mode envelopes and conflict rules](seedance-25-sources.md); use that register when a parameter or source distinction matters. These methods are specific to 2.5, not a template for H3, 2.0, Mini/Fast or Kling.
 
+The source register includes guest-access results dated 2026-10-09 and an [official non-Feishu prompt guide](https://docs.volcengine.com/docs/ark/seedance-2-5-prompt-guide?lang=zh). This local adapter is usable without opening either site. Unavailable live sources leave consequential current parameters unverified; they do not require an account or prevent a labeled planning draft.
+
 Support the documented capabilities regardless of which third-party platform currently exposes them. For prompt-only work, choose the model-native operation and intended references/settings; platform integration is not a prerequisite. Before an authorized submission, bind the actual host labels and verify its operation. Missing host support is an execution gap, not a reason to remove the branch or silently change the brief.
 
 ## Select the operation, then the control carrier

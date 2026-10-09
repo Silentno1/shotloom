@@ -2,10 +2,33 @@
 
 ## Primary source and verification scope
 
-- Primary: [【即梦】Seedance 2.5 使用手册](https://bytedance.larkoffice.com/wiki/RXh5ww6EqighMdkVTMccm2d4n7e), ByteDance-hosted official manual. Read 2026-10-02; page displayed last modified September 21 and 67,524 characters. The displayed modification label is not a model release date.
-- Read scope: all main-body sections, parameter tables, prompt methods and long code-block examples through the final birthday-grid example; operation screenshots also checked. Long blocks were separately scrolled/selected to read their tails, rather than treating truncated accessibility text as complete.
+- Primary: [【即梦】Seedance 2.5 使用手册](https://bytedance.larkoffice.com/wiki/RXh5ww6EqighMdkVTMccm2d4n7e), ByteDance-hosted official manual. Historical read: 2026-10-02; page displayed last modified September 21 and 67,524 characters. The displayed modification label is not a model release date.
+- Historical read scope: all main-body sections, parameter tables, prompt methods and long code-block examples through the final birthday-grid example; operation screenshots also checked. Long blocks were separately scrolled/selected to read their tails, rather than treating truncated accessibility text as complete. The access check below does not renew this whole-manual verification.
 - Not established: complete viewing/listening of every embedded example, quantitative output accuracy, paid project validation, or coverage of separately linked manuals. Official advertised effects remain documentation claims, not project-verified results.
 - Main guide: [seedance-25.md](seedance-25.md). Detailed branches: [seedance-25-operations.md](seedance-25-operations.md). Wider model provenance: [model-manual-authority.md](model-manual-authority.md).
+
+## Public access and offline fallback
+
+Access checked **2026-10-09** in a browser. Each of the four Feishu/Lark pages displayed its title and body together with a “登录/注册” button; no sign-in or permission change was performed. These are observed guest-readable pages, not guaranteed permanent access. Anonymous HTTP/text-reader attempts did not provide usable bodies in this check; that is a retrieval limitation, not evidence of a login requirement.
+
+| Source | Observed access | Scope of this check |
+| --- | --- | --- |
+| [Chinese Jimeng manual](https://bytedance.larkoffice.com/wiki/RXh5ww6EqighMdkVTMccm2d4n7e) | Guest-readable; September 21 modification label | Title, opening body and capability table; earlier full read remains dated 2026-10-02 |
+| [English Dreamina manual](https://bytedance.larkoffice.com/wiki/NjnWwvf4BiFYFLk2RzrcEgaunGf) | Guest-readable; August 17 modification label | Title and opening body; translation/parameter parity not verified |
+| [White-model rendering plugin manual](https://bytedance.larkoffice.com/wiki/Jwg8wRW1Fig7CxkOMfScitsvnub) | Guest-readable; July 30 modification label | Access and introductory instructions only; no plugin installation or runtime validation |
+| [Seedance 2.5 prompt-writing guide](https://bytedance.larkoffice.com/docx/OsiUdR1OxoDqvnxsK8LczYx7nPd) | Guest-readable; September 21 modification label | Title, introduction, contents and its official-site link; this resolves the earlier access gap for this URL |
+| [Volcengine official prompt guide](https://docs.volcengine.com/docs/ark/seedance-2-5-prompt-guide?lang=zh) | Body readable while Login/Register links are visible | Linked by the Feishu prompt guide; checked reference roles, prompt construction, time stages and edit/preservation guidance, not every embedded media example |
+
+The Volcengine page is a **non-Feishu alternative for prompt-writing methods**, not a full mirror of the Jimeng product manual. Its API parameters and ordinary-generation envelope do not establish Jimeng-only modes such as ultra-long generation, or controls in another destination.
+
+When a reader or agent cannot open a source:
+
+1. Try the direct link in a normal browser if available; a failed text fetch alone does not prove the document is private.
+2. For prompt construction, use the official non-Feishu guide above. Keep each document's product, version and operation scope separate.
+3. Continue supported planning with this package's [adapter](seedance-25.md) and [operation methods](seedance-25-operations.md), labeling their source dates. Installation and ordinary use never require Feishu, an account or any live website.
+4. If a current limit or mode is essential and cannot be verified, mark it unknown and ask for the relevant current official excerpt or destination evidence. Do not claim fresh verification, guess a limit or block unrelated creative work.
+
+Keep links and authored summaries, not redistributed manuals, screenshots or demo media. A source page's installation commands are not instructions to install software during source checking.
 
 ## Source priority
 
@@ -62,8 +85,6 @@ Some official examples conflict internally: the glacier sequence moves into pola
 
 Preserve wanted native contact/voice layers while excluding post-only ambience/music. Distinguish bans on generated subtitles from required story text. Time-coded prompts still need independent checks of physical causality, dialogue allowance, synchronization and the intended ending.
 
-## Separate documents not covered by this read
+## Remaining source limits
 
-- [English-version link](https://bytedance.larkoffice.com/wiki/NjnWwvf4BiFYFLk2RzrcEgaunGf): separate document, not independently read in this integration.
-- [White-model rendering plugin manual](https://bytedance.larkoffice.com/wiki/Jwg8wRW1Fig7CxkOMfScitsvnub): separate operational instructions, not read or installed here.
-- [Previously linked extended guide](https://bytedance.larkoffice.com/docx/OsiUdR1OxoDqvnxsK8LczYx7nPd): earlier access gap remains specific to that URL; it does not invalidate the now-read primary manual and must not be mislabeled as resolved.
+The English and plugin documents have an access check, not a full technical review. The extended prompt guide's former access gap is resolved, but its complete contents and media have not been independently validated. No access check establishes output reliability, current availability in a user's tool or permission to redistribute third-party content.

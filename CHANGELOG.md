@@ -2,6 +2,23 @@
 
 All notable changes to Shotloom will be documented here.
 
+## [0.2.2] - Unreleased
+
+### Fixes
+
+- Bound video review ranges by decoded video timestamps and the final frame's duration, not container duration. Preserve VFR/nonzero-origin handling, reject genuine out-of-range requests and label a tightly checked CFR fallback as an estimate.
+- Use one dialogue-audit implementation behind both entry paths, preserving `--json` and Unicode case folding. Reject empty expected dialogue, malformed transcript data and invalid/out-of-media timing; a wording match does not imply listening or creative approval.
+- Separate portable CI from required-media CI on Python 3.10 and 3.13. The media job explicitly installs FFmpeg/FFprobe, records versions and fails on any skipped or unexecuted discovered test.
+
+### Documentation and routing
+
+- Add Chinese task keywords and concrete short-drama/comic-style-drama examples to the bilingual introduction.
+- Expand the current written workflow with shot plans, a scoped prompt draft and evidence-limited review examples. Keep the historical golden scene separate from current acceptance claims.
+- Record guest access to all four Feishu sources on 2026-10-09, add a verified official non-Feishu prompt guide and document offline fallback. Access verification does not renew all historical model claims.
+- Route the main entry directly to maintained references while retaining old compatibility paths. Keep director research optional and explicitly prohibit preloading the full JSON catalog for ordinary work.
+
+This revision is prepared locally. It has not been published, and the new GitHub CI matrix has not yet run.
+
 ## [0.2.1] - 2026-10-09
 
 ### Production workflows

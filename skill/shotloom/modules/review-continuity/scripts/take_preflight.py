@@ -13,6 +13,7 @@ import subprocess
 import sys
 import math
 import tempfile
+from fractions import Fraction
 from pathlib import Path
 from typing import Any
 
@@ -83,6 +84,84 @@ def metadata(probe_data: dict[str, Any]) -> dict[str, Any]:
             "duration_seconds": parse_float(audio.get("duration")),
         }
     return result
+
+
+def video_timing(data: dict[str, Any]) -> dict[str, Any]:
+    """Bound the video clock, not a container clock that may include longer audio."""
+    frames = data.get("frames", [])
+    times = [decimal_seconds(frame.get("best_effort_timestamp_time")) for frame in frames]
+    if not times or times != sorted(set(times)):
+        raise ValueError("cannot establish ordered decoded video frame timestamps")
+    stream = next((s for s in data.get("streams", []) if s.get("codec_type") == "video"), {})
+    origin, last = times[0], times[-1]
+
+    def positive(value: Any):
+        try:
+            number = decimal_seconds(value)
+            return number if number > 0 else None
+        except ValueError:
+            return None
+
+    def rational(value: Any):
+        try:
+            number = Fraction(str(value))
+            return positive(decimal_seconds(number.numerator) / decimal_seconds(number.denominator))
+        except (ValueError, ZeroDivisionError):
+            return None
+
+    # New FFprobe versions expose duration_time; older ones use pkt_duration_time.
+    tail = positive(frames[-1].get("duration_time")) or positive(frames[-1].get("pkt_duration_time"))
+    end, basis = None, "unknown"
+    if tail is not None:
+        end, basis = last + tail - origin, "last_decoded_frame_duration"
+    else:
+        stream_duration = positive(stream.get("duration"))
+        if stream_duration is not None:
+            try:
+                stream_start = decimal_seconds(stream.get("start_time", origin))
+            except ValueError:
+                stream_start = origin
+            if stream_start + stream_duration > last:
+                end, basis = stream_start + stream_duration - origin, "video_stream_duration"
+        # A missing last-frame duration cannot be recovered from average FPS on
+        # VFR material. Only estimate a CFR tail when the declared rates agree
+        # and every decoded timestamp matches that grid within one stream tick.
+        rate = rational(stream.get("r_frame_rate"))
+        average = rational(stream.get("avg_frame_rate"))
+        tick = rational(stream.get("time_base")) or decimal_seconds("0.000001")
+        if end is None and len(times) > 1 and rate and average == rate:
+            period = decimal_seconds(1) / rate
+            if tick < period and all(abs(t - origin - i * period) <= tick for i, t in enumerate(times)):
+                end, basis = len(times) * period, "cfr_timestamp_grid_estimate"
+    return {
+        "time_origin": "first decoded video frame",
+        "stream_origin_seconds": float(origin),
+        "last_frame_start_seconds": float(last - origin),
+        "end_seconds": float(end) if end is not None else None,
+        "end_basis": basis,
+        "end_is_estimate": basis == "cfr_timestamp_grid_estimate",
+        "decoded_frame_count": len(times),
+    }
+
+
+def probe_video_timing(ffprobe: str, source: Path) -> dict[str, Any]:
+    result = run([ffprobe, "-v", "error", "-select_streams", "v:0", "-show_frames", "-show_streams",
+                  "-show_entries", "frame=best_effort_timestamp_time,duration_time,pkt_duration_time:"
+                  "stream=codec_type,start_time,duration,r_frame_rate,avg_frame_rate,time_base",
+                  "-of", "json", str(source)])
+    return video_timing(json.loads(result.stdout))
+
+
+def validate_video_outpoint(value: float, timing: dict[str, Any]) -> None:
+    outpoint = decimal_seconds(value)
+    if outpoint <= 0:
+        raise ValueError("video outpoint must be positive finite seconds")
+    end = timing["end_seconds"]
+    if end is None:
+        if outpoint > decimal_seconds(timing["last_frame_start_seconds"]):
+            raise ValueError("video tail duration is unknown; cannot verify this outpoint")
+    elif outpoint > decimal_seconds(end) + decimal_seconds("0.000001"):
+        raise ValueError(f"outpoint {value:g} exceeds decoded video duration {end:g}")
 
 
 def extract_frame(ffmpeg: str, source: Path, target: Path, timestamp: float) -> None:
@@ -424,14 +503,26 @@ def main() -> int:
             raise ValueError(f"source does not exist: {source}")
         ffmpeg = find_binary("ffmpeg")
         ffprobe = find_binary("ffprobe")
-        out_root = Path(args.out_dir).resolve() if args.out_dir else source.parent / f"{source.stem}_review"
-        out_root.mkdir(parents=True, exist_ok=True)
         source_hash = sha256(source)
-        out_dir = Path(tempfile.mkdtemp(prefix=f"run-{source_hash[:12]}-", dir=out_root))
         info = metadata(probe(ffprobe, source))
         if not info["video"] and not info["audio"]:
             raise ValueError("source has no supported video or audio stream")
-        duration = info["duration_seconds"] or 0.0
+        dense_ranges = [parse_dense_range(value) for value in args.dense_range]
+        if info["video"]:
+            timing = probe_video_timing(ffprobe, source)
+            info["video"]["timeline"] = timing
+            if args.selected_out is not None:
+                validate_video_outpoint(args.selected_out, timing)
+            for start, end in dense_ranges:
+                validate_video_outpoint(end, timing)
+            # An overview may use the observed span when the tail is unknown;
+            # this sampling extent is not promoted to a verified video end.
+            duration = timing["end_seconds"] or max(timing["last_frame_start_seconds"], 0.04)
+        elif dense_ranges or args.selected_out is not None:
+            raise ValueError("video ranges require a video stream")
+        out_root = Path(args.out_dir).resolve() if args.out_dir else source.parent / f"{source.stem}_review"
+        out_root.mkdir(parents=True, exist_ok=True)
+        out_dir = Path(tempfile.mkdtemp(prefix=f"run-{source_hash[:12]}-", dir=out_root))
         artifacts: dict[str, Any] = {}
         diagnostics: dict[str, Any] = {}
         if info["video"]:
@@ -444,15 +535,9 @@ def main() -> int:
             artifacts.update(first_frame=str(first), last_frame=str(last), last_frame_evidence=boundary,
                              contact_sheet=str(sheet), contact_sheet_sampling=sampling)
             if args.selected_out is not None:
-                if args.selected_out > duration + 1e-6:
-                    raise ValueError("selected outpoint exceeds source duration")
                 artifacts["selected_out_frame"] = extract_last_frame(ffmpeg, ffprobe, source,
                     out_dir / "selected-out-frame.png", args.selected_out)
             diagnostics["video"] = parse_video_diagnostics(ffmpeg, source, args.scene_threshold)
-            dense_ranges = [parse_dense_range(value) for value in args.dense_range]
-            for start, end in dense_ranges:
-                if end > duration + 1e-6:
-                    raise ValueError(f"dense range {start:.3f}:{end:.3f} exceeds source duration {duration:.3f}")
             if dense_ranges:
                 artifacts["dense_bursts"] = [
                     (all_source_frame_burst(ffmpeg, ffprobe, source, out_dir, start, end, args.max_dense_frames)

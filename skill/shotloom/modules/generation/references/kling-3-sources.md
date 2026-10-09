@@ -11,12 +11,14 @@
 | K3-E | [3.0 主体库指南](https://kling.ai/quickstart/klingai-element-library-3-user-guide) | 2026-02-05；创建与使用是两层配额；FAQ、音色与主体绑定 |
 | K3-M | [动作控制指南](https://kling.ai/quickstart/motion-control-user-guide) | 2026-03-05；采用页面上方明确标为 VIDEO 3.0 的部分，后半为 2.6，不无条件移植 |
 | K3-I | [IMAGE 3.0 使用指南](https://kling.ai/quickstart/klingai-image-3-model-user-guide) | 2026-02-04；文生/改图、多参考、影视静态图、提示词写法 |
-| K3-IO | [IMAGE 3.0 Omni 使用指南](https://kling.ai/quickstart/klingai-image-3-omni-user-guide)；[中文指南](https://docs.qingque.cn/d/home/eZQAit38w9iv2rOZ3k0CXYYn-?identityId=1oEFzU43FYK) | 英文标注 2026-02-06；系列组图、2K/4K、静态镜头与参考分工。英文正文抓取不稳定，本次交叉读取官方索引正文和中文可读章节；未把未观看的示例视频当实测 |
+| K3-IO | [IMAGE 3.0 Omni 使用指南](https://kling.ai/quickstart/klingai-image-3-omni-user-guide)；[中文指南](https://docs.qingque.cn/d/home/eZQAit38w9iv2rOZ3k0CXYYn-) | 英文标注 2026-02-06；系列组图、2K/4K、静态镜头与参考分工。英文正文抓取不稳定，本次交叉读取官方索引正文和中文可读章节；未把未观看的示例视频当实测 |
 | K3-T | [Turbo 与 Omni 编辑更新](https://klingai.com/release-note/release-notes/Kling_3_Turbo?type=dialog) | 发布列表 2026-06-17；Turbo 定位和 Omni 编辑更新分开归属 |
 | K3-4K | [3.0/Omni 原生 4K 更新](https://klingai.com/release-note/release-notes/z8zeqsxwol?type=dialog) | 发布列表 2026-04-23；生成路径 4K，不证明每个宿主/编辑模式均开放 |
 | K3-API | [官方视频能力图](https://kling.ai/document-api/guides/capability-map/video) | 2026-10-02 读取官方搜索索引内容；基础表列 Turbo 3–15 秒、720P/1080P、文本/图片输入；正文动态表图标未完整呈现，不凭空白格判定支持 |
 
 K3-API 仅作公开文档来源；Shotloom 不实现调用器或逐端点接入。官方网页标签、用户入口标识和文档参数不是可任意互换的语法，用户自行操作外部生成。
+
+2026-10-09 链接整理：K3-IO 中文指南移除不必要的查询参数后仍可读取正文。此项仅核对链接可访问性，不更新模型规格或证明画面效果。
 
 ## 参数必须保留的作用域
 

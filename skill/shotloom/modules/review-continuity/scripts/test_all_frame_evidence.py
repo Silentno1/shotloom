@@ -1,10 +1,13 @@
 """Real short synthetic clips prove extraction correspondence, not anomaly recognition."""
 import json
+import contextlib
+import io
 from pathlib import Path
 import subprocess
 import sys
 import tempfile
 import unittest
+from unittest import mock
 
 import take_preflight as take
 
@@ -106,6 +109,42 @@ class AllFrameTests(unittest.TestCase):
             self.assertEqual(burst["frame_count"], 12)
             self.assertIsNone(burst["requested_fps"])
             self.assertEqual(manifest["review_boundary"]["review_status"], "extracted_not_reviewed")
+
+    def test_cli_short_container_duration_does_not_reject_real_video_tail(self):
+        with tempfile.TemporaryDirectory(prefix="short-container-") as folder:
+            root = Path(folder)
+            source = self.fixture(root, fps=120)
+            original_probe = take.probe
+
+            def shortened_probe(binary, path):
+                data = original_probe(binary, path)
+                data["format"]["duration"] = "0.092"
+                return data
+
+            output = io.StringIO()
+            argv = ["take_preflight", str(source), "--out-dir", str(root / "evidence"),
+                    "--samples", "4", "--dense-range", "0:0.1", "--dense-sampling", "all",
+                    "--selected-out", "0.1"]
+            with mock.patch.object(sys, "argv", argv), mock.patch.object(take, "probe", shortened_probe), contextlib.redirect_stdout(output):
+                self.assertEqual(take.main(), 0)
+            manifest = json.loads(Path(json.loads(output.getvalue())["manifest"]).read_text())
+            self.assertEqual(manifest["metadata"]["duration_seconds"], .092)
+            self.assertAlmostEqual(manifest["metadata"]["video"]["timeline"]["end_seconds"], .1, places=3)
+            self.assertEqual(manifest["artifacts"]["dense_bursts"][0]["frame_count"], 12)
+            self.assertEqual(manifest["artifacts"]["selected_out_frame"]["decoded_frame_index"], 11)
+
+    def test_cli_genuinely_out_of_bounds_fails_before_creating_evidence(self):
+        with tempfile.TemporaryDirectory(prefix="past-video-tail-") as folder:
+            root = Path(folder)
+            source = self.fixture(root, fps=120)
+            for arguments in (["--selected-out", "0.11"], ["--dense-range", "0:0.11"]):
+                with self.subTest(arguments=arguments):
+                    output = root / "evidence"
+                    result = subprocess.run([sys.executable, "-B", take.__file__, str(source),
+                                             "--out-dir", str(output), *arguments], text=True, capture_output=True)
+                    self.assertEqual(result.returncode, 2, result.stderr)
+                    self.assertIn("exceeds decoded video", result.stderr)
+                    self.assertFalse(output.exists())
 
 
 if __name__ == "__main__":

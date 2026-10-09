@@ -4,11 +4,24 @@ English | [简体中文](README.zh-CN.md)
 
 **A directing skill for AI filmmaking, driven by review and iteration.**
 
-Shotloom is an open-source directing skill for AI-assisted filmmaking. It helps an agent turn a script and creative intent into production plans and model-specific prompts, review the returned media, and carry revision decisions into later shots and the edit.
+Shotloom is an open-source directing skill for AI films, short dramas and animated/comic-style dramas. It helps an agent turn a script and creative intent into shot plans and model-specific prompts, review the returned media, and carry revision decisions into later shots and the edit.
 
 Use it for a full production workflow or a single scene, shot or review. The package contains instructions, references and optional checking scripts, loaded according to the task.
 
-Current version: `0.2.1`. Download the installable package from [GitHub Releases](https://github.com/Silentno1/shotloom/releases/tag/v0.2.1).
+Working version: `0.2.2` (unreleased). The latest published package is [v0.2.1](https://github.com/Silentno1/shotloom/releases/tag/v0.2.1). To try changes in this checkout, install its complete `skill/shotloom` folder as described below.
+
+## A small example
+
+Input: “A sister hands a workshop key from her right hand to her brother's left and says exactly ‘店交给你了。’. He looks at the key before answering. Keep the shared task visible.”
+
+| Deliverable | What Shotloom makes explicit |
+| --- | --- |
+| Script and shot plan | Shot A shows the transfer; Shot B gives the receiver's pause room. The brother's unspecified answer remains a question, not invented dialogue. |
+| Prompt draft | Ordered actions, exact speech, reference roles, sound ownership and a final state: the key stays in the brother's left hand. |
+| Review | Three stills can support visible-state observations; they cannot establish the transfer motion or sound. Those checks remain unverified. |
+| Revision record | After actual review and explicit acceptance, record the observed endpoint. Replacing Shot A makes dependent continuity in Shot B due for another check. |
+
+See the [worked example with shot and prompt excerpts](examples/public-workflow/README.md). It is a fictional teaching example, not a generated film or a claim of production success.
 
 ## How it works
 
@@ -30,9 +43,11 @@ Prompts describe intent. Only reviewed and explicitly accepted media states beco
 | Review and continuity | Inspect actual media, diagnose failures and track accepted states and their effects on later shots |
 | Editing and post-production | Plan timed previs and selections, reconform captions after edits, calibrate final-output audio sync, and prepare handoffs and final checks |
 
-Formal production needs an explicit, approved directing approach. It can draw on a named director or work, or be authored for the project. The 69-profile director/work catalog offers optional retrieval and suitability scoring; neither a named director nor full-catalog scoring is required for every project.
+Formal production needs an explicit, approved directing approach. It can draw on a named director or work, or be authored for the project. The 69-profile director/work catalog offers optional retrieval and suitability scoring. Ordinary work keeps the current approved method; project-authored methods skip the catalog. Named-reference research retrieves only relevant topics or profiles, without loading all JSON into the conversation. See [loading and compatibility](docs/PUBLIC-BASELINE.md).
 
 Prompt guidance covers H3, Seedance, Seedream, Kling, Wan and several image-model families. Depth varies by version and task; see [model routing and coverage](skill/shotloom/references/model-selection.md). References carry source dates. Changing capabilities and limits still need verification when used.
+
+The skill's authored guidance is included locally. Feishu or any live documentation site is not an installation requirement. The [Seedance source register](skill/shotloom/modules/generation/references/seedance-25-sources.md) records guest access, a non-Feishu official alternative and what to do when a source cannot be read.
 
 ## Quick start
 
@@ -78,7 +93,7 @@ Use Shotloom to review this video. State what you inspected, what remains unveri
 The first shot has been replaced. Use Shotloom to identify later shots that depend on the old state. Only list what needs another review.
 ```
 
-For a fuller written walkthrough, see the [workflow example](examples/public-workflow/README.md). The [golden scene](examples/golden-scene/README.md) is an early fictional teaching fixture, not an accepted production record for this version.
+The worked example above follows the current workflow. The older golden-scene fixture is retained as historical teaching material and linked from that example, not used as current release acceptance evidence.
 
 ## Capabilities and boundaries
 
@@ -104,6 +119,8 @@ Run from the repository directory:
 python3 scripts/validate.py
 python3 scripts/run_tests.py
 ```
+
+For full local media verification, install FFmpeg and FFprobe, then run `python3 scripts/run_tests.py --require-media`. This mode prints tool versions and fails on skipped tests. The portable run above reports skips and does not count as full media verification. CI defines separate portable and media-required jobs; the new `0.2.2` matrix still needs its first remote run.
 
 This version has not completed real-film end-to-end validation or been verified across all agent environments. PowerShell installation still needs runtime confirmation. See [testing scope](docs/TESTING.md) for results and unverified areas.
 

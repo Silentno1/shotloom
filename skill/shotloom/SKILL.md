@@ -1,9 +1,9 @@
 ---
 name: shotloom
-description: Direct an identified AI film, drama or scene through story and visual design, model-native prompt planning, actual-media review, continuity, iteration and editing handoff. Use for concrete production work, not general film questions or model names alone. Does not call generation services or publish.
+description: Direct an identified AI film, short drama or animated/comic-style drama through story, shot design, model-native prompts, actual-media review, continuity, iteration and editing handoff. 用于具体 AI 影视、短剧、漫剧、分镜、提示词和审片任务。Use for concrete production work, not general film questions or model names alone. Does not call generation services or publish.
 license: MIT
 metadata:
-  version: "0.2.1"
+  version: "0.2.2"
 ---
 
 # Shotloom
@@ -32,7 +32,7 @@ Read [environment](references/environment.md) when establishing tool availabilit
 | Actual images/video/audio, asset approval, failures or accepted state | [Review and continuity](modules/review-continuity/WORKFLOW.md) | Inspect first; accept separately; only then propagate state |
 | Timed previs, selection, cut, sound/post or delivery checks | [Edit and delivery](modules/edit-delivery/WORKFLOW.md) | Selected cuts and changed exports need their own review |
 
-Read each selected module's `WORKFLOW.md` and only its applicable references. A named module is a folder in this package, not another skill to install. Tools shown under a module's `scripts/` resolve from that module.
+Read each selected module's `WORKFLOW.md` and only its applicable references. Do not preload the director JSON catalog; project-authored methods and unchanged approved methods skip it, while named-reference research retrieves only relevant topics/profiles. A named module is a folder in this package, not another skill to install. Tools shown under a module's `scripts/` resolve from that module.
 
 ## Establish and carry the method
 
@@ -60,6 +60,6 @@ Use [model routing](references/model-selection.md) to distinguish detailed adapt
 
 ## Supporting routes
 
-[Story development](references/story-development.md), [voice/dialogue](references/voice-and-dialogue.md), [take review](references/take-review.md) and [post handoff](references/post-production-handoff.md) remain compact entry routes. They point to the maintained module authority rather than introduce competing rules.
+[Story development](modules/director/references/screenwriting-development.md), [voice/dialogue](references/voice-and-dialogue.md), [take review](modules/review-continuity/WORKFLOW.md) and [post handoff](modules/edit-delivery/references/post-production.md) route to the maintained authority. Earlier short reference paths remain compatibility routers; do not load both the router and its target as separate specifications.
 
 Optional helpers check explicit structure, timing, source bindings and dependency validity. They cannot certify actual viewing, listening, creative success, identity rights or user approval. When running is unavailable, do not turn a required decision into a required software dependency.
